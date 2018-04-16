@@ -24,11 +24,23 @@ The structure of the JSON data is the vainglory.json file is as follows:
   * description
   * stats
     * health
+      * min
+      * max
     * energy
+      * min
+      * max
     * weapon
+      * min
+      * max
     * atkspeed
+      * min
+      * max
     * armor
+      * min
+      * max
     * shield
+      * min
+      * max
     * range
     * movespeed
   * abilities
@@ -63,3 +75,66 @@ The structure of the JSON data is the vainglory.json file is as follows:
         * values
         * ratios
         * overdrive
+
+
+### Data Types
+The data types you will get returned are formatted as follows:
+* items (Coming Soon!)
+* heroes
+  * slug (String)
+  * name (String)
+  * thumb (String)
+  * description (Array containing items that are either strings or 1 nested array of only strings)
+  * stats
+    * health
+      * min (Number)
+      * max (Number)
+    * energy
+      * min (Number)
+      * max (Number)
+    * weapon
+      * min (Number)
+      * max (Number)
+    * atkspeed
+      * min (Number)
+      * max (Number)
+    * armor
+      * min (Number)
+      * max (Number)
+    * shield
+      * min (Number)
+      * max (Number)
+    * range
+    * movespeed
+  * abilities
+    * heroicperk
+      * name (String)
+      * thumb (String)
+      * description (Array containing items that are either strings or 1 nested array of only strings)
+    * a
+      * name (String)
+      * thumb (String)
+      * description (Array containing items that are either strings or 1 nested array of only strings)
+      * stats
+        * name (String)
+        * values (Array of 5 Numbers)
+        * ratios (Array of 2 Numbers)
+        * overdrive (Either a boolian false value or a Number match to a values array Number for this stat)
+    * b
+      * name (String)
+      * thumb (String)
+      * description (Array containing items that are either strings or 1 nested array of only strings)
+      * stats
+        * name (String)
+        * values (Array of 5 Numbers)
+        * ratios (Array of 2 Numbers)
+        * overdrive (Either a boolian false value or a Number match to a values array Number for this stat)
+    * c
+      * name (String)
+      * thumb (String)
+      * description (Array containing items that are either strings or 1 nested array of only strings)
+      * stats
+        * name (String)
+        * values (Array of 5 Numbers)
+        * ratios (Array of 2 Numbers)
+        * overdrive (Either a boolian false value or a Number match to a values array Number for this stat)
