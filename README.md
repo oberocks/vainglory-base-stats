@@ -104,8 +104,8 @@ The data types you will get returned are formatted as follows:
     * shield
       * min (Number)
       * max (Number)
-    * range
-    * movespeed
+    * range (Number)
+    * movespeed (Number)
   * abilities
     * heroicperk
       * name (String)
