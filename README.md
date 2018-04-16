@@ -1,9 +1,7 @@
 # Vainglory Base Stats
-...
 A JSON object master file, hard-coded from the game itself, for use in web-based applications that can parse JSON data.
 
 ### Access & Structure
-...
 Within the main Vainglory JSON object, there is currently 1 usable data set (an items data set is planned in the future). This is accessed with a key string value of `heroes`.
 ```javascript
 var vainglory;
