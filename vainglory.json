@@ -130,7 +130,7 @@
 						{
 							"name" : "Arcane Fire Bonus",
 							"values" : [5, 15, 25, 35, 55],
-							"ratios" : [40, 0],
+							"ratios" : [50, 0],
 							"overdrive" : 55
 						},
 						{
@@ -232,7 +232,7 @@
 						"Instead of dying, Alpha initiates 3.5s reboot sequence. If her reboot health is not destroyed before time runs out, she will return to life.",
 						"When alive, Alpha's special energy bar shows the time until Infinite Reboot is available. When rebooting, the bar counts down to when she will revive.",
 						[
-							"Reboot health: 40% max health (+65% of Bonus Max Energy)",
+							"Reboot health: 600-2600 (level 1-12) (+65% of Bonus Max Energy)",
 							"Reboot Duration: 3.5s",
 							"Alpha revives with her Prime Directive & Core Charge ability cooldowns refreshed."
 						]
@@ -266,7 +266,7 @@
 						{
 							"name" : "Damage",
 							"values" : [80, 100, 120, 140, 160],
-							"ratios" : [180, 80],
+							"ratios" : [180, 60],
 							"overdrive" : false
 						},
 						{
@@ -336,6 +336,12 @@
 							"values" : [7, 8, 9, 10, 12],
 							"ratios" : [0, 3],
 							"overdrive" : 12
+						},
+						{
+							"name" : "Bonus Damage / Stack (%)",
+							"values" : [11, 11, 11, 11, 15],
+							"ratios" : [0, 0],
+							"overdrive" : 15
 						}
 					]
 				},
