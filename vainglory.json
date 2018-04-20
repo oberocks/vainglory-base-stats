@@ -5073,6 +5073,375 @@
 					]
 				}
 			}
+		},
+		{
+			"slug" : "ringo",
+			"name" : "Ringo",
+			"thumb" : "ringo.png",
+			"description" : "Fast-moving, fast-shooting gunslinger with an epic fireball.",
+			"stats" : {
+				"health" : {
+					"min" : 673,
+					"max" : 2077
+				},
+				"energy" : {
+					"min" : 163,
+					"max" : 416
+				},
+				"weapon" : {
+					"min" : 71,
+					"max" : 130
+				},
+				"atkspeed" : {
+					"min" : 100,
+					"max" : 136.3
+				},
+				"armor" : {
+					"min" : 20,
+					"max" : 50
+				},
+				"shield" : {
+					"min" : 20,
+					"max" : 50
+				},
+				"range" : 6.2,
+				"movespeed" : 3.1
+			},
+			"abilities" : {
+				"heroicperk" : {
+					"name" : "Double Down",
+					"thumb" : "double-down.png",
+					"description" : [
+						"Ringo's next basic attack after killing anything will be a critical strike."
+					]
+				},
+				"a" : {
+					"name" : "Achilles Shot",
+					"thumb" : "achilles-shot.png",
+					"description" : [
+						"Ringo fires a trick shot at his target's heel (or whatever lower extremity exists), slowing the target & dealing damage."
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [9, 8.5, 8, 7.5, 7],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [40, 50, 60, 70, 100],
+							"ratios" : [0, 0],
+							"overdrive" : 100
+						},
+						{
+							"name" : "Damage",
+							"values" : [80, 125, 170, 215, 350],
+							"ratios" : [125, 0],
+							"overdrive" : 350
+						},
+						{
+							"name" : "Slow (%)",
+							"values" : [30, 35, 40, 45, 50],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Slow Duration (s)",
+							"values" : [1.5, 1.5, 1.5, 1.5, 2.5],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					]
+				},
+				"b" : {
+					"name" : "Twirling Silver",
+					"thumb" : "twirling-silver.png",
+					"description" : [
+						"Ringo slings bullets at his target in a mad flurry, dramatically increasing his attack speed & move speed for a duration.",
+						[
+							"Activating this ability resets Ringo's basic-attack cooldown."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [12, 12, 12, 12, 12],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [30, 35, 40, 45, 50],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Crystal Damage",
+							"values" : [5, 5, 5, 5, 5],
+							"ratios" : [80, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Duration (s)",
+							"values" : [6, 6, 6, 6, 6],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Attack Speed (%)",
+							"values" : [30, 40, 50, 60, 80],
+							"ratios" : [0, 0],
+							"overdrive" : 80
+						},
+						{
+							"name" : "Speed Boost",
+							"values" : [0.75, 0.8, 0.85, 0.9, 1],
+							"ratios" : [0, 0],
+							"overdrive" : 1
+						}
+					]
+				},
+				"c" : {
+					"name" : "Hellfire Brew",
+					"thumb" : "hellfire-brew.png",
+					"description" : [
+						"Ringo takes a long swig from his gourd, then spits out a scorching fireball at his target. The explosion deals splash damage on impact and sets the target on fire, burning it & nearby enemies for 7s.",
+						[
+							"The fire pierces all shield on impact."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [100, 85, 70],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [100, 115, 130],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage",
+							"values" : [250, 365, 480],
+							"ratios" : [75, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Burn Damage",
+							"values" : [30, 50, 70],
+							"ratios" : [20, 0],
+							"overdrive" : false
+						}
+					]
+				}
+			}
+		},
+		{
+			"slug" : "rona",
+			"name" : "Rona",
+			"thumb" : "rona.png",
+			"description" : "Durable berserker who excels in the thick of fights.",
+			"stats" : {
+				"health" : {
+					"min" : 778,
+					"max" : 2563
+				},
+				"energy" : {
+					"min" : 0,
+					"max" : 0
+				},
+				"weapon" : {
+					"min" : 77,
+					"max" : 156
+				},
+				"atkspeed" : {
+					"min" : 100,
+					"max" : 113.2
+				},
+				"armor" : {
+					"min" : 20,
+					"max" : 60
+				},
+				"shield" : {
+					"min" : 20,
+					"max" : 60
+				},
+				"range" : 1.8,
+				"movespeed" : 3.4
+			},
+			"abilities" : {
+				"heroicperk" : {
+					"name" : "Berserkers' Fury",
+					"thumb" : "berserkers-fury.png",
+					"description" : [
+						"Rona attacks faster than most heroes, but she deals 85% damage with each attack.",
+						"Rona's abilities use Bloodrage instead of energy, a unique resource that is generated from basic attacks, abilities, and taking damage from enemies.",
+						[
+							"Critical strikes and basic attacks against targets afflicted by Mortal Wounds will generate additional Bloodrage.",
+							"This caps at 100 and decays when Rona has been out of combat for 5s."
+						]
+					]
+				},
+				"a" : {
+					"name" : "Into the Fray",
+					"thumb" : "into-the-fray.png",
+					"description" : [
+						"Rona leaps into battle, gaining Bloodrage for each enemy hero she collides with. After a short delay, the ground ruptures for 3s, dealing damage and slowing enemies who pass over it by 40%.",
+						[
+							"Rona is additionally granted fortified health for each enemy hero struck by the rupture.",
+							"Deals 50% less damage to minions."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [15, 14, 13, 12, 11],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [0, 0, 0, 0, 0],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Impact Damage",
+							"values" : [60, 85, 110, 135, 185],
+							"ratios" : [100, 0],
+							"overdrive" : 185
+						},
+						{
+							"name" : "Bloodrage Gain",
+							"values" : [25, 25, 25, 25, 35],
+							"ratios" : [0, 0],
+							"overdrive" : 35
+						},
+						{
+							"name" : "Fortified Health",
+							"values" : [50, 70, 90, 110, 150],
+							"ratios" : [0, 0],
+							"overdrive" : 150
+						},
+						{
+							"name" : "Rupture Damage",
+							"values" : [100, 140, 180, 220, 300],
+							"ratios" : [200, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Rupture Damage to Minions",
+							"values" : [40, 70, 100, 130, 220],
+							"ratios" : [100, 0],
+							"overdrive" : 220
+						}
+					]
+				},
+				"b" : {
+					"name" : "Foesplitter",
+					"thumb" : "foesplitter.png",
+					"description" : [
+						"A two-part axe attack that can catch up to - then brutalize - an unsuspecting target.",
+						[
+							"First activation: Rona lunges at her target, landing an empowered basic attack and granting her increased move speed and Bloodrage.",
+							"Second activation: Expend the bonus move speed and all of her Bloodrage to deal 1% bonus damage for each point consumed and apply Mortal Wounds to her target. She is them temporarily granted additional attack speed.",
+							"Each of Rona's basic attacks reduce Foesplitter's cooldown by 1s."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [16, 15, 14, 13, 12],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [0, 0, 0, 0, 0],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "First Attack Damage",
+							"values" : [10, 20, 30, 40, 70],
+							"ratios" : [100, 85],
+							"overdrive" : 70
+						},
+						{
+							"name" : "Bloodrage Gain",
+							"values" : [5, 10, 15, 20, 25],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Second Attack Damage",
+							"values" : [10, 20, 30, 40, 70],
+							"ratios" : [100, 85],
+							"overdrive" : 70
+						},
+						{
+							"name" : "Attack Speed (%)",
+							"values" : [15, 20, 25, 30, 40],
+							"ratios" : [0, 0],
+							"overdrive" : 40
+						},
+						{
+							"name" : "Duration (s)",
+							"values" : [2, 2.5, 3, 3.5, 4],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					]
+				},
+				"c" : {
+					"name" : "Red Mist",
+					"thumb" : "red-mist.png",
+					"description" : [
+						"Rona drains her Bloodrage and spins in a whirlwind, dealing weapon damage to nearby enemies. While spinning, Rona moves slower and gains fortified health each second.",
+						[
+							"Can be cancelled at any time by reactivating it or using another ability.",
+							"Requires at least 25 Bloodrage to activate.",
+							"Deals 50% less damage to minions."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [8, 8, 8],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [0, 0, 0],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage / Sec",
+							"values" : [225, 325, 425],
+							"ratios" : [120, 160],
+							"overdrive" : false
+						},
+						{
+							"name" : "Bloodrage per Second",
+							"values" : [25, 25, 25],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Fortify / Second",
+							"values" : [60, 90, 120],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					]
+				}
+			}
 		}
 	]
 }
