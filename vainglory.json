@@ -744,7 +744,7 @@
 			"stats" : {
 				"health" : {
 					"min" : 679,
-					"max" : 2045
+					"max" : 2054
 				},
 				"energy" : {
 					"min" : 270,
@@ -752,7 +752,7 @@
 				},
 				"weapon" : {
 					"min" : 71,
-					"max" : 108
+					"max" : 130
 				},
 				"atkspeed" : {
 					"min" : 100,
@@ -1854,7 +1854,7 @@
 						"Fortress claws his target, causing it to bleed for several seconds.",
 						[
 							"Attacks from Fortress and his allies increase bleeding by one stack.",
-							"Upon reaching 6 stacks, the target is dealt a burst of damage based on its max health and receives mortal wound (reduced healing).",
+							"Upon reaching 7 stacks, the target is dealt a burst of damage based on its max health and receives mortal wound (reduced healing).",
 							"Overdrive: At max rank, the target is also slowed by 40% upon reaching 6 stacks.",
 							"Bleeding damage per second: 10 (+15% of crystal power)"
 						]
@@ -1862,9 +1862,9 @@
 					"stats" : [
 						{
 							"name" : "Cooldown",
-							"values" : [11, 10, 9, 8, 6],
+							"values" : [11, 10, 9, 8, 7],
 							"ratios" : [0, 0],
-							"overdrive" : 6
+							"overdrive" : false
 						},
 						{
 							"name" : "Energy Cost",
@@ -1918,7 +1918,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Attack Speed",
+							"name" : "Attack Speed (%)",
 							"values" : [30, 45, 60],
 							"ratios" : [0, 0],
 							"overdrive" : false
@@ -1937,7 +1937,7 @@
 						},
 						{
 							"name" : "Wolf Base Health",
-							"values" : [400, 600, 800],
+							"values" : [300, 450, 600],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						}
