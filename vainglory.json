@@ -3985,6 +3985,204 @@
 			}
 		},
 		{
+			"slug" : "malene",
+			"name" : "Malene",
+			"thumb" : "malene.png",
+			"description" : "Form swapping spellcaster who has the tools for any situation.",
+			"stats" : {
+				"health" : {
+					"min" : 696,
+					"max" : 2148
+				},
+				"energy" : {
+					"min" : 300,
+					"max" : 685
+				},
+				"weapon" : {
+					"min" : 10,
+					"max" : 10
+				},
+				"atkspeed" : {
+					"min" : 100,
+					"max" : 122
+				},
+				"armor" : {
+					"min" : 20,
+					"max" : 50
+				},
+				"shield" : {
+					"min" : 20,
+					"max" : 50
+				},
+				"range" : 6.2,
+				"movespeed" : 3.3
+			},
+			"abilities" : {
+				"heroicperk" : {
+					"name" : "Masked Ball",
+					"thumb" : "masked-ball.png",
+					"description" : [
+						"Malene's ultimate is available at level 1 and allows her to switch between Light Form and Shadow Form. Additionally, Malene's basic attacks deal crystal damage.",
+						[
+							"Basic attack crystal damage: 60-126 (level 1-12) (+60% crystal power).",
+							"For 6s after switching forms, Malene's next basic attack is empowered."
+						]
+					]
+				},
+				"a" : {
+					"name" : "Light Ribbons / Shadow Tendrils",
+					"thumb" : "light-ribbons.png",
+					"description" : [
+						"Light Form - Light Ribbons: Malene sends ribbons of light in the target direction, damaging and immobilizing the first enemy hit.",
+						"Shadow Form - Shadow Tendrils: Malene unleashes three shadow tendrils in the target direction, dealing crystal damage to all enemies along their path.",
+						[
+							"Each tendril deals its own instance of damage.",
+							"Deals 50% less damage to minions."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [14, 13, 12, 11, 10],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [40, 50, 60, 70, 0],
+							"ratios" : [0, 0],
+							"overdrive" : 0
+						},
+						{
+							"name" : "Damage",
+							"values" : [60, 115, 170, 225, 280],
+							"ratios" : [120, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Root Duration (s)",
+							"values" : [0.7, 0.8, 0.9, 1, 1.2],
+							"ratios" : [0, 0],
+							"overdrive" : 1.2
+						},
+						{
+							"name" : "Cooldown (Shadow Form)",
+							"values" : [8, 7.5, 7, 6.5, 6],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost (Shadow Form)",
+							"values" : [40, 50, 60, 70, 0],
+							"ratios" : [0, 0],
+							"overdrive" : 0
+						},
+						{
+							"name" : "Damage (Shadow Form)",
+							"values" : [35, 60, 85, 110, 135],
+							"ratios" : [55, 0],
+							"overdrive" : false
+						}
+					]
+				},
+				"b" : {
+					"name" : "Royal Amnesty / Wicked Escapade",
+					"thumb" : "royal-amnesty.png",
+					"description" : [
+						"Light Form - Royal Amnesty: <alene instantly imbues herself with light, granting herself a barrier and a burst of movement speed for 3s.",
+						"Shadow Form - Wicked Escapade: Malene instantly becomes a trail of shadows for 1.5s, becoming invulnerable and slowing enemies she passes through. When this effect ends, enemies near her original location receive a burst of damage."
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [15, 14, 13, 12, 11],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [60, 70, 80, 90, 100],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Barrier Strength",
+							"values" : [60, 105, 150, 195, 285],
+							"ratios" : [60, 0],
+							"overdrive" : 285
+						},
+						{
+							"name" : "Speed Boost",
+							"values" : [1, 1.1, 1.2, 1.3, 1.4],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Cooldown (Shadow Form) (s)",
+							"values" : [21, 20, 19, 18, 16],
+							"ratios" : [0, 0],
+							"overdrive" : 16
+						},
+						{
+							"name" : "Energy Cost (Shadow Form)",
+							"values" : [80, 90, 100, 110, 120],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Slow (Shadow Form) (%)",
+							"values" : [30, 35, 40, 45, 50],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage (Shadow Form)",
+							"values" : [80, 160, 240, 320, 480],
+							"ratios" : [70, 0],
+							"overdrive" : 480
+						}
+					]
+				},
+				"c" : {
+					"name" : "Enchanted Transformation",
+					"thumb" : "enchanted-transformation.png",
+					"description" : [
+						"Malene switches between Light Form and Shadow Form, swapping abilities and gaining an empowerment on her next basic attack based on which form she switches into.",
+						[
+							"Shadow Empowerment: Deal bonus damage.",
+							"Light Empowerment: Slows target."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [4, 3, 2],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [0, 0, 0],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Bonus Damage",
+							"values" : [120, 180, 240],
+							"ratios" : [100, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Slow (%)",
+							"values" : [45, 60, 75],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					]
+				}
+			}
+		},
+		{
 			"slug" : "ozo",
 			"name" : "Ozo",
 			"thumb" : "ozo.png",
@@ -4510,6 +4708,366 @@
 							"name" : "Damage",
 							"values" : [100, 300, 500],
 							"ratios" : [150, 0],
+							"overdrive" : false
+						}
+					]
+				}
+			}
+		},
+		{
+			"slug" : "reim",
+			"name" : "Reim",
+			"thumb" : "reim.png",
+			"description" : "Resilient ice mage who dominates close-quarter battles.",
+			"stats" : {
+				"health" : {
+					"min" : 746,
+					"max" : 2499
+				},
+				"energy" : {
+					"min" : 220,
+					"max" : 462
+				},
+				"weapon" : {
+					"min" : 80,
+					"max" : 153
+				},
+				"atkspeed" : {
+					"min" : 100,
+					"max" : 136.3
+				},
+				"armor" : {
+					"min" : 20,
+					"max" : 60
+				},
+				"shield" : {
+					"min" : 20,
+					"max" : 60
+				},
+				"range" : 1.9,
+				"movespeed" : 3.3
+			},
+			"abilities" : {
+				"heroicperk" : {
+					"name" : "Frostguard",
+					"thumb" : "frostguard.png",
+					"description" : [
+						"When Reim damages opponents with his basic attack or Winter Spire, he is granted fortified health up to a cap of 25% of Reim's maximum health.",
+						[
+							"All damage dealt by Reim will chill opponents. This effect is reduced against non-heroes.",
+							"Reim's basic attacks deal 15-54 (level 1-12) (+80% crystal power) crystal damage over 2s and grant 30% of the damage dealt with this effect as fortified health.",
+							"Basic attacks against targets that are already chilled apply a 60% slow that decays over 0.6s."
+						]
+					]
+				},
+				"a" : {
+					"name" : "Winter Spire",
+					"thumb" : "winter-spire.png",
+					"description" : [
+						"Reim summons a spire of ice at a nearby location, dealing crystal damage to surrounding enemies. After a shower delay, the spire shatters, dealing heavy crystal damge.",
+						[
+							"Deals 25% increased damage to chilled targets.",
+							"35% of the damage dealt with this ability is gained as fortified health.",
+							"Fortified health gained is reduced against non-heroes.",
+							"Deals 50% less damage to minions."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [4, 3.5, 3, 2.5, 2],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [60, 60, 60, 60, 60],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Range",
+							"values" : [6.5, 6.5, 6.5, 6.5, 8],
+							"ratios" : [0, 0],
+							"overdrive" : 8
+						},
+						{
+							"name" : "First Hit Damage",
+							"values" : [60, 90, 120, 150, 180],
+							"ratios" : [70, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Second Hit Damage",
+							"values" : [60, 90, 120, 150, 180],
+							"ratios" : [100, 0],
+							"overdrive" : false
+						}
+					]
+				},
+				"b" : {
+					"name" : "Chill Winds",
+					"thumb" : "chill-winds.png",
+					"description" : [
+						"Reim deals a burst of crystal damage to all surrounding enemies, rooting enemies who are chilled. A rooted enemy cannot move or dash, but the enemy can still attack.",
+						[
+							"Deals 50% less damage to minions."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [14, 13, 12, 11, 7],
+							"ratios" : [0, 0],
+							"overdrive" : 7
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [80, 85, 90, 95, 100],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage",
+							"values" : [80, 120, 160, 200, 280],
+							"ratios" : [40, 0],
+							"overdrive" : 280
+						},
+						{
+							"name" : "Root Duration (s)",
+							"values" : [0.6, 0.8, 1, 1.2, 1.4],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					]
+				},
+				"c" : {
+					"name" : "Valkyrie",
+					"thumb" : "valkyrie.png",
+					"description" : [
+						"Reim summons an ancient Valkyrie, devastating enemies in the area and applying a heavy decaying slow.",
+						[
+							"Enemies near center are also stunned and take greater damage."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [80, 65, 50],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [100, 100, 100],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage at Center",
+							"values" : [250, 375, 500],
+							"ratios" : [125, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage at Edge",
+							"values" : [200, 300, 400],
+							"ratios" : [100, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Center Slow Duration (s)",
+							"values" : [3, 4.5, 6],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Edge Slow Duration (s)",
+							"values" : [2, 3, 4],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Slow (%)",
+							"values" : [60, 70, 80],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Stun Duration (s)",
+							"values" : [0.6, 0.8, 1],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					]
+				}
+			}
+		},
+		{
+			"slug" : "reza",
+			"name" : "Reza",
+			"thumb" : "reza.png",
+			"description" : "A fast, devastating fire mage with a demon netherform.",
+			"stats" : {
+				"health" : {
+					"min" : 718,
+					"max" : 2306
+				},
+				"energy" : {
+					"min" : 380,
+					"max" : 732
+				},
+				"weapon" : {
+					"min" : 84,
+					"max" : 154
+				},
+				"atkspeed" : {
+					"min" : 100,
+					"max" : 125
+				},
+				"armor" : {
+					"min" : 20,
+					"max" : 60
+				},
+				"shield" : {
+					"min" : 20,
+					"max" : 60
+				},
+				"range" : 3,
+				"movespeed" : 3.5
+			},
+			"abilities" : {
+				"heroicperk" : {
+					"name" : "Firestarter",
+					"thumb" : "firestarter.png",
+					"description" : [
+						"Scorcher and Netherform Detonator apply Firestarter to enemy targets.",
+						[
+							"Reza's basic attacks consume Firestarter, dealing crystal damage.",
+							"Crystal Damage: 20-185 (level 1-12) (+115% crystal power)"
+						]
+					]
+				},
+				"a" : {
+					"name" : "Scorcher",
+					"thumb" : "scorcher.png",
+					"description" : [
+						"Reza smashes the ground, creating a fiery shockwave in front of him. This deals damage to anything it passes through and collides with the first enemy hero or jungle monster hit.",
+						[
+							"Scorcher applies Firestarter on impact.",
+							"Deals 50% less damage to minions."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [6, 5.5, 5, 4.5, 4],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [30, 40, 50, 60, 70],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Range",
+							"values" : [7, 7, 7, 7, 9],
+							"ratios" : [0, 0],
+							"overdrive" : 9
+						},
+						{
+							"name" : "Damage",
+							"values" : [80, 130, 180, 230, 280],
+							"ratios" : [90, 0],
+							"overdrive" : false
+						}
+					]
+				},
+				"b" : {
+					"name" : "Troublemaker",
+					"thumb" : "troublemaker.png",
+					"description" : [
+						"Reza dashes to the target location, dealing crystal damage to enemies he passes through.",
+						[
+							"Reza's next basic attack deals bonus crystal damage.",
+							"This ability has 2 charges."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Charge Time (s)",
+							"values" : [20, 19, 18, 17, 15],
+							"ratios" : [0, 0],
+							"overdrive" : 15
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [40, 50, 60, 70, 80],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Cooldown (s)",
+							"values" : [2, 2, 2, 2, 2],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Bonus Damage",
+							"values" : [25, 50, 75, 100, 125],
+							"ratios" : [80, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage",
+							"values" : [70, 100, 130, 160, 190],
+							"ratios" : [60, 0],
+							"overdrive" : false
+						}
+					]
+				},
+				"c" : {
+					"name" : "Netherform Detonator",
+					"thumb" : "netherform-detonator.png",
+					"description" : [
+						"Reza vanishes removing from himself any negative movement-impairing effects, then reappears at the target location in empowered demon form.",
+						[
+							"Upon reappearing, he unleashes a blazing explosion, damaging enemies and consuming Firestarter within the target radius.",
+							"Reza then applies Firestarter to all enemies nearby.",
+							"Each basic attack now applies Firestarter on enemies without Firestarter on them."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [50, 45, 40],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [100, 120, 140],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage",
+							"values" : [250, 350, 450],
+							"ratios" : [50, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Duration (s)",
+							"values" : [6, 7, 8],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Fortified Health",
+							"values" : [200, 300, 400],
+							"ratios" : [40, 0],
 							"overdrive" : false
 						}
 					]
