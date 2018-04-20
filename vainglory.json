@@ -3002,9 +3002,9 @@
 						},
 						{
 							"name" : "Splash Damage",
-							"values" : [40, 70, 100, 130, 190],
-							"ratios" : [140, 0],
-							"overdrive" : 190
+							"values" : [40, 70, 100, 130, 160],
+							"ratios" : [135, 0],
+							"overdrive" : 160
 						}
 					]
 				},
@@ -3332,7 +3332,7 @@
 						},
 						{
 							"name" : "Barrier",
-							"values" : [100, 200, 300, 400, 500],
+							"values" : [75, 185, 295, 405, 515],
 							"ratios" : [125, 0],
 							"overdrive" : false
 						},
@@ -3392,9 +3392,9 @@
 						},
 						{
 							"name" : "Lifesteal / Stack (%)",
-							"values" : [10, 10, 10, 10, 10],
+							"values" : [9, 9, 9, 9, 11],
 							"ratios" : [0, 0],
-							"overdrive" : false
+							"overdrive" : 11
 						},
 						{
 							"name" : "Weakness Duration",
@@ -3459,7 +3459,7 @@
 			"stats" : {
 				"health" : {
 					"min" : 842,
-					"max" : 2587
+					"max" : 2609
 				},
 				"energy" : {
 					"min" : 0,
@@ -3505,6 +3505,7 @@
 						[
 							"Overdrive: At max rank, ths ability also resets the cooldown of Combat Roll if Lance hits an enemy.",
 							"If this attack hits at least one enemy, Lance will immediately recover from the ability.",
+							"If this attack misses, Lance takes 0.7 seconds to recover."
 							"Deals 50% less damage to minions."
 						]
 					],
@@ -4177,6 +4178,186 @@
 							"name" : "Secondary Target Damage",
 							"values" : [125, 200, 275],
 							"ratios" : [75, 0],
+							"overdrive" : false
+						}
+					]
+				}
+			}
+		},
+		{
+			"slug" : "petal",
+			"name" : "Petal",
+			"thumb" : "petal.png",
+			"description" : "Commands 3 pets who tear apart enemies and block incoming skillshots.",
+			"stats" : {
+				"health" : {
+					"min" : 636,
+					"max" : 1983
+				},
+				"energy" : {
+					"min" : 410,
+					"max" : 718
+				},
+				"weapon" : {
+					"min" : 64,
+					"max" : 134
+				},
+				"atkspeed" : {
+					"min" : 100,
+					"max" : 136.3
+				},
+				"armor" : {
+					"min" : 20,
+					"max" : 50
+				},
+				"shield" : {
+					"min" : 20,
+					"max" : 50
+				},
+				"range" : 6.2,
+				"movespeed" : 3.2
+			},
+			"abilities" : {
+				"heroicperk" : {
+					"name" : "Munions",
+					"thumb" : "munions.png",
+					"description" : [
+						"A few moments after Petal plants a Bramblebloom Seed, it will automatically sprout into a Munion pet, which will fight alongside Petal up to a maximum of 3 Munions."
+					]
+				},
+				"a" : {
+					"name" : "Brambleboom Seeds",
+					"thumb" : "brambleboom-seeds.png",
+					"description" : [
+						"Petal plants a Bramblebloom Seed directly in front of her.",
+						[
+							"If an enemy hero steps on a seed, the seed will explode and knock the enemy back.",
+							"Petal's seeds have a small vision radius."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown",
+							"values" : [3, 3, 3, 3, 3],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [60, 65, 70, 75, 80],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Pet Health",
+							"values" : [100, 180, 260, 340, 500],
+							"ratios" : [50, 0],
+							"overdrive" : 500
+						},
+						{
+							"name" : "Pet Defense",
+							"values" : [30, 40, 50, 60, 80],
+							"ratios" : [5, 0],
+							"overdrive" : 80
+						},
+						{
+							"name" : "Pet Damage",
+							"values" : [7, 14, 21, 28, 42],
+							"ratios" : [40, 0],
+							"overdrive" : 42
+						},
+						{
+							"name" : "Seed Health",
+							"values" : [50, 80, 110, 140, 200],
+							"ratios" : [15, 0],
+							"overdrive" : 200
+						},
+						{
+							"name" : "Damage",
+							"values" : [75, 125, 175, 225, 275],
+							"ratios" : [100, 0],
+							"overdrive" : false
+						}
+					]
+				},
+				"b" : {
+					"name" : "Trampoline!",
+					"thumb" : "trampoline.png",
+					"description" : [
+						"Petal leaps in the target direction, leaving a Bramblebloom Seed behind at her original location. Using this ability will increase Petal's basic-attack range and amplify her weapon & crystal power for 5s."
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown",
+							"values" : [15, 14.5, 14, 13.5, 12],
+							"ratios" : [0, 0],
+							"overdrive" : 12
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [80, 85, 90, 95, 100],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Bonus Attack Range",
+							"values" : [0, 0.2, 0.4, 0.6, 1.2],
+							"ratios" : [0, 0],
+							"overdrive" : 1.2
+						},
+						{
+							"name" : "Crystal Amp (%)",
+							"values" : [15, 15, 15, 15, 15],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Weapon Amp (%)",
+							"values" : [15, 15, 15, 15, 15],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					]
+				},
+				"c" : {
+					"name" : "Spontaneous Combustion",
+					"thumb" : "spontaneous-combustion.png",
+					"description" : [
+						"Petal sends the nearest munion dashing towards the targeted location, exploding after 1.2 seconds. The explosion slows and deals splash damage to nearby enemies while healing nearby allies.",
+						[
+							"Detonated pets become Bramblebloom Seeds.",
+							"This ability has 3 charges."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Charge Time",
+							"values" : [30, 25, 20],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [40, 40, 40],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage",
+							"values" : [180, 240, 300],
+							"ratios" : [70, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Cooldown",
+							"values" : [0.4, 0.4, 0.4],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Heal",
+							"values" : [75, 125, 175],
+							"ratios" : [60, 0],
 							"overdrive" : false
 						}
 					]
