@@ -8,7 +8,7 @@ Within the main Vainglory JSON object, there is currently 1 usable data set (an 
 // jQuery example of heroes key in use
 
 var vainglory;
-var vgGit = "https://gitcdn.link/repo/oberocks/vainglory-base-stats/master/vainglory.json";
+var vgGit = "data/vainglory.json";
 var vgData = $.getJSON( vgGit, function(data) {
     vainglory = data;
 });
