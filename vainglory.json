@@ -288,7 +288,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Slow Duration",
+							"name" : "Slow Duration (s)",
 							"values" : [1.5, 1.5, 1.5, 1.5, 1.5],
 							"ratios" : [0, 0],
 							"overdrive" : false
@@ -646,7 +646,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Slow Duration",
+							"name" : "Slow Duration (s)",
 							"values" : [0.8, 0.8, 0.8, 0.8, 1.2],
 							"ratios" : [0, 0],
 							"overdrive" : 1.2
@@ -2346,18 +2346,18 @@
 						},
 						{
 							"name" : "Bonus Damage / Stack",
-							"values" : [20, 35, 50, 65, 95],
-							"ratios" : [20, 0],
-							"overdrive" : 95
+							"values" : [10, 25, 40, 55, 85],
+							"ratios" : [25, 0],
+							"overdrive" : 85
 						},
 						{
-							"name" : "Slow Duration",
+							"name" : "Slow Duration (s)",
 							"values" : [2, 2, 2, 2, 2.5],
 							"ratios" : [0, 0],
 							"overdrive" : 2.5
 						},
 						{
-							"name" : "Slow Strength",
+							"name" : "Slow Strength (%)",
 							"values" : [65, 65, 65, 65, 65],
 							"ratios" : [0, 0],
 							"overdrive" : false
@@ -2639,7 +2639,7 @@
 						"Idris unlocks unique combat styles upon attaining 100 weapon or crystal power:",
 						[
 							"Melee (Weapon): Idris’s Shroudstep becomes an instantaneous blink. His basic attacks also restore 10 stamina and reduce the cooldowns of his Shroudstep and Shimmer Strike abilities by 1s.",
-							"Ranged (Crystal): Idris gains a 3.8-meter ranged attack with a 80% crystal ratio but only 50% weapon ratio."
+							"Ranged (Crystal): Idris gains a 3.8-meter ranged attack with a 75% crystal ratio (with bonus crystal damage of 19-85) but only 50% weapon ratio."
 						],
 						"Instead of energy, Idris uses stamina to activate his abilities. Purchasing items with energy and energy recharge instead increases his stamina and stamina regeneration.",
 						[
@@ -2877,9 +2877,9 @@
 						},
 						{
 							"name" : "Bonus Pierce",
-							"values" : [5, 6, 7, 8, 10],
+							"values" : [5, 6, 7, 8, 15],
 							"ratios" : [0, 0],
-							"overdrive" : 10
+							"overdrive" : 15
 						}
 					]
 				},
@@ -3436,7 +3436,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Slow Duration",
+							"name" : "Slow Duration (s)",
 							"values" : [3, 3.5, 4],
 							"ratios" : [0, 0],
 							"overdrive" : false
