@@ -3505,7 +3505,7 @@
 						[
 							"Overdrive: At max rank, ths ability also resets the cooldown of Combat Roll if Lance hits an enemy.",
 							"If this attack hits at least one enemy, Lance will immediately recover from the ability.",
-							"If this attack misses, Lance takes 0.7 seconds to recover."
+							"If this attack misses, Lance takes 0.7 seconds to recover.",
 							"Deals 50% less damage to minions."
 						]
 					],
