@@ -20,7 +20,7 @@ console.log('Number of Heroes: ' + vainglory.heroes.length);
 // Pure JavaScript example of heroes key in use
 
 var vainglory;
-var vgGit = "https://gitcdn.link/repo/oberocks/vainglory-base-stats/master/vainglory.json";
+var vgGit = "data/vainglory.json";
 
 var request = new XMLHttpRequest();
  
