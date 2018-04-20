@@ -3,7 +3,7 @@ A JSON object master file, hard-coded from the game itself, for use in web-based
 
 
 ### Accessing the Data
-Within the main Vainglory JSON object, there is currently 1 usable data set (an items data set is planned in the future). This data is accessed with a key named `heroes`.
+Within the main Vainglory JSON object, there is currently 1 usable data set (an items data set is planned in the future). This data is accessed with the key `heroes`.
 ```javascript
 // jQuery example of heroes key in use
 
@@ -39,7 +39,7 @@ request.open('GET', vgGit);
 ```
 
 ### Data Structure
-The structure of the JSON data is the vainglory.json file is as follows:
+The structure of the JSON data in the vainglory.json file is as follows:
 * items
 * heroes
   * slug
@@ -108,7 +108,7 @@ The data types you will get returned are formatted as follows:
   * slug (String)
   * name (String)
   * thumb (String)
-  * description (Array containing items that are either strings or 1 nested array of only strings)
+  * description (Array containing items that are either strings or 1 nested array of bullet strings)
   * stats
     * health
       * min (Number)
@@ -134,11 +134,11 @@ The data types you will get returned are formatted as follows:
     * heroicperk
       * name (String)
       * thumb (String)
-      * description (Array containing items that are either strings or 1 nested array of only strings)
+      * description (Array containing items that are either strings or 1 nested array of bullet strings)
     * a
       * name (String)
       * thumb (String)
-      * description (Array containing items that are either strings or 1 nested array of only strings)
+      * description (Array containing items that are either strings or 1 nested array of bullet strings)
       * stats
         * name (String)
         * values (Array of 5 Numbers)
@@ -147,7 +147,7 @@ The data types you will get returned are formatted as follows:
     * b
       * name (String)
       * thumb (String)
-      * description (Array containing items that are either strings or 1 nested array of only strings)
+      * description (Array containing items that are either strings or 1 nested array of bullet strings)
       * stats
         * name (String)
         * values (Array of 5 Numbers)
@@ -156,7 +156,7 @@ The data types you will get returned are formatted as follows:
     * c
       * name (String)
       * thumb (String)
-      * description (Array containing items that are either strings or 1 nested array of only strings)
+      * description (Array containing items that are either strings or 1 nested array of bullet strings)
       * stats
         * name (String)
         * values (Array of 5 Numbers)
