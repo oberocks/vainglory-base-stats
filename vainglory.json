@@ -7700,7 +7700,7 @@
 				},
 				"a" : {
 					"name" : "Malice & Verdict",
-					"thumb" : "malice-and-verdict.png",
+					"thumb" : "malice-verdict.png",
 					"description" : [
 						"Samuel fires two bolts from his wands at a target location, impacting the first enemy hit. Samuel can move between the shots.",
 						"If Samuel is standing inside the energy field from Drifting Dark, these bolts move faster, travel farther and deal additional area damage. In addition, the cooldown is significantly reduced.",
