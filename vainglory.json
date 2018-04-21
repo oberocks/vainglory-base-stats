@@ -9,6 +9,71 @@
 			"name" : "Adagio",
 			"thumb" : "adagio.png",
 			"description" : "Team healer and damage enhancer with a large area stun.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [685, 2308],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [400, 785],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [75, 117],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 122],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [6.7, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.3, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 685,
@@ -200,6 +265,71 @@
 			"name" : "Alpha",
 			"thumb" : "alpha.png",
 			"description" : "Killing machine who can resurrect herself.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [761, 2438],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [83, 124],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 122],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [2.1, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.5, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 761,
@@ -395,6 +525,71 @@
 			"name" : "Ardan",
 			"thumb" : "ardan.png",
 			"description" : "Protects allies with barriers and traps enemies inside a large cage.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [838, 2638],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [80, 140],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 136.3],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 70],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 70],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [1.8, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.3, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 838,
@@ -573,6 +768,71 @@
 			"name" : "Baptiste",
 			"thumb" : "baptiste.png",
 			"description" : "Mid-range mage who inflicts fear on foes.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [739, 2323],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [273, 636],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [78, 167],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 136.3],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [2.8, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.4, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 739,
@@ -757,6 +1017,71 @@
 			"name" : "Baron",
 			"thumb" : "baron.png",
 			"description" : "Rocket soldier who can nuke anywhere on the map.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [679, 2054],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [270, 765],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [71, 130],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 111],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [5.4, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [2.9, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 679,
@@ -920,6 +1245,71 @@
 			"name" : "Blackfeather",
 			"thumb" : "blackfeather.png",
 			"description" : "Evasive fighter who excels at chasing and cleaning up fragile enemies.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [657, 2387],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [81, 160],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 122],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [1.8, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.4, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 657,
@@ -1137,6 +1527,71 @@
 			"name" : "Catherine",
 			"thumb" : "catherine.png",
 			"description" : "Disruptive tank with lots of stuns and a powerful silence.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [808, 2673],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [200, 464],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [74, 141],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 136.3],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [1.8, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.5, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 808,
@@ -1310,6 +1765,71 @@
 			"name" : "Celeste",
 			"thumb" : "celeste.png",
 			"description" : "Back-line mage with heavy area damage and a stun.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [649, 2028],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [380, 732],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [10, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [65, 115],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 125],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [5.3, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.3, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 649,
@@ -1480,6 +2000,71 @@
 			"name" : "Churnwalker",
 			"thumb" : "churnwalker.png",
 			"description" : "A disruptor who throws multiple skillshot hooks, chaining victims to him.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [863, 2749],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [380, 732],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [80, 165],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 122],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 70],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 70],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [1.7, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.1, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 863,
@@ -1636,6 +2221,71 @@
 			"name" : "Flicker",
 			"thumb" : "flicker.png",
 			"description" : "Trickster who can make the entire team invisible.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [797, 2648],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [295, 757],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [77, 155],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 136.3],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 70],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 70],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [1.5, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.6, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 797,
@@ -1803,6 +2453,71 @@
 			"name" : "Fortress",
 			"thumb" : "fortress.png",
 			"description" : "Agressive pack leader who swarms the enemy with great speed.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [761, 2581],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [300, 465],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [73, 156],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 144],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [1.8, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.5, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 761,
@@ -1994,6 +2709,71 @@
 			"name" : "Glaive",
 			"thumb" : "glaive.png",
 			"description" : "Brutal axe warrior who can knock enemies out of position.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [834, 2503],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [275, 440],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [70, 156],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 113.2],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [2.8, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.4, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 834,
@@ -2158,6 +2938,71 @@
 			"name" : "Grace",
 			"thumb" : "grace.png",
 			"description" : "A powerful paladin with a massive heal.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [740, 2483],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [268, 653],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [73, 152],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 136.3],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 70],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 70],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [2.7, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.5, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 740,
@@ -2321,6 +3166,71 @@
 			"name" : "Grumpjaw",
 			"thumb" : "grumpjaw.png",
 			"description" : "A hungry beast who can swallow a hero whole.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [783, 2592],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [234, 465],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [74, 158],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 113.2],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [2.6, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.5, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 783,
@@ -2502,6 +3412,71 @@
 			"name" : "Gwen",
 			"thumb" : "gwen.png",
 			"description" : "Gunslinger with powerful burst damage and ability to shake off disables.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [661, 2072],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [175, 395],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [68, 132],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 136.3],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [6.2, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 661,
@@ -2663,6 +3638,71 @@
 			"name" : "Idris",
 			"thumb" : "idris.png",
 			"description" : "Nimble assassin who unlocks melee or ranged fighting styles.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [697, 2257],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [77, 161],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 136.3],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [2.4, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.4, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 697,
@@ -2837,6 +3877,71 @@
 			"name" : "Joule",
 			"thumb" : "joule.png",
 			"description" : "Heavily armored mech rider with a powerful energy beam.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [742, 2487],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [390, 555],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [66, 148],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 113.2],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [2.4, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.4, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 742,
@@ -2989,6 +4094,71 @@
 			"name" : "Kestrel",
 			"thumb" : "kestrel.png",
 			"description" : "Stealthy archer with devastating skillshots & traps.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [700, 2073],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [404, 492],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [64, 130],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 136.3],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [6.2, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.1, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 700,
@@ -3184,6 +4354,71 @@
 			"name" : "Koshka",
 			"thumb" : "koshka.png",
 			"description" : "Hit-and-run assassin who can pin down enemies with a long stun.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [711, 2367],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [280, 643],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [79, 164],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 108.8],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [1.7, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.3, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 711,
@@ -3341,6 +4576,71 @@
 			"name" : "Krul",
 			"thumb" : "krul.png",
 			"description" : "The king of duels with massive lifesteal and self-healing.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [748, 2394],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [220, 506],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [77, 147],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 136.3],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [1.5, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.4, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 748,
@@ -3536,6 +4836,71 @@
 			"name" : "Lance",
 			"thumb" : "lance.png",
 			"description" : "Disruptive knight who stops enemies in their tracks.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [842, 2609],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [85, 178],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 100],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 70],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 70],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [4.5, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.3, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 842,
@@ -3722,6 +5087,71 @@
 			"name" : "Lorelai",
 			"thumb" : "lorelai.png",
 			"description" : "Backline support, excelling at zone control and team utility.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [691, 2252],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [360, 690],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [10, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [55, 110],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [92.5, 120],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [6.2, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.3, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 691,
@@ -3894,6 +5324,71 @@
 			"name" : "Lyra",
 			"thumb" : "lyra.png",
 			"description" : "Healer and zone mage who can create teleportation portals.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [774, 2253],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [248, 908],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [10, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 136.3],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [5.6, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.3, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 774,
@@ -4081,6 +5576,71 @@
 			"name" : "Malene",
 			"thumb" : "malene.png",
 			"description" : "Form swapping spellcaster who has the tools for any situation.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [696, 2148],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [300, 685],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [10, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [60, 126],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 122],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [6.2, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.3, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 696,
@@ -4283,6 +5843,71 @@
 			"name" : "Ozo",
 			"thumb" : "ozo.png",
 			"description" : "Acrobatic monkey with immense self-healing.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [769, 2536],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [350, 650],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [80, 157],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 136.3],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [1.7, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.4, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 769,
@@ -4487,6 +6112,71 @@
 			"name" : "Petal",
 			"thumb" : "petal.png",
 			"description" : "Commands 3 pets who tear apart enemies and block incoming skillshots.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [636, 1983],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [410, 718],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [64, 134],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 136.3],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [6.2, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.2, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 636,
@@ -4671,6 +6361,71 @@
 			"name" : "Phinn",
 			"thumb" : "phinn.png",
 			"description" : "Extremely tanky and can pull in enemies from across the screen.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [892, 2781],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [220, 440],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [95, 154],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 113.2],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 70],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 70],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [1.9, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 892,
@@ -4827,6 +6582,71 @@
 			"name" : "Reim",
 			"thumb" : "reim.png",
 			"description" : "Resilient ice mage who dominates close-quarter battles.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [746, 2499],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [220, 462],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [80, 153],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [15, 54],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 136.3],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [1.9, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.3, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 746,
@@ -5020,6 +6840,71 @@
 			"name" : "Reza",
 			"thumb" : "reza.png",
 			"description" : "A fast, devastating fire mage with a demon netherform.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [718, 2306],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [380, 732],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [84, 154],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [20, 185],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 125],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [3, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.5, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 718,
@@ -5195,6 +7080,71 @@
 			"name" : "Ringo",
 			"thumb" : "ringo.png",
 			"description" : "Fast-moving, fast-shooting gunslinger with an epic fireball.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [673, 2077],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [163, 416],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [71, 130],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 136.3],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [6.2, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.1, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 673,
@@ -5365,6 +7315,71 @@
 			"name" : "Rona",
 			"thumb" : "rona.png",
 			"description" : "Durable berserker who excels in the thick of fights.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [778, 2563],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [77, 156],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 113.2],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [1.8, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.4, 0],
+					"ratios" : [0, 0]
+				}
+			],
 			"stats" : {
 				"health" : {
 					"min" : 778,
