@@ -22,6 +22,10 @@
 					"min" : 75,
 					"max" : 117
 				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
+				},
 				"atkspeed" : {
 					"min" : 100,
 					"max" : 122
@@ -208,6 +212,10 @@
 				"weapon" : {
 					"min" : 83,
 					"max" : 124
+				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
 				},
 				"atkspeed" : {
 					"min" : 100,
@@ -400,6 +408,10 @@
 					"min" : 80,
 					"max" : 140
 				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
+				},
 				"atkspeed" : {
 					"min" : 100,
 					"max" : 136.3
@@ -573,6 +585,10 @@
 				"weapon" : {
 					"min" : 78,
 					"max" : 167
+				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
 				},
 				"atkspeed" : {
 					"min" : 100,
@@ -754,6 +770,10 @@
 					"min" : 71,
 					"max" : 130
 				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
+				},
 				"atkspeed" : {
 					"min" : 100,
 					"max" : 111
@@ -912,6 +932,10 @@
 				"weapon" : {
 					"min" : 81,
 					"max" : 160
+				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
 				},
 				"atkspeed" : {
 					"min" : 100,
@@ -1126,6 +1150,10 @@
 					"min" : 74,
 					"max" : 141
 				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
+				},
 				"atkspeed" : {
 					"min" : 100,
 					"max" : 136.3
@@ -1295,6 +1323,10 @@
 					"min" : 10,
 					"max" : 10
 				},
+				"crystal" : {
+					"min" : 65,
+					"max" : 115
+				},
 				"atkspeed" : {
 					"min" : 100,
 					"max" : 125
@@ -1461,6 +1493,10 @@
 					"min" : 80,
 					"max" : 165
 				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
+				},
 				"atkspeed" : {
 					"min" : 100,
 					"max" : 122
@@ -1612,6 +1648,10 @@
 				"weapon" : {
 					"min" : 77,
 					"max" : 155
+				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
 				},
 				"atkspeed" : {
 					"min" : 100,
@@ -1775,6 +1815,10 @@
 				"weapon" : {
 					"min" : 73,
 					"max" : 156
+				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
 				},
 				"atkspeed" : {
 					"min" : 100,
@@ -1963,6 +2007,10 @@
 					"min" : 70,
 					"max" : 156
 				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
+				},
 				"atkspeed" : {
 					"min" : 100,
 					"max" : 113.2
@@ -2123,6 +2171,10 @@
 					"min" : 73,
 					"max" : 152
 				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
+				},
 				"atkspeed" : {
 					"min" : 100,
 					"max" : 136.3
@@ -2281,6 +2333,10 @@
 				"weapon" : {
 					"min" : 74,
 					"max" : 158
+				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
 				},
 				"atkspeed" : {
 					"min" : 100,
@@ -2459,6 +2515,10 @@
 					"min" : 68,
 					"max" : 132
 				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
+				},
 				"atkspeed" : {
 					"min" : 100,
 					"max" : 136.3
@@ -2615,6 +2675,10 @@
 				"weapon" : {
 					"min" : 77,
 					"max" : 161
+				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
 				},
 				"atkspeed" : {
 					"min" : 100,
@@ -2786,6 +2850,10 @@
 					"min" : 66,
 					"max" : 148
 				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
+				},
 				"atkspeed" : {
 					"min" : 100,
 					"max" : 113.2
@@ -2806,7 +2874,7 @@
 					"name" : "Heavy Plating",
 					"thumb" : "heavy-plating.png",
 					"description" : [
-						"Joule has bonus aromr & shield against damage hat hits her on the front and sides, but not her back.",
+						"Joule has bonus aromr & shield against damage that hits her on the front and sides, but not her back.",
 						[
 							"Bonus defense: 15-90 (level 1-12)"
 						]
@@ -2933,6 +3001,10 @@
 				"weapon" : {
 					"min" : 64,
 					"max" : 130
+				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
 				},
 				"atkspeed" : {
 					"min" : 100,
@@ -3125,6 +3197,10 @@
 					"min" : 79,
 					"max" : 164
 				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
+				},
 				"atkspeed" : {
 					"min" : 100,
 					"max" : 108.8
@@ -3277,6 +3353,10 @@
 				"weapon" : {
 					"min" : 77,
 					"max" : 147
+				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
 				},
 				"atkspeed" : {
 					"min" : 100,
@@ -3469,6 +3549,10 @@
 					"min" : 85,
 					"max" : 178
 				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
+				},
 				"atkspeed" : {
 					"min" : 100,
 					"max" : 100
@@ -3651,6 +3735,10 @@
 					"min" : 10,
 					"max" : 10
 				},
+				"crystal" : {
+					"min" : 55,
+					"max" : 110
+				},
 				"atkspeed" : {
 					"min" : 92.5,
 					"max" : 120
@@ -3818,6 +3906,10 @@
 				"weapon" : {
 					"min" : 10,
 					"max" : 10
+				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
 				},
 				"atkspeed" : {
 					"min" : 100,
@@ -4001,6 +4093,10 @@
 				"weapon" : {
 					"min" : 10,
 					"max" : 10
+				},
+				"crystal" : {
+					"min" : 60,
+					"max" : 126
 				},
 				"atkspeed" : {
 					"min" : 100,
@@ -4199,6 +4295,10 @@
 				"weapon" : {
 					"min" : 80,
 					"max" : 157
+				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
 				},
 				"atkspeed" : {
 					"min" : 100,
@@ -4400,6 +4500,10 @@
 					"min" : 64,
 					"max" : 134
 				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
+				},
 				"atkspeed" : {
 					"min" : 100,
 					"max" : 136.3
@@ -4580,6 +4684,10 @@
 					"min" : 95,
 					"max" : 154
 				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
+				},
 				"atkspeed" : {
 					"min" : 100,
 					"max" : 113.2
@@ -4731,6 +4839,10 @@
 				"weapon" : {
 					"min" : 80,
 					"max" : 153
+				},
+				"crystal" : {
+					"min" : 15,
+					"max" : 54
 				},
 				"atkspeed" : {
 					"min" : 100,
@@ -4921,6 +5033,10 @@
 					"min" : 84,
 					"max" : 154
 				},
+				"crystal" : {
+					"min" : 20,
+					"max" : 185
+				},
 				"atkspeed" : {
 					"min" : 100,
 					"max" : 125
@@ -5092,6 +5208,10 @@
 					"min" : 71,
 					"max" : 130
 				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
+				},
 				"atkspeed" : {
 					"min" : 100,
 					"max" : 136.3
@@ -5257,6 +5377,10 @@
 				"weapon" : {
 					"min" : 77,
 					"max" : 156
+				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
 				},
 				"atkspeed" : {
 					"min" : 100,
