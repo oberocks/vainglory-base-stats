@@ -233,7 +233,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Range",
+							"name" : "Range (m)",
 							"values" : [9, 9, 9],
 							"ratios" : [0, 0],
 							"overdrive" : false
@@ -414,7 +414,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Range",
+							"name" : "Range (m)",
 							"values" : [10, 10, 10, 10, 12],
 							"ratios" : [0, 0],
 							"overdrive" : 12
@@ -661,7 +661,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Range",
+							"name" : "Range (m)",
 							"values" : [8, 8, 8, 8, 9],
 							"ratios" : [0, 0],
 							"overdrive" : 9
@@ -705,7 +705,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Range",
+							"name" : "Range (m)",
 							"values" : [7, 7, 7, 7, 9],
 							"ratios" : [0, 0],
 							"overdrive" : 9
@@ -754,7 +754,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Duration",
+							"name" : "Duration (s)",
 							"values" : [4, 6, 8],
 							"ratios" : [0, 0],
 							"overdrive" : false
@@ -955,7 +955,7 @@
 							"overdrive" : 195
 						},
 						{
-							"name" : "Duration",
+							"name" : "Duration (s)",
 							"values" : [2.5, 2.5, 2.5, 2.5, 2.5],
 							"ratios" : [0, 0],
 							"overdrive" : false
@@ -1153,7 +1153,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Range",
+							"name" : "Range (m)",
 							"values" : [8, 8, 8, 8, 8],
 							"ratios" : [1.5, 0],
 							"overdrive" : false
@@ -1451,7 +1451,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Range",
+							"name" : "Range (m)",
 							"values" : [7, 7, 7, 7, 9],
 							"ratios" : [0, 0],
 							"overdrive" : 9
@@ -1700,7 +1700,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Duration",
+							"name" : "Duration (s)",
 							"values" : [4, 4, 4, 4, 4],
 							"ratios" : [0, 0],
 							"overdrive" : false
@@ -1739,7 +1739,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Range",
+							"name" : "Range (m)",
 							"values" : [11, 11, 11],
 							"ratios" : [0, 0],
 							"overdrive" : false
@@ -1910,7 +1910,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Range",
+							"name" : "Range (m)",
 							"values" : [7.5, 7.5, 7.5, 7.5, 9.5],
 							"ratios" : [0, 0],
 							"overdrive" : 9.5
@@ -2350,7 +2350,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Range",
+							"name" : "Range (m)",
 							"values" : [8, 8, 8, 8, 8],
 							"ratios" : [0, 0],
 							"overdrive" : false
@@ -2389,7 +2389,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Range",
+							"name" : "Range (m)",
 							"values" : [4, 4, 4, 4, 4],
 							"ratios" : [0, 0],
 							"overdrive" : false
@@ -2439,7 +2439,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Duration",
+							"name" : "Duration (s)",
 							"values" : [12, 14, 16],
 							"ratios" : [0, 0],
 							"overdrive" : false
@@ -2593,7 +2593,7 @@
 							"overdrive" : 3
 						},
 						{
-							"name" : "Duration",
+							"name" : "Duration (s)",
 							"values" : [3, 3, 3, 3, 4],
 							"ratios" : [0, 0],
 							"overdrive" : 4
@@ -2671,7 +2671,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Duration",
+							"name" : "Duration (s)",
 							"values" : [10, 12, 14],
 							"ratios" : [0, 0],
 							"overdrive" : false
@@ -3075,7 +3075,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Range",
+							"name" : "Range (m)",
 							"values" : [7, 7, 7, 7, 9],
 							"ratios" : [0, 0],
 							"overdrive" : 9
@@ -3299,7 +3299,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Range",
+							"name" : "Range (m)",
 							"values" : [8, 8, 8, 8, 8],
 							"ratios" : [0, 0],
 							"overdrive" : false
@@ -3398,7 +3398,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Duration",
+							"name" : "Duration (s)",
 							"values" : [3, 3, 3],
 							"ratios" : [0, 0],
 							"overdrive" : false
@@ -4717,7 +4717,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Duration",
+							"name" : "Duration (s)",
 							"values" : [3, 3, 3, 3, 3],
 							"ratios" : [0, 0],
 							"overdrive" : false
@@ -5238,7 +5238,7 @@
 							"overdrive" : 255
 						},
 						{
-							"name" : "Range",
+							"name" : "Range (m)",
 							"values" : [7.5, 7.5, 7.5, 7.5, 9.5],
 							"ratios" : [0, 0],
 							"overdrive" : 9.5
@@ -5461,7 +5461,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Range",
+							"name" : "Range (m)",
 							"values" : [10, 10, 10, 10, 12],
 							"ratios" : [0, 0],
 							"overdrive" : 12
@@ -5511,7 +5511,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Duration",
+							"name" : "Duration (s)",
 							"values" : [4, 4, 4, 4, 4],
 							"ratios" : [0, 0],
 							"overdrive" : false
@@ -5556,7 +5556,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Range",
+							"name" : "Range (m)",
 							"values" : [11, 13, 15],
 							"ratios" : [0, 0],
 							"overdrive" : false
@@ -6718,7 +6718,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Range",
+							"name" : "Range (m)",
 							"values" : [6.5, 6.5, 6.5, 6.5, 8],
 							"ratios" : [0, 0],
 							"overdrive" : 8
@@ -6973,7 +6973,7 @@
 							"overdrive" : false
 						},
 						{
-							"name" : "Range",
+							"name" : "Range (m)",
 							"values" : [7, 7, 7, 7, 9],
 							"ratios" : [0, 0],
 							"overdrive" : 9
@@ -7575,6 +7575,503 @@
 						{
 							"name" : "Fortify / Second",
 							"values" : [60, 90, 120],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					]
+				}
+			}
+		},
+		{
+			"slug" : "samuel",
+			"name" : "Samuel",
+			"thumb" : "samuel.png",
+			"description" : "Dark zone-control mage who can put enemies to sleep.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [652, 2040],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [290, 620],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [78, 148],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [50, 160],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 129.7],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [6.3, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.2, 0],
+					"ratios" : [0, 0]
+				}
+			],
+			"stats" : {
+				"health" : {
+					"min" : 652,
+					"max" : 2040
+				},
+				"energy" : {
+					"min" : 290,
+					"max" : 620
+				},
+				"weapon" : {
+					"min" : 78,
+					"max" : 148
+				},
+				"crystal" : {
+					"min" : 50,
+					"max" : 160
+				},
+				"atkspeed" : {
+					"min" : 100,
+					"max" : 129.7
+				},
+				"armor" : {
+					"min" : 20,
+					"max" : 50
+				},
+				"shield" : {
+					"min" : 20,
+					"max" : 50
+				},
+				"range" :6.3,
+				"movespeed" : 3.2
+			},
+			"abilities" : {
+				"heroicperk" : {
+					"name" : "Corrupted Genius",
+					"thumb" : "corrupted-genius.png",
+					"description" : [
+						"Every 6s, Samuels next basic attack fires a bolt of dark power that deals bonus crystal damage and draws health & energy back to Samuel.",
+						[
+							"Crystal Damage: 50-60 (level 1-12)",
+							"Healing: 20-200 (level 1-12)",
+							"Recharge: 30-200 (level 1-12) energy",
+							"The restorative powers are only 25% as effective against non-heroes."
+						]
+					]
+				},
+				"a" : {
+					"name" : "Malice & Verdict",
+					"thumb" : "malice-and-verdict.png",
+					"description" : [
+						"Samuel fires two bolts from his wands at a target location, impacting the first enemy hit. Samuel can move between the shots.",
+						"If Samuel is standing inside the energy field from Drifting Dark, these bolts move faster, travel farther and deal additional area damage. In addition, the cooldown is significantly reduced.",
+						[
+							"Empowered shots deal 50% less damage to minions."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [4, 4, 4, 4, 3],
+							"ratios" : [0, 0],
+							"overdrive" : 3
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [40, 45, 50, 55, 60],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Range (m)",
+							"values" : [10, 10, 10, 10, 10],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage",
+							"values" : [60, 90, 120, 150, 210],
+							"ratios" : [100, 0],
+							"overdrive" : 210
+						},
+						{
+							"name" : "Empowered Damage",
+							"values" : [75, 105, 135, 165, 225],
+							"ratios" : [115, 0],
+							"overdrive" : 225
+						}
+					]
+				},
+				"b" : {
+					"name" : "Drifting Dark",
+					"thumb" : "drifting-dark.png",
+					"description" : [
+						"Samuel creates a large field of darkness that slowly drifts forward, damaging enemies who stand inside it. If Samuel also stands inside, Malice & Verdict is greatly empowered and he heals for a small amount for each affected target.",
+						[
+							"The field will disappear if Samuel moves more than 16 meters away from it.",
+							"Deals 50% less damage to minions."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [23, 23, 23, 23, 23],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [120, 160, 200, 240, 280],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Range (m)",
+							"values" : [14, 18, 22, 26, 30],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Travel Speed",
+							"values" : [2.8, 2.8, 2.8, 2.8, 2.8],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage / Sec",
+							"values" : [40, 55, 70, 85, 100],
+							"ratios" : [10, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Heal / Sec Per Target",
+							"values" : [4, 6, 8, 10, 12],
+							"ratios" : [12, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Heal / Sec Per Minion",
+							"values" : [1, 2, 3, 4, 5],
+							"ratios" : [5, 0],
+							"overdrive" : false
+						}
+					]
+				},
+				"c" : {
+					"name" : "Oblivion",
+					"thumb" : "oblivion.png",
+					"description" : [
+						"After a short delay, Samuel summons a phantasm at the target location, which puts nearby enemies to sleep. Enemies inflicted are unable to move or act.",
+						[
+							"Dealing direct damage to a sleeping enemy with an attack or ability will wake them up."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [90, 75, 60],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [100, 130, 160],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage",
+							"values" : [200, 325, 450],
+							"ratios" : [100, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Duration (s)",
+							"values" : [2, 2.5, 3],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					]
+				}
+			}
+		},
+		{
+			"slug" : "saw",
+			"name" : "SAW",
+			"thumb" : "saw.png",
+			"description" : "Heavy machine gunner who sacrifices move speed for damage.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [683, 2023],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [150, 315],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [50, 105],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 111],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [6.6, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.1, 0],
+					"ratios" : [0, 0]
+				}
+			],
+			"stats" : {
+				"health" : {
+					"min" : 683,
+					"max" : 2023
+				},
+				"energy" : {
+					"min" : 150,
+					"max" : 315
+				},
+				"weapon" : {
+					"min" : 50,
+					"max" : 105
+				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
+				},
+				"atkspeed" : {
+					"min" : 100,
+					"max" : 111
+				},
+				"armor" : {
+					"min" : 20,
+					"max" : 50
+				},
+				"shield" : {
+					"min" : 20,
+					"max" : 50
+				},
+				"range" :6.6,
+				"movespeed" : 3.1
+			},
+			"abilities" : {
+				"heroicperk" : {
+					"name" : "Spin Up",
+					"thumb" : "spin-up.png",
+					"description" : [
+						"Every basic attack gives SAW increased attack speed, but it also sifnificantly decreases his move speed.",
+						[
+							"Each basic attack grants SAW +18 attack speed.",
+							"Each basic attack decreases SAW's move speed by -0.12",
+							"Max 12 stacks.",
+							"After 3.5s without basic attacking, SAW rapidly spins down."
+						]
+					]
+				},
+				"a" : {
+					"name" : "Roadie Run",
+					"thumb" : "roadie-run.png",
+					"description" : [
+						"SAW sprints & switches to a melee combat knife. If SAW attacks someone, he will deal bonus damage based on the target's missing health & roll backwards.",
+						[
+							"Activating this ability clears all stacks of Spin Up.",
+							"Crystal will boost the speed, up to a maximum of +3.2."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [13, 12, 11, 10, 9],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [65, 65, 65, 65, 65],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Base Damage",
+							"values" : [60, 140, 220, 300, 380],
+							"ratios" : [280, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Missing Health %",
+							"values" : [15, 20, 25, 30, 40],
+							"ratios" : [0, 0],
+							"overdrive" : 40
+						},
+						{
+							"name" : "Speed Boost",
+							"values" : [2.5, 2.5, 2.5, 2.5, 2.5],
+							"ratios" : [1.5, 0],
+							"overdrive" : false
+						}
+					]
+				},
+				"b" : {
+					"name" : "Suppressing Fire",
+					"thumb" : "suppressing-fire.png",
+					"description" : [
+						"SAW fires a hurricane of bullets in a set direction for 2 seconds, damaging and slowing enemies in its path.",
+						[
+							"Finishing this ability grants all stacks of Spin Up and resets the cooldown of Roadie Run. Deal reduced damage to turrets if out of range."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [15, 15, 15, 15, 15],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [40, 50, 60, 70, 80],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage / Sec",
+							"values" : [120, 170, 220, 270, 370],
+							"ratios" : [220, 0],
+							"overdrive" : 370
+						},
+						{
+							"name" : "Slow Duration (s)",
+							"values" : [0.4, 0.4, 0.4, 0.4, 0.4],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Slow (%)",
+							"values" : [45, 45, 45, 45, 45],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					]
+				},
+				"c" : {
+					"name" : "Mad Cannon",
+					"thumb" : "mad-cannon.png",
+					"description" : [
+						"SAW loads explosive shells into his gun which deal additional damage based on the target's missing health. The shells also deal splash damage based on the amount of crystal power SAW has.",
+						[
+							"This explosive ammo fires 36% slower and grants 2 stacks of Spin Up."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [100, 80, 60],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [60, 75, 90],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Crystal Damage",
+							"values" : [40, 60, 80],
+							"ratios" : [140, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Missing Health %",
+							"values" : [12, 12, 12],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "# of Shells",
+							"values" : [5, 7, 9],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						}
