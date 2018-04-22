@@ -5745,7 +5745,7 @@
 					"name" : "Royal Amnesty / Wicked Escapade",
 					"thumb" : "royal-amnesty.png",
 					"description" : [
-						"Light Form - Royal Amnesty: <alene instantly imbues herself with light, granting herself a barrier and a burst of movement speed for 3s.",
+						"Light Form - Royal Amnesty: Malene instantly imbues herself with light, granting herself a barrier and a burst of movement speed for 3s.",
 						"Shadow Form - Wicked Escapade: Malene instantly becomes a trail of shadows for 1.5s, becoming invulnerable and slowing enemies she passes through. When this effect ends, enemies near her original location receive a burst of damage."
 					],
 					"stats" : [
@@ -7681,7 +7681,7 @@
 					"min" : 20,
 					"max" : 50
 				},
-				"range" :6.3,
+				"range" : 6.3,
 				"movespeed" : 3.2
 			},
 			"abilities" : {
@@ -7933,7 +7933,7 @@
 					"min" : 20,
 					"max" : 50
 				},
-				"range" :6.6,
+				"range" : 6.6,
 				"movespeed" : 3.1
 			},
 			"abilities" : {
@@ -8072,6 +8072,1444 @@
 						{
 							"name" : "# of Shells",
 							"values" : [5, 7, 9],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					]
+				}
+			}
+		},
+		{
+			"slug" : "skaarf",
+			"name" : "Skaarf",
+			"thumb" : "skaarf.png",
+			"description" : "Spits long-range fireballs and incinerates entire teams.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [638, 2112],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [200, 464],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [80, 154],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 122],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [5.5, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.3, 0],
+					"ratios" : [0, 0]
+				}
+			],
+			"stats" : {
+				"health" : {
+					"min" : 638,
+					"max" : 2112
+				},
+				"energy" : {
+					"min" : 200,
+					"max" : 464
+				},
+				"weapon" : {
+					"min" : 80,
+					"max" : 154
+				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
+				},
+				"atkspeed" : {
+					"min" : 100,
+					"max" : 122
+				},
+				"armor" : {
+					"min" : 20,
+					"max" : 50
+				},
+				"shield" : {
+					"min" : 20,
+					"max" : 50
+				},
+				"range" : 5.5,
+				"movespeed" : 3.3
+			},
+			"abilities" : {
+				"heroicperk" : {
+					"name" : "Fan the Flames",
+					"thumb" : "fan-the-flames.png",
+					"description" : [
+						"Skaarf's abilities burn targets and his basic attacks deal bonus crystal damage to burning targets.",
+						[
+							"Burn: 8 damage per second for 4s.",
+							"Basic attacks: 2% (+2% of crystal power) of the target's max health as crystal damage.",
+							"This damage can crit for 2x.",
+							"Deals reduced damage to Kraken and structures."
+						]
+					]
+				},
+				"a" : {
+					"name" : "Spitfire",
+					"thumb" : "spitfire.png",
+					"description" : [
+						"Skaarf spits a fireball that collides with the first hero, structure or boss monster it hits.",
+						[
+							"The fireball damages & passes through smaller minions.",
+							"Each time it passes through a unit, its damate is reduced to 85% of before.",
+							"Deals 50% less damage damage to minions."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [5, 4.5, 4, 3.5, 3],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [35, 35, 35, 35, 35],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage",
+							"values" : [75, 135, 195, 255, 315],
+							"ratios" : [150, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Range",
+							"values" : [12.5, 12.5, 12.5, 12.5, 12.5],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					]
+				},
+				"b" : {
+					"name" : "Goop",
+					"thumb" : "goop.png",
+					"description" : [
+						"Skaarf hurls a goop onto the target location. Enemies walking through the sticky substance are slowed. Any of Skaarf's flames will ignite the puddle, dealing burst damage and burning enemies over time.",
+						[
+							"A flaming puddle does not slow enemies as much as a goop puddle.",
+							"Deals half damage to minions & Kraken."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [9, 8.5, 8, 7.5, 6],
+							"ratios" : [0, 0],
+							"overdrive" : 6
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [50, 65, 80, 95, 110],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Ignite Damage",
+							"values" : [40, 60, 80, 100, 120],
+							"ratios" : [110, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage / Sec",
+							"values" : [40, 85, 130, 175, 220],
+							"ratios" : [80, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Duration (s)",
+							"values" : [8, 8, 8, 8, 10],
+							"ratios" : [0, 0],
+							"overdrive" : 10
+						},
+						{
+							"name" : "Duration on Fire (S)",
+							"values" : [5, 5, 5, 5, 7],
+							"ratios" : [0, 0],
+							"overdrive" : 7
+						}
+					]
+				},
+				"c" : {
+					"name" : "Dragon Breath",
+					"thumb" : "dragons-breath.png",
+					"description" : [
+						"Skaarf inhales for 1.5s, then exhales a huge flames for 3s. Skaarf may move freely while spewing fire.",
+						[
+							"Skaarf gains a quick burst of move speed when exhaling.",
+							"While inhaling or exhaling, enemies moving against the current are slowed while allies moving with it are sped up.",
+							"Skaarf temporarily gains fortified health while channeling.",
+							"Deals 50% damage to non-heroes."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [80, 75, 70],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [125, 150, 175],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage / Sec",
+							"values" : [325, 400, 475],
+							"ratios" : [100, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Shield Pierce (%)",
+							"values" : [40, 50, 60],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Fortified Health",
+							"values" : [150, 250, 350],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					]
+				}
+			}
+		},
+		{
+			"slug" : "skye",
+			"name" : "Skye",
+			"thumb" : "skye.png",
+			"description" : "Versatile, elusive mech pilot who can flank enemies from any angle.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [668, 2060],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [380, 732],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [72, 111],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 136.3],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [6.1, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.1, 0],
+					"ratios" : [0, 0]
+				}
+			],
+			"stats" : {
+				"health" : {
+					"min" : 668,
+					"max" : 2060
+				},
+				"energy" : {
+					"min" : 380,
+					"max" : 732
+				},
+				"weapon" : {
+					"min" : 72,
+					"max" : 111
+				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
+				},
+				"atkspeed" : {
+					"min" : 100,
+					"max" : 136.3
+				},
+				"armor" : {
+					"min" : 20,
+					"max" : 50
+				},
+				"shield" : {
+					"min" : 20,
+					"max" : 50
+				},
+				"range" : 6.1,
+				"movespeed" : 3.1
+			},
+			"abilities" : {
+				"heroicperk" : {
+					"name" : "Target Lock",
+					"thumb" : "target-lock.png",
+					"description" : [
+						"Skye's basic attacks apply Target Lock to the last target.",
+						[
+							"Basic attacks and Forward Barrage on that locked target grant her up to +2 move speed for 1.2s, but this boost is much weaker while moving backward.",
+							"Target Lock lasts 3s and is lost when the target is more than 8.5 meters away."
+						]
+					]
+				},
+				"a" : {
+					"name" : "Forward Barrage",
+					"thumb" : "forward-barrage.png",
+					"description" : [
+						"Skye fires a continuous stream of bullets while strafing in the selected direction for 3s. Building weapon power makes the barrage slow approaching enemies by up to 40%.",
+						[
+							"Reactivate this ability to stop firing.",
+							"Deals bonus damage to locked target.",
+							"Deals 50% less damage to structures & bosses."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [6, 6, 6, 6, 5],
+							"ratios" : [0, 0],
+							"overdrive" : 5
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [40, 50, 60, 70, 80],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage / Sec",
+							"values" : [140, 180, 220, 260, 340],
+							"ratios" : [150, 90],
+							"overdrive" : 340
+						},
+						{
+							"name" : "Lock-On Damage Bonus (%)",
+							"values" : [10, 10, 10, 10, 10],
+							"ratios" : [20, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Slow",
+							"values" : [0, 0, 0, 0, 0],
+							"ratios" : [0, 20],
+							"overdrive" : false
+						}
+					]
+				},
+				"b" : {
+					"name" : "Suri Strike",
+					"thumb" : "suri-strike.png",
+					"description" : [
+						"Skye dashes to a chosen location around her locked target while firing a volley of missiles along a line between her and her target.",
+						[
+							"Multiple missles can hit the same target, but subsequent hits deal 20% damage.",
+							"This ability can only be activated when Skye has a locked target.",
+							"Activation this ability resets a portion of the cooldown on Forward Barrage."
+						],
+						"Passive: Each ability point in Suri Strike increases the duration of Target Lock.",
+						[
+							"Deals 50% less damage to minions."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [17, 15, 13, 11, 8],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [70, 70, 70, 70, 70],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage",
+							"values" : [90, 150, 210, 270, 330],
+							"ratios" : [100, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Duration Bonus",
+							"values" : [1, 1.5, 2, 2.5, 4],
+							"ratios" : [0, 0],
+							"overdrive" : 4
+						},
+						{
+							"name" : "Cooldown Reset (%)",
+							"values" : [40, 55, 70, 85, 100],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					]
+				},
+				"c" : {
+					"name" : "Death from Above",
+					"thumb" : "death-from-above.png",
+					"description" : [
+						"Skye fires a salvo of missiles at a chosen location around her locked target. After a 1.3s delay, the missiles rain down on that location, stunning enemies for 0.5s. Enemies still in the area afterward are slowed and take crystal damage.",
+						[
+							"Aiming directly on your locked target rains down the missiles in a cluster.",
+							"Aiming away from your locked target rains them down in a line across the target's path.",
+							"This ability can only be activated when Skye has a locked target.",
+							"Deals 50% less damage to structures & bosses."
+						],
+						"Passive: Each ability point in Death from Above increases the range of Target Lock."
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [30, 24, 18],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [70, 90, 110],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Duration",
+							"values" : [2, 3, 4],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage / Sec",
+							"values" : [250, 300, 350],
+							"ratios" : [50, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Slow (%)",
+							"values" : [55, 60, 65],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Range Bonus",
+							"values" : [2, 3, 4],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					]
+				}
+			}
+		},
+		{
+			"slug" : "taka",
+			"name" : "Taka",
+			"thumb" : "taka.png",
+			"description" : "Stealthy assassin who can heal while invisible.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [702, 2287],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [180, 422],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [68, 125],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 136.3],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [2, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.4, 0],
+					"ratios" : [0, 0]
+				}
+			],
+			"stats" : {
+				"health" : {
+					"min" : 702,
+					"max" : 2287
+				},
+				"energy" : {
+					"min" : 180,
+					"max" : 422
+				},
+				"weapon" : {
+					"min" : 68,
+					"max" : 125
+				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
+				},
+				"atkspeed" : {
+					"min" : 100,
+					"max" : 136.3
+				},
+				"armor" : {
+					"min" : 20,
+					"max" : 60
+				},
+				"shield" : {
+					"min" : 20,
+					"max" : 60
+				},
+				"range" : 2,
+				"movespeed" : 3.4
+			},
+			"abilities" : {
+				"heroicperk" : {
+					"name" : "House Kamuha",
+					"thumb" : "house-kamuha.png",
+					"description" : [
+						"When Taka uses an ability or landa a Mortal Strike, he gains a stack of Ki.",
+						[
+							"Every 4s, Taka's next basic attack is replaced with a Mortal Strike. Mortal Strikes deal 30-63 (level 1-12) (+35% of bonus weapon power) bonus damage and grant Take +2 move speed for 2s.",
+							"Ki speeds up Taka's Mortal Strike timer and grants 25% cooldown speed (max 5 Ki stacks)."
+						]
+					]
+				},
+				"a" : {
+					"name" : "Kaiten",
+					"thumb" : "kaiten.png",
+					"description" : [
+						"Taka flips over his target, cutting it with his switchblade. Taka is invulnerable to damage & debuffs while in mid-air."
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [15, 15, 15, 15, 15],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [55, 55, 55, 55, 0],
+							"ratios" : [0, 0],
+							"overdrive" : 0
+						},
+						{
+							"name" : "Damage",
+							"values" : [100, 150, 200, 250, 300],
+							"ratios" : [110, 0],
+							"overdrive" : false
+						}
+					]
+				},
+				"b" : {
+					"name" : "Kaku",
+					"thumb" : "kaku.png",
+					"description" : [
+						"Taka throws a smoke bomb at his feet and becomes invisible. While stealthed, Taka moves faster and heals himself.",
+						[
+							"Invisibility ends early if he strikes a target or takes direct damage.",
+							"Turrets, Scout Traps and Flare Guns can still see Taka while he is invisible."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [25, 24, 23, 22, 21],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [50, 65, 80, 95, 110],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Duration",
+							"values" : [3, 3.2, 3.4, 3.6, 4],
+							"ratios" : [0, 0],
+							"overdrive" : 4
+						},
+						{
+							"name" : "Speed Boost",
+							"values" : [1.25, 1.25, 1.25, 1.25, 1.25],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Heal / Sec",
+							"values" : [25, 50, 75, 100, 120],
+							"ratios" : [20, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "(???)",
+							"values" : [0.7, 0.7, 0.7, 0.7, 0.7],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					]
+				},
+				"c" : {
+					"name" : "X-Retsu",
+					"thumb" : "x-retsu.png",
+					"description" : [
+						"Taka bursts through his target for massive damage and gains Ki Stacks. The target suffers a mortal wound (reduced healing) and takes damage per second for the next 3s. The wound's duration is refreshed whenever Taka Mortal Strikes this target."
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [20, 20, 20],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [80, 100, 120],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage",
+							"values" : [250, 350, 450],
+							"ratios" : [150, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Ki Stacks",
+							"values" : [1, 2, 3],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage / Sec",
+							"values" : [40, 50, 60],
+							"ratios" : [65, 0],
+							"overdrive" : false
+						}
+					]
+				}
+			}
+		},
+		{
+			"slug" : "tony",
+			"name" : "Tony",
+			"thumb" : "tony.png",
+			"description" : "Dwarven brawler who taunts and pummels enemies.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [762, 2544],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [280, 643],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [79, 164],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [0, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 136.3],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 60],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [1.7, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.4, 0],
+					"ratios" : [0, 0]
+				}
+			],
+			"stats" : {
+				"health" : {
+					"min" : 762,
+					"max" : 2544
+				},
+				"energy" : {
+					"min" : 280,
+					"max" : 643
+				},
+				"weapon" : {
+					"min" : 79,
+					"max" : 164
+				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
+				},
+				"atkspeed" : {
+					"min" : 100,
+					"max" : 136.3
+				},
+				"armor" : {
+					"min" : 20,
+					"max" : 60
+				},
+				"shield" : {
+					"min" : 20,
+					"max" : 60
+				},
+				"range" : 1.7,
+				"movespeed" : 3.4
+			},
+			"abilities" : {
+				"heroicperk" : {
+					"name" : "Come At Me",
+					"thumb" : "come-at-me.png",
+					"description" : [
+						"When Tony receives damage, he gains 60-302 (level 1-12) (+20% of his bonus health) health barrier for 2s. This cannot occur again within 12s-6.5s (level 1-12)."
+					]
+				},
+				"a" : {
+					"name" : "Jawbreaker",
+					"thumb" : "jawbreaker.png",
+					"description" : [
+						"Tony’s next three basic attacks are empowered. These attacks launch Tony toward his target, dealing bonus damage. The third attack is a two-handed strike that will stun his target.",
+						[
+							"Tony also gains a decaying move speed bonus when activating this ability."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [12, 12, 12, 12, 11],
+							"ratios" : [0, 0],
+							"overdrive" : 11
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [30, 40, 50, 60, 70],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Weapon Damage",
+							"values" : [10, 40, 70, 100, 130],
+							"ratios" : [0, 40],
+							"overdrive" : false
+						},
+						{
+							"name" : "Bonus Move Speed",
+							"values" : [1.2, 1.2, 1.2, 1.2, 1.2],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Duration",
+							"values" : [0.6, 0.6, 0.6, 0.6, 0.6],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					]
+				},
+				"b" : {
+					"name" : "Trash Talk",
+					"thumb" : "trash-talk.png",
+					"description" : [
+						"Tony hurls insults in the target direction. All enemies hit receive damage and heroes are forced to attack Tony for 0.8s.",
+						[
+							"This also resets the cooldown of Come At Me, allowing it to trigger again.",
+							"Tony gains a 25% damage reduction while taunting.",
+							"The duration is further increased with weapon power up to a cap of 1.8s with 300 weapon power."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [22, 20, 18, 16, 14],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [35, 40, 45, 50, 55],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Range",
+							"values" : [8, 8, 8, 8, 8],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Duration (s)",
+							"values" : [0.8, 0.8, 0.8, 0.8, 1.2],
+							"ratios" : [0, 0],
+							"overdrive" : 1.2
+						}
+					]
+				},
+				"c" : {
+					"name" : "Bada Boom",
+					"thumb" : "bada-boom.png",
+					"description" : [
+						"Tony winds up, then dashes to target location, releasing a massive uppercut. This colossal punch deals damage and knocks away all enemies caught in the area."
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [100, 80, 60],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [60, 75, 90],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Crystal Damage",
+							"values" : [300, 500, 700],
+							"ratios" : [200, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Range",
+							"values" : [10, 12, 14],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					]
+				}
+			}
+		},
+		{
+			"slug" : "varya",
+			"name" : "Varya",
+			"thumb" : "varya.png",
+			"description" : "Shocking valkyrie who chains massive damage across enemy teams.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [642, 2127],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [950, 1500],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [10, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [70, 147],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 115],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [6.2, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.1, 0],
+					"ratios" : [0, 0]
+				}
+			],
+			"stats" : {
+				"health" : {
+					"min" : 642,
+					"max" : 2127
+				},
+				"energy" : {
+					"min" : 950,
+					"max" : 1500
+				},
+				"weapon" : {
+					"min" : 10,
+					"max" : 0
+				},
+				"crystal" : {
+					"min" : 0,
+					"max" : 0
+				},
+				"atkspeed" : {
+					"min" : 100,
+					"max" : 115
+				},
+				"armor" : {
+					"min" : 20,
+					"max" : 50
+				},
+				"shield" : {
+					"min" : 20,
+					"max" : 50
+				},
+				"range" : 6.2,
+				"movespeed" : 3.1
+			},
+			"abilities" : {
+				"heroicperk" : {
+					"name" : "Chain Lightning",
+					"thumb" : "chain-lightning.png",
+					"description" : [
+						"Varya's attacks deal 70-147 (level 1-12) (+40% Crystal Power) crystal damage. If Varya holds her ground after attacking, she will consume 170 energy to striker her target again and Chain Lightning up to 3 additional targets.",
+						[
+							"Chain Lightning: Deals 30-69 (level 1-12) (+30% Crystal Power) damage to each target."
+						]
+					]
+				},
+				"a" : {
+					"name" : "Stormforged Spear",
+					"thumb" : "stormforged-spear.png",
+					"description" : [
+						"Varya throws a spear at lightning speed, striking the first enemy in its path. This deals a burst of damage to the target and chains additional damage to nearby targets.",
+						[
+							"When cast during or after Arc Recursion, the spear is thrown more quickly.",
+							"Number or additional targets hit is equal to her Chain Lighting attack.",
+							"The initial spear does not impact on lane minions."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [7, 6.5, 6, 5.5, 4.5],
+							"ratios" : [0, 0],
+							"overdrive" : 4.5
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [475, 475, 475, 475, 375],
+							"ratios" : [0, 0],
+							"overdrive" : 375
+						},
+						{
+							"name" : "Range",
+							"values" : [12, 12, 12, 12, 14],
+							"ratios" : [0, 0],
+							"overdrive" : 14
+						},
+						{
+							"name" : "Spear Damage",
+							"values" : [75, 120, 165, 210, 255],
+							"ratios" : [200, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Chain Lightning Damage",
+							"values" : [60, 90, 120, 150, 180],
+							"ratios" : [100, 0],
+							"overdrive" : false
+						}
+					]
+				},
+				"b" : {
+					"name" : "Arc Recursion",
+					"thumb" : "arc-recursion.png",
+					"description" : [
+						"After gathering power for 0.9s, Varya’s next two move commands will instantly dash in the chosen direction, striking the 3 nearest enemies at the end of each dash. For each enemy struck, Varya recovers 5% of her energy and gains a barrier equal to 3% of her health (bonuses doubled on heroes).",
+						[
+							"Overdrive: Varya moves further with each dash.",
+							"Varya can dash at any time, but will only dash once if she has not fully charged.",
+							"Varya can activate Stormforged Spear at any time during this ability. Any remaining dashes will trigger after the spear is thrown.",
+							"Deals 50% less damage to minions."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [25, 23, 21, 19, 15],
+							"ratios" : [0, 0],
+							"overdrive" : 15
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [200, 200, 200, 200, 200],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage",
+							"values" : [40, 70, 100, 130, 190],
+							"ratios" : [60, 0],
+							"overdrive" : 190
+						}
+					]
+				},
+				"c" : {
+					"name" : "Anvil's Hammer",
+					"thumb" : "anvils-hammer.png",
+					"description" : [
+						"After channeling for 2.4s, Varya unleashes the fury of the storm, calling a series of lightning strikes on every enemy hero, regardless of distance. Passively, each rank of the ultimate permanently increases her attack speed and the number enemies her Chain Lightning and Stormforged Spear will hit.",
+						[
+							"Lightning strikes target the ground beneath enemy heroes, giving them an opportunity to move out of the way.",
+							"Lightning strikes deal 75% reduced damage to enemies already hit lightning in the same wave.",
+							"Varya can break out of channeling early by activating Stormforged Spear or Arc Recursion. This does not cancel the spell.",
+							"Deals 50% less damage to minions."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [120, 105, 90],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [300, 450, 600],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage",
+							"values" : [120, 180, 240],
+							"ratios" : [75, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Strike Impact Radius",
+							"values" : [1.6, 1.8, 2],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Bonus Chain Lightning",
+							"values" : [1, 2, 3],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Bonus Attack Speed (%)",
+							"values" : [13, 25, 40],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					]
+				}
+			}
+		},
+		{
+			"slug" : "vox",
+			"name" : "Vox",
+			"thumb" : "vox.png",
+			"description" : "Agile damage dealer who dashes around the battlefield.",
+			"stats2" : [
+				{
+					"name" : "Health",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [667, 2054],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Energy",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [200, 464],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Weapon",
+					"units" : "Units",
+					"type" : "Weapon",
+					"minmax" : [54, 109],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Crystal",
+					"units" : "Units",
+					"type" : "Crystal",
+					"minmax" : [20, 42],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Attack Speed",
+					"units" : "Percent",
+					"type" : "Base",
+					"minmax" : [100, 136.3],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Armor",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Shield",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [20, 50],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Range",
+					"units" : "Meters",
+					"type" : "Base",
+					"minmax" : [5.6, 0],
+					"ratios" : [0, 0]
+				},
+				{
+					"name" : "Move Speed",
+					"units" : "Units",
+					"type" : "Base",
+					"minmax" : [3.3, 0],
+					"ratios" : [0, 0]
+				}
+			],
+			"stats" : {
+				"health" : {
+					"min" : 667,
+					"max" : 2054
+				},
+				"energy" : {
+					"min" : 200,
+					"max" : 464
+				},
+				"weapon" : {
+					"min" : 54,
+					"max" : 109
+				},
+				"crystal" : {
+					"min" : 20,
+					"max" : 42
+				},
+				"atkspeed" : {
+					"min" : 100,
+					"max" : 136.3
+				},
+				"armor" : {
+					"min" : 20,
+					"max" : 50
+				},
+				"shield" : {
+					"min" : 20,
+					"max" : 50
+				},
+				"range" : 5.6,
+				"movespeed" : 3.3
+			},
+			"abilities" : {
+				"heroicperk" : {
+					"name" : "Julia's Song",
+					"thumb" : "julias-song.png",
+					"description" : [
+						"Vox's abilities mark enemies with Resonance. When basic attacking marked enemies, Resonance Bolts will bounce outwards to two nearby enemies dealing bonus crystal damage while refreshing and spreading the Resonance mark.",
+						[
+							"Resonance Crystal damage: 20 (+100% of crystal power)",
+							"Resonance bounces deal 50% damage to minions.",
+							"Basic Attacks deal an additional 20-14 (level 1-12) (+50% of crystal power)"
+						]
+					]
+				},
+				"a" : {
+					"name" : "Sonic Zoom",
+					"thumb" : "sonic-zoom.png",
+					"description" : [
+						"Vox dashes in the targeted direction, throwing two basic attacks to the nearest enemy marked by Resonance (prioritizing heroes)."
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [6, 5.5, 5, 4.5, 4],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [40, 40, 40, 40, 40],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Basic Attack Damage (%)",
+							"values" : [50, 50, 50, 50, 60],
+							"ratios" : [0, 0],
+							"overdrive" : 60
+						}
+					]
+				},
+				"b" : {
+					"name" : "Pulse",
+					"thumb" : "pulse.png",
+					"description" : [
+						"Vox emits a sonic pulse that echoes off nearby enemies and applies Resonance. The pulse applies a slow that is significantly stronger near its center.",
+						[
+							"Each upgrade to Pulse increases the damage of Vox's bouncing Resonance bolts.",
+							"Overdrive: Resonance bounce range increased by 2."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [10, 10, 10, 10, 7],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [30, 35, 40, 45, 50],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Bounce Damage Bonus",
+							"values" : [5, 30, 55, 80, 130],
+							"ratios" : [0, 0],
+							"overdrive" : 130
+						},
+						{
+							"name" : "Slow At Center (%)",
+							"values" : [15, 17, 19, 21, 25],
+							"ratios" : [0, 0],
+							"overdrive" : 25
+						},
+						{
+							"name" : "Slow At Edge (%)",
+							"values" : [10, 12, 14, 16, 20],
+							"ratios" : [0, 0],
+							"overdrive" : 20
+						}
+					]
+				},
+				"c" : {
+					"name" : "Wait for It...",
+					"thumb" : "wait-for-it.png",
+					"description" : [
+						"Vox fires an ultrasonic wave that applies Resonance to enemies in its path. Shortly after, a wide shockwave explodes along the same path, dealing crystal damage and silencing enemies.",
+						[
+							"Striking enemy heroes with the shockwave will also cause Resonance Bolts to bounce outward to other enemies."
+						]
+					],
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [70, 55, 40],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [80, 80, 80],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Initial Damage",
+							"values" : [100, 150, 200],
+							"ratios" : [20, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Shockwave Damage",
+							"values" : [100, 150, 200],
+							"ratios" : [40, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Silence Duration (s)",
+							"values" : [0.7, 0.7, 0.7],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						}
