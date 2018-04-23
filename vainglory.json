@@ -1,8 +1,155 @@
 {
-	"items" : {
-		"name" : "Faux Project Name",
-		"date" : "03/04/2018"
-	},
+	"items" : [
+		{
+			"slug" : "aegis",
+			"name" : "Aegis",
+			"thumb" : "aegis.png",
+			"category" : "Defense",
+			"tier" : "3",
+			"cost" : "2150",
+			"description" : [
+				"Activate: Reflex Block (35s cooldown)"
+			],
+			"stats" : [
+				{
+					"name" : "Shield",
+					"value" : 85
+				},
+				{
+					"name" : "Armor",
+					"value" : 25
+				},
+				{
+					"name" : "Max Health",
+					"value" : 250
+				}
+			],
+			"tip" : "Tip: Greatly reduces damage from enemy abilities.",
+			"build" : [
+				"oakheart",
+				"reflex-block",
+				"light-shield",
+				"kinetic-shield"
+			],
+			"buildto" : false
+		},
+		{
+			"slug" : "aftershock",
+			"name" : "Aftershock",
+			"thumb" : "aftershock.png",
+			"category" : "Crystal",
+			"tier" : "3",
+			"cost" : "2400",
+			"description" : [
+				"Passive: After using an ability, your next basic attack deals 13% of target's max health as damage with +50% lifesteal. Max 400 damage vs non-heroes. 1.5s cooldown."
+			],
+			"stats" : [
+				{
+					"name" : "Cooldown Speed (%)",
+					"value" : 25
+				},
+				{
+					"name" : "Energy Recharge",
+					"value" : 2.5
+				},
+				{
+					"name" : "Crystal Power",
+					"value" : 35
+				}
+			],
+			"tip" : "Tip: Very effective against enemies with high health.",
+			"build" : [
+				"crystal-bit",
+				"eclipse-prism",
+				"hourglass",
+				"chronograph"
+			],
+			"buildto" : false
+		},
+		{
+			"slug" : "alternating-current",
+			"name" : "Alternating Current",
+			"thumb" : "alternating-current.png",
+			"category" : "Crystal",
+			"tier" : "3",
+			"cost" : "2800",
+			"description" : [
+				"Passive: Every other basic attack deals 70% of your crystal power as bonus damage."
+			],
+			"stats" : [
+				{
+					"name" : "Crystal Power",
+					"value" : 60
+				},
+				{
+					"name" : "Attack Speed (%)",
+					"value" : 35
+				}
+			],
+			"tip" : "Tip: Helps you deal consistent damage after you've built enough crystal power.",
+			"build" : [
+				"crystal-bit",
+				"heavy-crystal",
+				"swift-shooter",
+				"blazing-salvo"
+			],
+			"buildto" : false
+		},
+		{
+			"slug" : "atlas-pauldron",
+			"name" : "Atlas Pauldron",
+			"thumb" : "atlas-pauldron.png",
+			"category" : "Defense",
+			"tier" : "3",
+			"cost" : "1900",
+			"description" : [
+				"Activate: Maim nearby enemies, lowering their attack speed by 50% of their total for 4s in a 4-meter range. (20s cooldown)"
+			],
+			"stats" : [
+				{
+					"name" : "Armor",
+					"value" : 80
+				},
+				{
+					"name" : "Shield",
+					"value" : 25
+				}
+			],
+			"tip" : "Tip: Counters enemies with high attack speed, but you must get close to the enemies to affect them.",
+			"build" : [
+				"light-armor",
+				"coat-of-plates"
+			],
+			"buildto" : false
+		},
+		{
+			"slug" : "barbed-needle",
+			"name" : "Barbed Needle",
+			"thumb" : "barbed-needle.png",
+			"category" : "Weapon",
+			"tier" : "2",
+			"cost" : "800",
+			"description" : [
+				"Vampirism: +8% lifesteal (does not stack with other Vampirism)",
+				"Passive: Book of Eulogies"
+			],
+			"stats" : [
+				{
+					"name" : "Weapon Power",
+					"value" : 12
+				}
+			],
+			"tip" : "Tip: Helps you stay healthy while last-hitting in lane.",
+			"build" : [
+				"light-armor",
+				"coat-of-plates"
+			],
+			"buildto" : [
+				"serpent-mask",
+				"poisoned-shiv"
+			]
+		}
+	],
 	"heroes" : [
 		{
 			"slug" : "adagio",
