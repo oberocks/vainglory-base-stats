@@ -257,6 +257,295 @@
 				"blazing-salvo"
 			],
 			"buildto" : false
+		},
+		{
+			"slug" : "broken-myth",
+			"name" : "Broken Myth",
+			"thumb" : "broken-myth.png",
+			"category" : "Crystal",
+			"tier" : "3",
+			"cost" : "2700",
+			"description" : [
+				"Shieldbreaker: +30% shield pierce (does not stack with other Shieldbreakers)"
+			],
+			"stats" : [
+				{
+					"name" : "Crystal Power",
+					"value" : 80
+				}
+			],
+			"tip" : "Tip: Improves crystal damage, especially against heavily shielded enemies.",
+			"build" : [
+				"crystal-bit",
+				"heavy-prism",
+				"crystal-bit",
+				"piercing-shard"
+			],
+			"buildto" : false
+		},
+		{
+			"slug" : "chronograph",
+			"name" : "Chronograph",
+			"thumb" : "chronograph.png",
+			"category" : "Utility",
+			"tier" : "2",
+			"cost" : "800",
+			"description" : false,
+			"stats" : [
+				{
+					"name" : "Cooldown Speed (%)",
+					"value" : 20
+				},
+				{
+					"name" : "Energy Recharge",
+					"value" : 2.5
+				}
+			],
+			"tip" : "Tip: Cooldown speed increases the speed at which your abilities come off the timer.",
+			"build" : [
+				"hourglass"
+			],
+			"buildto" : [
+				"clockwork",
+				"aftershock",
+				"spellsword",
+				"contraption",
+				"stromcrown",
+				"nullwave-gauntlet"
+			]
+		},
+		{
+			"slug" : "clockwork",
+			"name" : "Clockwork",
+			"thumb" : "clockwork.png",
+			"category" : "Crystal",
+			"tier" : "3",
+			"cost" : "2400",
+			"description" : [
+				"Passive: Upon damaging an enemy hero with an ability, reduce all cooldowns by 6%. This can only occur once every 2s."
+			],
+			"stats" : [
+				{
+					"name" : "Crystal Power",
+					"value" : 40
+				},
+				{
+					"name" : "Cooldown Speed (%)",
+					"value" : 35
+				},
+				{
+					"name" : "Max Energy",
+					"value" : 600
+				},
+				{
+					"name" : "Energy Recharge",
+					"value" : 10
+				}
+			],
+			"tip" : "Tip: Aggressive usage of abilities will allow you to cast more frequently.",
+			"build" : [
+				"energy-battery",
+				"void-battery",
+				"hourglass",
+				"chronograph"
+			],
+			"buildto" : false
+		},
+		{
+			"slug" : "coat-of-plates",
+			"name" : "Coat of Plates",
+			"thumb" : "coat-of-plates.png",
+			"category" : "Defense",
+			"tier" : "2",
+			"cost" : "800",
+			"description" : false,
+			"stats" : [
+				{
+					"name" : "Armor",
+					"value" : 65
+				},
+				{
+					"name" : "Shield",
+					"value" : 20
+				}
+			],
+			"tip" : "Tip: Armor reduces damage from basic attacks.",
+			"build" : [
+				"light-armor"
+			],
+			"buildto" : [
+				"metal-jacket",
+				"atlas-pauldron"
+			]
+		},
+		{
+			"slug" : "contraption",
+			"name" : "Contraption",
+			"thumb" : "contraption.png",
+			"category" : "Utility",
+			"tier" : "3",
+			"cost" : "2100",
+			"description" : [
+				"Activate: Target yourself to place a Scout Trap. Target the ground farther away to fire a Flare. 5s cooldown. 4 charges max. 20s per charge."
+			],
+			"stats" : [
+				{
+					"name" : "Max Health",
+					"value" : 450
+				},
+				{
+					"name" : "Cooldown Speed (%)",
+					"value" : 30
+				},
+				{
+					"name" : "Energy Recharge",
+					"value" : 3
+				}
+			],
+			"tip" : "Tip: A great way to save inventory space while still being able to control vision around the map =)",
+			"build" : [
+				"hourglass",
+				"chronograph",
+				"oakheart",
+				"flare-gun"
+			],
+			"buildto" : false
+		},
+		{
+			"slug" : "crucible",
+			"name" : "Crucible",
+			"thumb" : "crucible.png",
+			"category" : "Defense",
+			"tier" : "3",
+			"cost" : "1850",
+			"description" : [
+				"Activate: Trigger Reflex Block for you and nearby teammates. (45s cooldown)"
+			],
+			"stats" : [
+				{
+					"name" : "Max Health",
+					"value" : 700
+				}
+			],
+			"tip" : "Tip: Protect your friends with Reflex Block!",
+			"build" : [
+				"oakheart",
+				"reflex-block",
+				"oakheart",
+				"dragonheart"
+			],
+			"buildto" : false
+		},
+		{
+			"slug" : "crystal-bit",
+			"name" : "Crystal Bit",
+			"thumb" : "crystal-bit.png",
+			"category" : "Crystal",
+			"tier" : "1",
+			"cost" : "300",
+			"description" : false,
+			"stats" : [
+				{
+					"name" : "Crystal Power",
+					"value" : 20
+				}
+			],
+			"tip" : "Tip: Crystal power increases the strength of abilities.",
+			"build" : false,
+			"buildto" : [
+				"heavy-prism",
+				"eclipse-prism",
+				"piercing-shard",
+				"shatterglass",
+				"spellfire",
+				"frostburn",
+				"dragons-eye",
+				"broken-myth",
+				"eve-of-harvest",
+				"aftershock",
+				"alternating-current"
+			]
+		},
+		{
+			"slug" : "crystal-infusion",
+			"name" : "Crystal Infusion",
+			"thumb" : "crystal-infusion.png",
+			"category" : "Consumable",
+			"tier" : "1",
+			"cost" : "500",
+			"description" : [
+				"Consume: Temporarily gain 20-80 crystal power, 10-30% cooldown speed, and 0-15 armor and shield based on your level. Lasts 150s. Can only have on infusion active at a time."
+			],
+			"stats" : false,
+			"tip" : "Tip: Gain a powerful temporary advantage in your abilities.",
+			"build" : false,
+			"buildto" : false
+		},
+		{
+			"slug" : "dragons-eye",
+			"name" : "Dragon's Eye",
+			"thumb" : "dragons-eye.png",
+			"category" : "Crystal",
+			"tier" : "3",
+			"cost" : "3000",
+			"description" : [
+				"Passive: Gain 12 crystal power each second you damage enemy heroes. After 4s, lose 1 stack per second. 18 stacks max."
+			],
+			"stats" : [
+				{
+					"name" : "Crystal Power",
+					"value" : 85
+				}
+			],
+			"tip" : "Tip: Abilities strengthen the longer you stay in a fight.",
+			"build" : [
+				"crystal-bit",
+				"heavy-prism",
+				"crystal-bit",
+				"eclipse-prism"
+			],
+			"buildto" : false
+		},
+		{
+			"slug" : "dragonblood-contract",
+			"name" : "Dragonblood Contract",
+			"thumb" : "dragonblood-contract.png",
+			"category" : "Other",
+			"tier" : "1",
+			"cost" : "250",
+			"description" : [
+				"Activate: After a brief delay, nearby enemy heroes are marked for 3s. The next basic attack from an ally consumes the mark, slowing by 30% for 2s and dealing 100 bonus crystal damage. 10s cooldown. 2 max charges. 25s per charge."
+			],
+			"stats" : false,
+			"tip" : "Tip: Use this to aggressively secure kills in the early game.",
+			"build" : false,
+			"buildto" : false
+		},
+		{
+			"slug" : "dragonheart",
+			"name" : "Dragonheart",
+			"thumb" : "dragonheart.png",
+			"category" : "Defense",
+			"tier" : "2",
+			"cost" : "650",
+			"description" : false,
+			"stats" : [
+				{
+					"name" : "Max Health",
+					"value" : 450
+				}
+			],
+			"tip" : false,
+			"build" : [
+				"oakheart"
+			],
+			"buildto" : [
+				"slumbering-husk",
+				"crucible",
+				"war-treads",
+				"nullwave-gauntlet",
+				"shiversteel"
+			]
 		}
 	],
 	"heroes" : [
