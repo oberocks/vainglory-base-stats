@@ -148,6 +148,115 @@
 				"serpent-mask",
 				"poisoned-shiv"
 			]
+		},
+		{
+			"slug" : "blazing-salvo",
+			"name" : "Blazing Salvo",
+			"thumb" : "blazing-salvo.png",
+			"category" : "Weapon",
+			"tier" : "2",
+			"cost" : "700",
+			"description" : false,
+			"stats" : [
+				{
+					"name" : "Attack Speed (%)",
+					"value" : 20
+				}
+			],
+			"tip" : false,
+			"build" : [
+				"swift-shooter"
+			],
+			"buildto" : [
+				"poisoned-shiv",
+				"breaking-point",
+				"bonesaw",
+				"tornado-trigger"
+			]
+		},
+		{
+			"slug" : "bonesaw",
+			"name" : "Bonesaw",
+			"thumb" : "bonesaw.png",
+			"category" : "Weapon",
+			"tier" : "3",
+			"cost" : "2700",
+			"description" : [
+				"Passive: Your basic attacks shred 5% of the target's armor for 3s. Max 8 stacks.",
+				"Armorbreaker: +18% armor pierce (does not stack with other Armorbreakers)"
+			],
+			"stats" : [
+				{
+					"name" : "Weapon Power",
+					"value" : 15
+				},
+				{
+					"name" : "Attack Speed (%)",
+					"value" : 25
+				}
+			],
+			"tip" : "Tip: Effective against turrets and enemies with high armor. Best if you or your team are already dealing lots of weapon damage.",
+			"build" : [
+				"weapon-blade",
+				"piercing-spear",
+				"swift-shooter",
+				"blazing-salvo"
+			],
+			"buildto" : false
+		},
+		{
+			"slug" : "book-of-eulogies",
+			"name" : "Book of Eulogies",
+			"thumb" : "book-of-eulogies.png",
+			"category" : "Weapon",
+			"tier" : "1",
+			"cost" : "300",
+			"description" : [
+				"Passive: Restores 25 health whenever you kill a minion or monster (60 if using a melee default attack).",
+				"Vampirism: +4% lifesteal (does not stack with other Vampirism)"
+			],
+			"stats" : [
+				{
+					"name" : "Weapon Power",
+					"value" : 5
+				}
+			],
+			"tip" : "Tip: Helps you stay healthy while last-hitting in lane.",
+			"build" : false,
+			"buildto" : [
+				"barbed-needle",
+				"serpent-mask",
+				"poisoned-shiv"
+			]
+		},
+		{
+			"slug" : "breaking-point",
+			"name" : "Breaking Point",
+			"thumb" : "breaking-point.png",
+			"category" : "Weapon",
+			"tier" : "3",
+			"cost" : "2600",
+			"description" : [
+				"Passive: Gain 10 weapon power for every 170 weapon damage done to enemy heroes +5/10 (Melee/Ranged) damage needed for each stack thereafter. 25 stacks max. Decays 3 stacks per second after you've stopped stacking for 2.5s."
+			],
+			"stats" : [
+				{
+					"name" : "Weapon Power",
+					"value" : 55
+				},
+				{
+					"name" : "Attack Speed (%)",
+					"value" : 20
+				}
+			],
+			"tip" : "Tip: Very weak at first, but becomes extremely powerful over the course of long battles.",
+			"build" : [
+				"weapon-blade",
+				"heavy-steel",
+				"swift-shooter",
+				"blazing-salvo"
+			],
+			"buildto" : false
 		}
 	],
 	"heroes" : [
