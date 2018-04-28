@@ -546,6 +546,258 @@
 				"nullwave-gauntlet",
 				"shiversteel"
 			]
+		},
+		{
+			"slug" : "echo",
+			"name" : "Echo",
+			"thumb" : "echo.png",
+			"category" : "Utility",
+			"tier" : "3",
+			"cost" : "2200",
+			"description" : [
+				"Activate: The last ability to be put on cooldown is refreshed (150% of ability's cooldown +10s cooldown)."
+			],
+			"stats" : [
+				{
+					"name" : "Max Energy",
+					"value" : 350
+				},
+				{
+					"name" : "Energy Recharge",
+					"value" : 6
+				}
+			],
+			"tip" : "Tip: This item has a shorter cooldown if activated on a low cooldown ability.",
+			"build" : [
+				"energy-battery",
+				"void-battery"
+			],
+			"buildto" : false
+		},
+		{
+			"slug" : "eclipse-prism",
+			"name" : "Eclipse Prism",
+			"thumb" : "eclipse-prism.png",
+			"category" : "Crystal",
+			"tier" : "2",
+			"cost" : "650",
+			"description" : false,
+			"stats" : [
+				{
+					"name" : "Crystal Power",
+					"value" : 35
+				}
+			],
+			"tip" : "Tip: Crystal power increases the strength of abilities.",
+			"build" : [
+				"crystal-bit"
+			],
+			"buildto" : [
+				"shatterglass",
+				"spellfire",
+				"frostburn",
+				"dragons-eye",
+				"aftershock"
+			]
+		},
+		{
+			"slug" : "energy-battery",
+			"name" : "Energy Battery",
+			"thumb" : "energy-battery.png",
+			"category" : "Utility",
+			"tier" : "1",
+			"cost" : "300",
+			"description" : false,
+			"stats" : [
+				{
+					"name" : "Max Energy",
+					"value" : 200
+				},
+				{
+					"name" : "Energy Recharge",
+					"value" : 4
+				}
+			],
+			"tip" : "Tip: Energy is needed to use your abilities.",
+			"build" : false,
+			"buildto" : [
+				"void-battery",
+				"clockwork",
+				"eve-of-harvest",
+				"halcyon-chargers",
+				"echo"
+			]
+		},
+		{
+			"slug" : "eve-of-harvest",
+			"name" : "Eve of Harvest",
+			"thumb" : "eve-of-harvest.png",
+			"category" : "Crystal",
+			"tier" : "3",
+			"cost" : "2600",
+			"description" : [
+				"Passive: Your next 600-1200 (level 1-12) points of crystal damage to enemy heroes has +25% lifesteal, recharges over 40s.",
+				"Vampirism: +10% lifesteal (does not stack with other Vampirism)"
+			],
+			"stats" : [
+				{
+					"name" : "Crystal Power",
+					"value" : 55
+				},
+				{
+					"name" : "Max Energy",
+					"value" : 400
+				},
+				{
+					"name" : "Energy Recharge",
+					"value" : 7
+				}
+			],
+			"tip" : "Tip: Dealing high amounts of crystal damage to enemies will rapidly restore your health.",
+			"build" : [
+				"crystal-bit",
+				"heavy-prism",
+				"energy-battery",
+				"void-battery"
+			],
+			"buildto" : false
+		},
+		{
+			"slug" : "flare",
+			"name" : "Flare",
+			"thumb" : "flare.png",
+			"category" : "Consumable",
+			"tier" : "1",
+			"cost" : "25",
+			"description" : [
+				"Consume: Reveal an area for 5s. Can see over walls, into brush, and stealthed units. Scout Traps within theis area are permanently revealed."
+			],
+			"stats" : false,
+			"tip" : "Tip: Use this to avoid being ambushed, especially in the late game.",
+			"build" : false,
+			"buildto" : false
+		},
+		{
+			"slug" : "flare-gun",
+			"name" : "Flare Gun",
+			"thumb" : "flare-gun.png",
+			"category" : "Utility",
+			"tier" : "2",
+			"cost" : "600",
+			"description" : [
+				"Activate: Fire a flare. 5s cooldown. 2 charges max. 20s per charge."
+			],
+			"stats" : [
+				{
+					"name" : "Max Health",
+					"value" : 300
+				}
+			],
+			"tip" : "Tip: Use this to avoid being ambushed, especially in the late game.",
+			"build" : [
+				"oakheart"
+			],
+			"buildto" : [
+				"contraption"
+			]
+		},
+		{
+			"slug" : "fountain-of-renewal",
+			"name" : "Fountain of Renewal",
+			"thumb" : "fountain-of-renewal.png",
+			"category" : "Defense",
+			"tier" : "3",
+			"cost" : "2300",
+			"description" : [
+				"Passive: Lifespring",
+				"Activate: Heals you and nearby allies for 2.5 health for each % missing health per second for 3s. (65s coodlown)."
+			],
+			"stats" : [
+				{
+					"name" : "Max Health",
+					"value" : 300
+				},
+				{
+					"name" : "Shield",
+					"value" : 65
+				},
+				{
+					"name" : "Armor",
+					"value" : 20
+				}
+			],
+			"tip" : "Tip: Heal is especially powerful on allies who are almost dead.",
+			"build" : [
+				"oakheart",
+				"lifespring",
+				"light-shield",
+				"kinetic-shield"
+			],
+			"buildto" : false
+		},
+		{
+			"slug" : "frostburn",
+			"name" : "Frostburn",
+			"thumb" : "frostburn.png",
+			"category" : "Crystal",
+			"tier" : "3",
+			"cost" : "2600",
+			"description" : [
+				"Passive: Crystal damage abilities slow enemy heroes by 30% for 1s."
+			],
+			"stats" : [
+				{
+					"name" : "Crystal Power",
+					"value" : 85
+				}
+			],
+			"tip" : "Tip: Slow down your opponents to make it easier to land abilities.",
+			"build" : [
+				"crystal-bit",
+				"heavy-prism",
+				"crystal-bit",
+				"eclipse-prism"
+			],
+			"buildto" : false
+		},
+		{
+			"slug" : "halcyon-chargers",
+			"name" : "Halcyon Chargers",
+			"thumb" : "halcyon-chargers.png",
+			"category" : "Utility",
+			"tier" : "3",
+			"cost" : "1400",
+			"description" : [
+				"Boots: +0.5 move speed (does not stack)",
+				"Passive: Travel Boots",
+				"Activate: Sprint for 3s (50s cooldown)"
+			],
+			"stats" : [
+				{
+					"name" : "Max Health",
+					"value" : 150
+				},
+				{
+					"name" : "Cooldown Speed (%)",
+					"value" : 15
+				},
+				{
+					"name" : "Max Energy",
+					"value" : 350
+				},
+				{
+					"name" : "Energy Recharge",
+					"value" : 6
+				}
+			],
+			"tip" : "Tip: Allows you to chase down targets and use abilities more frequently... or to escape trouble!.",
+			"build" : [
+				"sprint-boots",
+				"travel-boots",
+				"energy-battery",
+				"void-battery"
+			],
+			"buildto" : false
 		}
 	],
 	"heroes" : [
