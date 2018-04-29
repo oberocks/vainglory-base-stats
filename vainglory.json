@@ -1,4 +1,48 @@
 {
+	"items2" : {
+		"aegis" : {
+			"name" : "Aegis",
+			"thumb" : "aegis.png",
+			"category" : "Defense",
+			"tier" : 3,
+			"cost" : 2150,
+			"activate" : "Reflex Block (35s cooldown)",
+			"passive" : false,
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :				{ "value" : 250,	"name" : "Max Health", "units" : false },
+				"energy" :				{ "value" : 0,		"name" : "Energy", "units" : false },
+				"weapon_power" : 		{ "value" : 0,		"name" : "Weapon Power", "units" : false },
+				"crystal_power" :		{ "value" : 0,		"name" : "Crystal Power", "units" : false },
+				"attack_speed" :		{ "value" : 0,		"name" : "Attack Speed", "units" : "%" },
+				"armor" :				{ "value" : 25,		"name" : "Armor", "units" : false },
+				"shield" :				{ "value" : 85,		"name" : "Shield", "units" : false },
+				"range" :				{ "value" : 0,		"name" : "Range", "units" : "m" },
+				"move_speed" :			{ "value" : 0,		"name" : "Move Speed", "units" : "m/s" },
+				"energy_recharge" :		{ "value" : 0,		"name" : "Energy Recharge", "units" : false },
+				"cooldown" :			{ "value" : 0,		"name" : "Cooldown Speed", "units" : "%" },
+				"crit_chance" :			{ "value" : 0,		"name" : "Critical Hit Chance", "units" : "%" },
+				"crit_damage" :			{ "value" : 0,		"name" : "Critical Hit Damage", "units" : "%" },
+				"armor_pierce" :		{ "value" : 0,		"name" : "Armor Pierce", "units" : "%" },
+				"shield_pierce" :		{ "value" : 0,		"name" : "Shield Pierce", "units" : "%" },
+				"weapon_lifesteal" :	{ "value" : 0,		"name" : "Weapon Lifesteal",  "units" : "%" },
+				"crystal_lifesteal" :	{ "value" : 0,		"name" : "Crystal Lifesteal", "units" : "%" }
+			},
+			"tip" : "Greatly reduces damage from enemy abilities.",
+			"build_from" : {
+				"path_1" : ["oakheart", "reflex_block"],
+				"path_2" : ["light_shield", "kinetic_shield"]
+			},
+			"build_to" : false
+		}
+	},
 	"items" : [
 		{
 			"slug" : "aegis",
@@ -864,14 +908,14 @@
 					"units" : "m/s",
 					"min" : 3.3
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -883,7 +927,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -1124,14 +1168,14 @@
 					"units" : "m/s",
 					"min" : 3.5
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -1143,7 +1187,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -1388,14 +1432,14 @@
 					"units" : "m/s",
 					"min" : 3.3
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -1407,7 +1451,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -1635,14 +1679,14 @@
 					"units" : "m/s",
 					"min" : 3.4
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -1654,7 +1698,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -1888,14 +1932,14 @@
 					"units" : "m/s",
 					"min" : 2.9
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -1907,7 +1951,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -2120,14 +2164,14 @@
 					"units" : "m/s",
 					"min" : 3.4
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -2139,7 +2183,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -2406,14 +2450,14 @@
 					"units" : "m/s",
 					"min" : 3.5
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -2425,7 +2469,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -2648,14 +2692,14 @@
 					"units" : "m/s",
 					"min" : 3.3
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -2667,7 +2711,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -2887,14 +2931,14 @@
 					"units" : "m/s",
 					"min" : 3.1
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -2906,7 +2950,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -3112,14 +3156,14 @@
 					"units" : "m/s",
 					"min" : 3.6
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -3131,7 +3175,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -3349,14 +3393,14 @@
 					"units" : "m/s",
 					"min" : 3.5
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -3368,7 +3412,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -3609,14 +3653,14 @@
 					"units" : "m/s",
 					"min" : 3.4
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -3628,7 +3672,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -3842,14 +3886,14 @@
 					"units" : "m/s",
 					"min" : 3.5
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -3861,7 +3905,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -4074,14 +4118,14 @@
 					"units" : "m/s",
 					"min" : 3.5
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -4093,7 +4137,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -4324,14 +4368,14 @@
 					"units" : "m/s",
 					"min" : 3
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -4343,7 +4387,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -4554,14 +4598,14 @@
 					"units" : "m/s",
 					"min" : 3.4
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -4573,7 +4617,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -4797,14 +4841,14 @@
 					"units" : "m/s",
 					"min" : 3.4
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -4816,7 +4860,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -5018,14 +5062,14 @@
 					"units" : "m/s",
 					"min" : 3.1
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -5037,7 +5081,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -5282,14 +5326,14 @@
 					"units" : "m/s",
 					"min" : 3.3
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -5301,7 +5345,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -5508,14 +5552,14 @@
 					"units" : "m/s",
 					"min" : 3.4
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -5527,7 +5571,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -5772,14 +5816,14 @@
 					"units" : "m/s",
 					"min" : 3.3
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -5791,7 +5835,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -6027,14 +6071,14 @@
 					"units" : "m/s",
 					"min" : 3.3
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -6046,7 +6090,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -6268,14 +6312,14 @@
 					"units" : "m/s",
 					"min" : 3.3
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -6287,7 +6331,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -6524,14 +6568,14 @@
 					"units" : "m/s",
 					"min" : 3.3
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -6543,7 +6587,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -6813,14 +6857,14 @@
 					"units" : "m/s",
 					"min" : 3.4
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -6832,7 +6876,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -7086,14 +7130,14 @@
 					"units" : "m/s",
 					"min" : 3.2
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -7105,7 +7149,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -7339,14 +7383,14 @@
 					"units" : "m/s",
 					"min" : 3
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -7358,7 +7402,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -7564,14 +7608,14 @@
 					"units" : "m/s",
 					"min" : 3.3
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -7583,7 +7627,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -7826,14 +7870,14 @@
 					"units" : "m/s",
 					"min" : 3.5
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -7845,7 +7889,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -8070,14 +8114,14 @@
 					"units" : "m/s",
 					"min" : 3.1
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -8089,7 +8133,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -8309,14 +8353,14 @@
 					"units" : "m/s",
 					"min" : 3.4
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -8328,7 +8372,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -8585,14 +8629,14 @@
 					"units" : "m/s",
 					"min" : 3.2
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -8604,7 +8648,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -8841,14 +8885,14 @@
 					"units" : "m/s",
 					"min" : 3.1
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -8860,7 +8904,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -9090,14 +9134,14 @@
 					"units" : "m/s",
 					"min" : 3.3
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -9109,7 +9153,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -9344,14 +9388,14 @@
 					"units" : "m/s",
 					"min" : 3.1
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -9363,7 +9407,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -9608,14 +9652,14 @@
 					"units" : "m/s",
 					"min" : 3.4
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -9627,7 +9671,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -9843,14 +9887,14 @@
 					"units" : "m/s",
 					"min" : 3.4
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -9862,7 +9906,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -10072,14 +10116,14 @@
 					"units" : "m/s",
 					"min" : 3.1
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -10091,7 +10135,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
@@ -10319,14 +10363,14 @@
 					"units" : "m/s",
 					"min" : 3.3
 				},
-				"energy_regen" : {
-					"name" : "Energy Regen",
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0
 				},
 				"cooldown" : {
-					"name" : "Cooldown",
+					"name" : "Cooldown Speed",
 					"units" : "%",
 					"min" : 100
 				},
@@ -10338,7 +10382,7 @@
 				"crit_damage" : {
 					"name" : "Critical Hit Damage",
 					"units" : "%",
-					"min" : 50
+					"min" : 150
 				},
 				"armor_pierce" : {
 					"name" : "Armor Piercing",
