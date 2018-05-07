@@ -1,4 +1,4 @@
-# Vainglory Base Stats
+# Vainglory Base Stats v3.2.0.0
 A JSON object master file, hard-coded from the game itself, for use in web-based applications that can parse JSON data.
 
 
