@@ -64,22 +64,22 @@ The structure of the JSON data in the vainglory.json file is as follows:
         * value
         * name
         * units
-      * energy
-      * weapon_power
-      * crystal_power
-      * attack_speed
-      * armor
-      * shield
-      * range
-      * move_speed
-      * energy_recharge
-      * cooldown
-      * crit_chance
-      * crit_damage
-      * armor_pierce
-      * shield_pierce
-      * weapon_lifesteal
-      * crystal_lifesteal
+      * energy (same as health)
+      * weapon_power (same as health)
+      * crystal_power (same as health)
+      * attack_speed (same as health)
+      * armor (same as health)
+      * shield (same as health)
+      * range (same as health)
+      * move_speed (same as health)
+      * energy_recharge (same as health)
+      * cooldown (same as health)
+      * crit_chance (same as health)
+      * crit_damage (same as health)
+      * armor_pierce (same as health)
+      * shield_pierce (same as health)
+      * weapon_lifesteal (same as health)
+      * crystal_lifesteal (same as health)
     * tip
     * build_from
     * build_to
