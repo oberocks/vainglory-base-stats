@@ -4,6 +4,9 @@ A JSON object master file, hard-coded from the game itself, for use in web-based
 ### Getting Started
 Start by downloading the file, the project zip, or simplay copy/pasting the data directly into a file for your project.
 
+### Top-Level Data Objects
+Within the main Vainglory JSON object, there is currently 2 usable top-level data objects. The data for all of the heroes in the game can be accessed by using the JSON key `heroes`. The data for all of the items in the game can be accessed by using the JSON key `items`.
+
 ### Accessing the Data (as a JavaScript object)
 If you are using JavaScript, you can simply define the entire `vainglory.json` object as a value for a var or const, and avoid having to parse the data entirely.
 ```javascript
@@ -19,38 +22,55 @@ console.log(vaingloryObject.heroes.adagio.name);  // RETURNS: "Adagio"
 ```
 
 ### Accessing the Data (as an Asynchronous call)
-Within the main Vainglory JSON object, there is currently 2 usable data sets. The data for heroes can be accessed by using the JSON key `heroes`. The data for items can be accessed by using the JSON key `items`.
+Many developers would prefer to call a file of this size Asynchronously to better manage the UX and load times of their applications. To use this method, you would want to store the data as a file on your server, and use a server-side call to get the data and work with it. Here's a couple of examples.
+
+If you're using jQuery in your project, you can call the data like so:
 ```javascript
 // jQuery example of heroes key in use
 
 var vainglory;
 var vgGit = "data/vainglory.json";
+
 var vgData = $.getJSON( vgGit, function(data) {
+    
     vainglory = data;
+    
 });
 
+// Access data like so:
 console.log('Number of Heroes: ' + vainglory.heroes.length);
 console.log('Number of Items: ' + vainglory.items.length);
 ```
 
+If you're using standard JavaScript
 ```javascript
 // Pure JavaScript example of heroes key in use
 
-var vainglory;
-var vgGit = "data/vainglory.json";
+const vainglory;
+const vgGit = "data/vainglory.json";
 
-var request = new XMLHttpRequest();
+const request = new XMLHttpRequest();
  
 request.onreadystatechange = function() {
+  
   if(request.readyState === 4) {
+    
     if(request.status === 200) { 
+      
       vainglory = request.responseText;
+      
+      // Access data like so:
       console.log('Number of Heroes: ' + vainglory.heroes.length);
       console.log('Number of Items: ' + vainglory.items.length);
+      
     } else {
+      
       console.log('An error occurred during your request: ' +  request.status + ' ' + request.statusText);
-    } 
+      
+    }
+    
   }
+  
 }
  
 request.open('GET', vgGit);
