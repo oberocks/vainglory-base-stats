@@ -1,9 +1,25 @@
 # Vainglory Base Stats v3.2.1.0
 A JSON object master file, hard-coded from the game itself, for use in web-based applications that can parse JSON data.
 
+### Getting Started
+Start by downloading the file, the project zip, or simplay copy/pasting the data directly into a file for your project.
 
-### Accessing the Data
-Within the main Vainglory JSON object, there is currently 1 usable data set (an items data set is planned in the future). This data is accessed with the key `heroes`.
+### Accessing the Data (as a JavaScript object)
+If you are using JavaScript, you can simply define the entire `vainglory.json` object as a value for a var or const, and avoid having to parse the data entirely.
+```javascript
+const vaingloryObject = {
+    "items" : {...},
+    "heroes" : {...}
+};
+```
+With this method you can access the data like so:
+```javascript
+console.log(vaingloryObject.items.aegis.name);  // RETURNS: "Aegis"
+console.log(vaingloryObject.heroes.adagio.name);  // RETURNS: "Adagio"
+```
+
+### Accessing the Data (as an Asynchronous call)
+Within the main Vainglory JSON object, there is currently 2 usable data sets. The data for heroes can be accessed by using the JSON key `heroes`. The data for items can be accessed by using the JSON key `items`.
 ```javascript
 // jQuery example of heroes key in use
 
@@ -14,6 +30,7 @@ var vgData = $.getJSON( vgGit, function(data) {
 });
 
 console.log('Number of Heroes: ' + vainglory.heroes.length);
+console.log('Number of Items: ' + vainglory.items.length);
 ```
 
 ```javascript
@@ -29,6 +46,7 @@ request.onreadystatechange = function() {
     if(request.status === 200) { 
       vainglory = request.responseText;
       console.log('Number of Heroes: ' + vainglory.heroes.length);
+      console.log('Number of Items: ' + vainglory.items.length);
     } else {
       console.log('An error occurred during your request: ' +  request.status + ' ' + request.statusText);
     } 
