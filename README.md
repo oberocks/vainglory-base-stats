@@ -1,4 +1,4 @@
-# Vainglory Base Stats v3.2.0.0
+# Vainglory Base Stats v3.2.1.0
 A JSON object master file, hard-coded from the game itself, for use in web-based applications that can parse JSON data.
 
 
@@ -40,7 +40,49 @@ request.open('GET', vgGit);
 
 ### Data Structure
 The structure of the JSON data in the vainglory.json file is as follows:
-* items (Coming Soon!)
+* items
+  * item key
+    * name
+    * thumb
+    * category
+    * tier
+    * cost
+    * activate
+    * passive
+    * vampirism
+    * bookofeulogies
+    * armorbreaker
+    * shieldbreaker
+    * cosume
+    * boots
+    * travelboots
+    * stormguard
+    * breadth
+    * depth
+    * stats
+      * health
+        * value
+        * name
+        * units
+      * energy
+      * weapon_power
+      * crystal_power
+      * attack_speed
+      * armor
+      * shield
+      * range
+      * move_speed
+      * energy_recharge
+      * cooldown
+      * crit_chance
+      * crit_damage
+      * armor_pierce
+      * shield_pierce
+      * weapon_lifesteal
+      * crystal_lifesteal
+    * tip
+    * build_from
+    * build_to
 * heroes
   * hero key
     * name
