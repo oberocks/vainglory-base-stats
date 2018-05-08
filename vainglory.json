@@ -1,5 +1,5 @@
 {
-	"items2" : {
+	"items" : {
 		"aegis" : {
 			"name" : "Aegis",
 			"thumb" : "aegis.png",
@@ -18,836 +18,1169 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              { "value" : 250, "name" : "Max Health", "units" : false },
-				"energy" :              { "value" : 0, "name" : "Energy", "units" : false },
-				"weapon_power" :        { "value" : 0, "name" : "Weapon Power", "units" : false },
-				"crystal_power" :       { "value" : 0, "name" : "Crystal Power", "units" : false },
-				"attack_speed" :        { "value" : 0, "name" : "Attack Speed", "units" : "%" },
+				"energy" :              false,
+				"weapon_power" :        false,
+				"crystal_power" :       false,
+				"attack_speed" :        false,
 				"armor" :               { "value" : 25, "name" : "Armor", "units" : false },
 				"shield" :              { "value" : 85, "name" : "Shield", "units" : false },
-				"range" :               { "value" : 0, "name" : "Range", "units" : "m" },
-				"move_speed" :          { "value" : 0, "name" : "Move Speed", "units" : "m/s" },
-				"energy_recharge" :     { "value" : 0, "name" : "Energy Recharge", "units" : false },
-				"cooldown" :            { "value" : 0, "name" : "Cooldown Speed", "units" : "%" },
-				"crit_chance" :         { "value" : 0, "name" : "Critical Hit Chance", "units" : "%" },
-				"crit_damage" :         { "value" : 0, "name" : "Critical Hit Damage", "units" : "%" },
-				"armor_pierce" :        { "value" : 0, "name" : "Armor Pierce", "units" : "%" },
-				"shield_pierce" :       { "value" : 0, "name" : "Shield Pierce", "units" : "%" },
-				"weapon_lifesteal" :    { "value" : 0, "name" : "Weapon Lifesteal",  "units" : "%" },
-				"crystal_lifesteal" :   { "value" : 0, "name" : "Crystal Lifesteal", "units" : "%" }
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     false,
+				"cooldown" :            false,
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
 			},
 			"tip" : "Greatly reduces damage from enemy abilities.",
-			"build_from" : {
-				"path_1" : ["oakheart", "reflex_block"],
-				"path_2" : ["light_shield", "kinetic_shield"]
-			},
-			"build_to" : false
-		}
-	},
-	"items" : [
-		{
-			"slug" : "aegis",
-			"name" : "Aegis",
-			"thumb" : "aegis.png",
-			"category" : "Defense",
-			"tier" : "3",
-			"cost" : "2150",
-			"description" : [
-				"Activate: Reflex Block (35s cooldown)"
+			"build_from" : [
+				"reflex_block", 
+				"kinetic_shield"
 			],
-			"stats" : [
-				{
-					"name" : "Shield",
-					"value" : 85
-				},
-				{
-					"name" : "Armor",
-					"value" : 25
-				},
-				{
-					"name" : "Max Health",
-					"value" : 250
-				}
-			],
-			"tip" : "Tip: Greatly reduces damage from enemy abilities.",
-			"build" : [
-				"oakheart",
-				"reflex-block",
-				"light-shield",
-				"kinetic-shield"
-			],
-			"buildto" : false
+			"builds_to" : false
 		},
-		{
-			"slug" : "aftershock",
+		"aftershock" : {
 			"name" : "Aftershock",
 			"thumb" : "aftershock.png",
 			"category" : "Crystal",
-			"tier" : "3",
-			"cost" : "2400",
-			"description" : [
-				"Passive: After using an ability, your next basic attack deals 13% of target's max health as damage with +50% lifesteal. Max 400 damage vs non-heroes. 1.5s cooldown."
-			],
-			"stats" : [
-				{
-					"name" : "Cooldown Speed (%)",
-					"value" : 25
-				},
-				{
-					"name" : "Energy Recharge",
-					"value" : 2.5
-				},
-				{
-					"name" : "Crystal Power",
-					"value" : 35
-				}
-			],
-			"tip" : "Tip: Very effective against enemies with high health.",
-			"build" : [
-				"crystal-bit",
-				"eclipse-prism",
-				"hourglass",
+			"tier" : 3,
+			"cost" : 2400,
+			"activate" : false,
+			"passive" : "After using an ability, your next basic attack deals 13% of target's max health as damage with +50% lifesteal. Max 400 damage vs non-heroes. 1.5s cooldown.",
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              false,
+				"energy" :              false,
+				"weapon_power" :        false,
+				"crystal_power" :       { "value" : 35, "name" : "Crystal Power", "units" : false },
+				"attack_speed" :        false,
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     { "value" : 2.5, "name" : "Energy Recharge", "units" : false },
+				"cooldown" :            { "value" : 25, "name" : "Cooldown Speed", "units" : "%" },
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
+			"tip" : "Very effective against enemies with high health.",
+			"build_from" : [
+				"eclipse_prism", 
 				"chronograph"
 			],
-			"buildto" : false
+			"builds_to" : false
 		},
-		{
-			"slug" : "alternating-current",
+		"alternating_current" : {
 			"name" : "Alternating Current",
 			"thumb" : "alternating-current.png",
 			"category" : "Crystal",
-			"tier" : "3",
-			"cost" : "2800",
-			"description" : [
-				"Passive: Every other basic attack deals 70% of your crystal power as bonus damage."
-			],
-			"stats" : [
-				{
-					"name" : "Crystal Power",
-					"value" : 60
-				},
-				{
-					"name" : "Attack Speed (%)",
-					"value" : 35
-				}
-			],
-			"tip" : "Tip: Helps you deal consistent damage after you've built enough crystal power.",
-			"build" : [
-				"crystal-bit",
-				"heavy-crystal",
-				"swift-shooter",
-				"blazing-salvo"
-			],
-			"buildto" : false
+			"tier" : 3,
+			"cost" : 2800,
+			"activate" : false,
+			"passive" : "Every other basic attack deals 70% of your crystal power as bonus damage.",
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              false,
+				"energy" :              false,
+				"weapon_power" :        false,
+				"crystal_power" :       { "value" : 60, "name" : "Crystal Power", "units" : false },
+				"attack_speed" :        { "value" : 35, "name" : "Attack Speed", "units" : "%" },
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     false,
+				"cooldown" :            false,
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
+			"tip" : "Helps you deal consistent damage after you've built enough crystal power.",
+			"build_from" : {
+				"path_1" : ["heavy_crystal"],
+				"path_2" : ["blazing_salvo"]
+			},
+			"builds_to" : false
 		},
-		{
-			"slug" : "atlas-pauldron",
+		"atlas_pauldron" : {
 			"name" : "Atlas Pauldron",
 			"thumb" : "atlas-pauldron.png",
 			"category" : "Defense",
-			"tier" : "3",
-			"cost" : "1900",
-			"description" : [
-				"Activate: Maim nearby enemies, lowering their attack speed by 50% of their total for 4s in a 4-meter range. (20s cooldown)"
+			"tier" : 3,
+			"cost" : 1900,
+			"activate" : "Maim nearby enemies, lowering their attack speed by 50% of their total for 4s in a 4-meter range. (20s cooldown)",
+			"passive" : false,
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              false,
+				"energy" :              false,
+				"weapon_power" :        false,
+				"crystal_power" :       false,
+				"attack_speed" :        false,
+				"armor" :               { "value" : 80, "name" : "Armor", "units" : false },
+				"shield" :              { "value" : 25, "name" : "Shield", "units" : false },
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     false,
+				"cooldown" :            false,
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
+			"tip" : "Counters enemies with high attack speed, but you must get close to the enemies to affect them.",
+			"build_from" : [
+				"coat_of_plates"
 			],
-			"stats" : [
-				{
-					"name" : "Armor",
-					"value" : 80
-				},
-				{
-					"name" : "Shield",
-					"value" : 25
-				}
-			],
-			"tip" : "Tip: Counters enemies with high attack speed, but you must get close to the enemies to affect them.",
-			"build" : [
-				"light-armor",
-				"coat-of-plates"
-			],
-			"buildto" : false
+			"builds_to" : false
 		},
-		{
-			"slug" : "barbed-needle",
+		"barbed_needle" : {
 			"name" : "Barbed Needle",
 			"thumb" : "barbed-needle.png",
 			"category" : "Weapon",
-			"tier" : "2",
-			"cost" : "800",
-			"description" : [
-				"Vampirism: +8% lifesteal (does not stack with other Vampirism)",
-				"Passive: Book of Eulogies"
+			"tier" : 2,
+			"cost" : 800,
+			"activate" : false,
+			"passive" : "Book of Eulogies",
+			"vampirism" : "+8% lifesteal (does not stack with other Vampirism)",
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              false,
+				"energy" :              false,
+				"weapon_power" :        { "value" : 12, "name" : "Weapon Power", "units" : false },
+				"crystal_power" :       false,
+				"attack_speed" :        false,
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     false,
+				"cooldown" :            false,
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    { "value" : 8, "name" : "Weapon Lifesteal",  "units" : "%" },
+				"crystal_lifesteal" :   false
+			},
+			"tip" : "Helps you stay healthy while last-hitting in lane.",
+			"build_from" : [
+				"book_of_eulogies"
 			],
-			"stats" : [
-				{
-					"name" : "Weapon Power",
-					"value" : 12
-				}
-			],
-			"tip" : "Tip: Helps you stay healthy while last-hitting in lane.",
-			"build" : [
-				"light-armor",
-				"coat-of-plates"
-			],
-			"buildto" : [
-				"serpent-mask",
-				"poisoned-shiv"
+			"builds_to" : [
+				"serpent_mask",
+				"poisoned_shiv"
 			]
 		},
-		{
-			"slug" : "blazing-salvo",
+		"blazing_salvo" : {
 			"name" : "Blazing Salvo",
 			"thumb" : "blazing-salvo.png",
 			"category" : "Weapon",
-			"tier" : "2",
-			"cost" : "700",
-			"description" : false,
-			"stats" : [
-				{
-					"name" : "Attack Speed (%)",
-					"value" : 20
-				}
-			],
+			"tier" : 2,
+			"cost" : 700,
+			"activate" : false,
+			"passive" : false,
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              false,
+				"energy" :              false,
+				"weapon_power" :        false,
+				"crystal_power" :       false,
+				"attack_speed" :        { "value" : 20, "name" : "Attack Speed", "units" : "%" },
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     false,
+				"cooldown" :            false,
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
 			"tip" : false,
-			"build" : [
-				"swift-shooter"
+			"build_from" : [
+				"swift_shooter"
 			],
-			"buildto" : [
-				"poisoned-shiv",
-				"breaking-point",
+			"builds_to" : [
+				"poisoned_shiv",
+				"breaking_point",
 				"bonesaw",
-				"tornado-trigger"
+				"tornado_trigger"
 			]
 		},
-		{
-			"slug" : "bonesaw",
+		"bonesaw" : {
 			"name" : "Bonesaw",
 			"thumb" : "bonesaw.png",
 			"category" : "Weapon",
-			"tier" : "3",
-			"cost" : "2700",
-			"description" : [
-				"Passive: Your basic attacks shred 5% of the target's armor for 3s. Max 8 stacks.",
-				"Armorbreaker: +18% armor pierce (does not stack with other Armorbreakers)"
+			"tier" : 3,
+			"cost" : 2700,
+			"activate" : false,
+			"passive" : "Your basic attacks shred 5% of the target's armor for 3s. Max 8 stacks.",
+			"vampirism" : false,
+			"armorbreaker" : "+18% armor pierce (does not stack with other Armorbreakers)",
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              false,
+				"energy" :              false,
+				"weapon_power" :        { "value" : 15, "name" : "Weapon Power", "units" : false },
+				"crystal_power" :       false,
+				"attack_speed" :        { "value" : 25, "name" : "Attack Speed", "units" : "%" },
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     false,
+				"cooldown" :            false,
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        { "value" : 18, "name" : "Armor Pierce", "units" : "%" },
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
+			"tip" : false,
+			"build_from" : [
+				"piercing_spear",
+				"blazing_salvo"
 			],
-			"stats" : [
-				{
-					"name" : "Weapon Power",
-					"value" : 15
-				},
-				{
-					"name" : "Attack Speed (%)",
-					"value" : 25
-				}
-			],
-			"tip" : "Tip: Effective against turrets and enemies with high armor. Best if you or your team are already dealing lots of weapon damage.",
-			"build" : [
-				"weapon-blade",
-				"piercing-spear",
-				"swift-shooter",
-				"blazing-salvo"
-			],
-			"buildto" : false
+			"builds_to" : false
 		},
-		{
-			"slug" : "book-of-eulogies",
+		"book_of_eulogies" : {
 			"name" : "Book of Eulogies",
 			"thumb" : "book-of-eulogies.png",
 			"category" : "Weapon",
-			"tier" : "1",
-			"cost" : "300",
-			"description" : [
-				"Passive: Restores 25 health whenever you kill a minion or monster (60 if using a melee default attack).",
-				"Vampirism: +4% lifesteal (does not stack with other Vampirism)"
-			],
-			"stats" : [
-				{
-					"name" : "Weapon Power",
-					"value" : 5
-				}
-			],
-			"tip" : "Tip: Helps you stay healthy while last-hitting in lane.",
-			"build" : false,
-			"buildto" : [
-				"barbed-needle",
-				"serpent-mask",
-				"poisoned-shiv"
+			"tier" : 1,
+			"cost" : 300,
+			"activate" : false,
+			"passive" : "Restores 25 health whenever you kill a minion or monster (60 if using a melee default attack).",
+			"vampirism" : "+4% lifesteal (does not stack with other Vampirism)",
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              false,
+				"energy" :              false,
+				"weapon_power" :        { "value" : 5, "name" : "Weapon Power", "units" : false },
+				"crystal_power" :       false,
+				"attack_speed" :        false,
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     false,
+				"cooldown" :            false,
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    { "value" : 4, "name" : "Weapon Lifesteal",  "units" : "%" },
+				"crystal_lifesteal" :   false
+			},
+			"tip" : "Helps you stay healthy while last-hitting in lane.",
+			"build_from" : false,
+			"builds_to" : [
+				"barbed_needle"
 			]
 		},
-		{
-			"slug" : "breaking-point",
+		"breaking_point" : {
 			"name" : "Breaking Point",
 			"thumb" : "breaking-point.png",
 			"category" : "Weapon",
-			"tier" : "3",
-			"cost" : "2600",
-			"description" : [
-				"Passive: Gain 10 weapon power for every 170 weapon damage done to enemy heroes +5/10 (Melee/Ranged) damage needed for each stack thereafter. 25 stacks max. Decays 3 stacks per second after you've stopped stacking for 2.5s."
-			],
-			"stats" : [
-				{
-					"name" : "Weapon Power",
-					"value" : 55
-				},
-				{
-					"name" : "Attack Speed (%)",
-					"value" : 20
-				}
-			],
-			"tip" : "Tip: Very weak at first, but becomes extremely powerful over the course of long battles.",
-			"build" : [
-				"weapon-blade",
-				"heavy-steel",
-				"swift-shooter",
-				"blazing-salvo"
-			],
-			"buildto" : false
+			"tier" : 3,
+			"cost" : 2600,
+			"activate" : false,
+			"passive" : "Gain 10 weapon power for every 170 weapon damage done to enemy heroes +5/10 (Melee/Ranged) damage needed for each stack thereafter. 25 stacks max. Decays 3 stacks per second after you've stopped stacking for 2.5s.",
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              false,
+				"energy" :              false,
+				"weapon_power" :        { "value" : 55, "name" : "Weapon Power", "units" : false },
+				"crystal_power" :       false,
+				"attack_speed" :        { "value" : 20, "name" : "Attack Speed", "units" : "%" },
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     false,
+				"cooldown" :            false,
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
+			"tip" : "Helps you stay healthy while last-hitting in lane.",
+			"build_from" : false,
+			"builds_to" : [
+				"barbed_needle"
+			]
 		},
-		{
-			"slug" : "broken-myth",
+		"broken_myth" : {
 			"name" : "Broken Myth",
 			"thumb" : "broken-myth.png",
 			"category" : "Crystal",
-			"tier" : "3",
-			"cost" : "2700",
-			"description" : [
-				"Shieldbreaker: +30% shield pierce (does not stack with other Shieldbreakers)"
+			"tier" : 3,
+			"cost" : 2700,
+			"activate" : false,
+			"passive" : false,
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : "+30% shield pierce (does not stack with other Shieldbreakers)",
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              false,
+				"energy" :              false,
+				"weapon_power" :        false,
+				"crystal_power" :       { "value" : 80, "name" : "Crystal Power", "units" : false },
+				"attack_speed" :        false,
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     false,
+				"cooldown" :            false,
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       { "value" : 30, "name" : "Shield Pierce", "units" : "%" },
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
+			"tip" : "Improves crystal damage, especially against heavily shielded enemies.",
+			"build_from" : [
+				"heavy_prism",
+				"piercing_shard"
 			],
-			"stats" : [
-				{
-					"name" : "Crystal Power",
-					"value" : 80
-				}
-			],
-			"tip" : "Tip: Improves crystal damage, especially against heavily shielded enemies.",
-			"build" : [
-				"crystal-bit",
-				"heavy-prism",
-				"crystal-bit",
-				"piercing-shard"
-			],
-			"buildto" : false
+			"builds_to" : false
 		},
-		{
-			"slug" : "chronograph",
+		"chronograph" : {
 			"name" : "Chronograph",
 			"thumb" : "chronograph.png",
 			"category" : "Utility",
-			"tier" : "2",
-			"cost" : "800",
-			"description" : false,
-			"stats" : [
-				{
-					"name" : "Cooldown Speed (%)",
-					"value" : 20
-				},
-				{
-					"name" : "Energy Recharge",
-					"value" : 2.5
-				}
-			],
-			"tip" : "Tip: Cooldown speed increases the speed at which your abilities come off the timer.",
-			"build" : [
+			"tier" : 2,
+			"cost" : 800,
+			"activate" : false,
+			"passive" : false,
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              false,
+				"energy" :              false,
+				"weapon_power" :        false,
+				"crystal_power" :       false,
+				"attack_speed" :        false,
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     { "value" : 2.5, "name" : "Energy Recharge", "units" : false },
+				"cooldown" :            { "value" : 20, "name" : "Cooldown Speed", "units" : "%" },
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
+			"tip" : "Cooldown speed increases the speed at which your abilities come off the timer.",
+			"build_from" : [
 				"hourglass"
 			],
-			"buildto" : [
+			"builds_to" : [
 				"clockwork",
 				"aftershock",
 				"spellsword",
 				"contraption",
-				"stromcrown",
-				"nullwave-gauntlet"
+				"stormcrown",
+				"nullwave_gauntlet"
 			]
 		},
-		{
-			"slug" : "clockwork",
+		"clockwork" : {
 			"name" : "Clockwork",
 			"thumb" : "clockwork.png",
 			"category" : "Crystal",
-			"tier" : "3",
-			"cost" : "2400",
-			"description" : [
-				"Passive: Upon damaging an enemy hero with an ability, reduce all cooldowns by 6%. This can only occur once every 2s."
-			],
-			"stats" : [
-				{
-					"name" : "Crystal Power",
-					"value" : 40
-				},
-				{
-					"name" : "Cooldown Speed (%)",
-					"value" : 35
-				},
-				{
-					"name" : "Max Energy",
-					"value" : 600
-				},
-				{
-					"name" : "Energy Recharge",
-					"value" : 10
-				}
-			],
-			"tip" : "Tip: Aggressive usage of abilities will allow you to cast more frequently.",
-			"build" : [
-				"energy-battery",
-				"void-battery",
-				"hourglass",
+			"tier" : 3,
+			"cost" : 2400,
+			"activate" : "Upon damaging an enemy hero with an ability, reduce all cooldowns by 6%. This can only occur once every 2s.",
+			"passive" : false,
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              false,
+				"energy" :              { "value" : 600, "name" : "Max Energy", "units" : false },
+				"weapon_power" :        false,
+				"crystal_power" :       { "value" : 40, "name" : "Crystal Power", "units" : false },
+				"attack_speed" :        false,
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     { "value" : 10, "name" : "Energy Recharge", "units" : false },
+				"cooldown" :            { "value" : 35, "name" : "Cooldown Speed", "units" : "%" },
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
+			"tip" : "Aggressive usage of abilities will allow you to cast more frequently.",
+			"build_from" : [
+				"void_battery",
 				"chronograph"
 			],
-			"buildto" : false
+			"builds_to" : false
 		},
-		{
-			"slug" : "coat-of-plates",
+		"coat_of_plates" : {
 			"name" : "Coat of Plates",
 			"thumb" : "coat-of-plates.png",
 			"category" : "Defense",
-			"tier" : "2",
-			"cost" : "800",
-			"description" : false,
-			"stats" : [
-				{
-					"name" : "Armor",
-					"value" : 65
-				},
-				{
-					"name" : "Shield",
-					"value" : 20
-				}
+			"tier" : 2,
+			"cost" : 800,
+			"activate" : false,
+			"passive" : false,
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              false,
+				"energy" :              false,
+				"weapon_power" :        false,
+				"crystal_power" :       false,
+				"attack_speed" :        false,
+				"armor" :               { "value" : 65, "name" : "Armor", "units" : false },
+				"shield" :              { "value" : 20, "name" : "Shield", "units" : false },
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     false,
+				"cooldown" :            false,
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
+			"tip" : "Armor reduces damage from basic attacks.",
+			"build_from" : [
+				"light_armor"
 			],
-			"tip" : "Tip: Armor reduces damage from basic attacks.",
-			"build" : [
-				"light-armor"
-			],
-			"buildto" : [
-				"metal-jacket",
-				"atlas-pauldron"
+			"builds_to" : [
+				"metal_jacket",
+				"atlas_pauldron"
 			]
 		},
-		{
-			"slug" : "contraption",
+		"contraption" : {
 			"name" : "Contraption",
 			"thumb" : "contraption.png",
 			"category" : "Utility",
-			"tier" : "3",
-			"cost" : "2100",
-			"description" : [
-				"Activate: Target yourself to place a Scout Trap. Target the ground farther away to fire a Flare. 5s cooldown. 4 charges max. 20s per charge."
-			],
-			"stats" : [
-				{
-					"name" : "Max Health",
-					"value" : 450
-				},
-				{
-					"name" : "Cooldown Speed (%)",
-					"value" : 30
-				},
-				{
-					"name" : "Energy Recharge",
-					"value" : 3
-				}
-			],
-			"tip" : "Tip: A great way to save inventory space while still being able to control vision around the map =)",
-			"build" : [
-				"hourglass",
+			"tier" : 3,
+			"cost" : 2100,
+			"activate" : "Target yourself to place a Scout Trap. Target the ground farther away to fire a Flare. 5s cooldown. 4 charges max. 20s per charge.",
+			"passive" : false,
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              { "value" : 450, "name" : "Max Health", "units" : false },
+				"energy" :              false,
+				"weapon_power" :        false,
+				"crystal_power" :       false,
+				"attack_speed" :        false,
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     { "value" : 30, "name" : "Energy Recharge", "units" : false },
+				"cooldown" :            { "value" : 3, "name" : "Cooldown Speed", "units" : "%" },
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
+			"tip" : "A great way to save inventory space while still being able to control vision around the map =)",
+			"build_from" : [
 				"chronograph",
-				"oakheart",
-				"flare-gun"
+				"flare_gun"
 			],
-			"buildto" : false
+			"builds_to" : false
 		},
-		{
-			"slug" : "crucible",
+		"crucible" : {
 			"name" : "Crucible",
 			"thumb" : "crucible.png",
 			"category" : "Defense",
-			"tier" : "3",
-			"cost" : "1850",
-			"description" : [
-				"Activate: Trigger Reflex Block for you and nearby teammates. (45s cooldown)"
-			],
-			"stats" : [
-				{
-					"name" : "Max Health",
-					"value" : 700
-				}
-			],
-			"tip" : "Tip: Protect your friends with Reflex Block!",
-			"build" : [
-				"oakheart",
-				"reflex-block",
-				"oakheart",
+			"tier" : 3,
+			"cost" : 1850,
+			"activate" : "Trigger Reflex Block for you and nearby teammates. (45s cooldown)",
+			"passive" : false,
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              { "value" : 700, "name" : "Max Health", "units" : false },
+				"energy" :              false,
+				"weapon_power" :        false,
+				"crystal_power" :       false,
+				"attack_speed" :        false,
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     false,
+				"cooldown" :            false,
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
+			"tip" : "Protect your friends with Reflex Block!",
+			"build_from" : [
+				"reflex_block",
 				"dragonheart"
 			],
-			"buildto" : false
+			"builds_to" : false
 		},
-		{
-			"slug" : "crystal-bit",
+		"crystal_bit" : {
 			"name" : "Crystal Bit",
 			"thumb" : "crystal-bit.png",
 			"category" : "Crystal",
-			"tier" : "1",
-			"cost" : "300",
-			"description" : false,
-			"stats" : [
-				{
-					"name" : "Crystal Power",
-					"value" : 20
-				}
-			],
-			"tip" : "Tip: Crystal power increases the strength of abilities.",
-			"build" : false,
-			"buildto" : [
-				"heavy-prism",
-				"eclipse-prism",
-				"piercing-shard",
-				"shatterglass",
-				"spellfire",
-				"frostburn",
-				"dragons-eye",
-				"broken-myth",
-				"eve-of-harvest",
-				"aftershock",
-				"alternating-current"
+			"tier" : 1,
+			"cost" : 300,
+			"activate" : false,
+			"passive" : false,
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              false,
+				"energy" :              false,
+				"weapon_power" :        false,
+				"crystal_power" :       { "value" : 20, "name" : "Crystal Power", "units" : false },
+				"attack_speed" :        false,
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     false,
+				"cooldown" :            false,
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
+			"tip" : "Crystal power increases the strength of abilities.",
+			"build_from" : false,
+			"builds_to" : [
+				"heavy_prism",
+				"eclipse_prism",
+				"piercing_shard"
 			]
 		},
-		{
-			"slug" : "crystal-infusion",
+		"crystal_infusion" : {
 			"name" : "Crystal Infusion",
 			"thumb" : "crystal-infusion.png",
-			"category" : "Consumable",
-			"tier" : "1",
-			"cost" : "500",
-			"description" : [
-				"Consume: Temporarily gain 20-80 crystal power, 10-30% cooldown speed, and 0-15 armor and shield based on your level. Lasts 150s. Can only have on infusion active at a time."
-			],
+			"category" : "Other",
+			"tier" : 1,
+			"cost" : 500,
+			"activate" : false,
+			"passive" : false,
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : "Temporarily gain 20-80 crystal power, 10-30% cooldown speed, and 0-15 armor and shield based on your level. Lasts 150s. Can only have on infusion active at a time.",
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
 			"stats" : false,
-			"tip" : "Tip: Gain a powerful temporary advantage in your abilities.",
-			"build" : false,
-			"buildto" : false
+			"tip" : "Gain a powerful temporary advantage in your abilities.",
+			"build_from" : false,
+			"builds_to" : false
 		},
-		{
-			"slug" : "dragons-eye",
+		"dragons_eye" : {
 			"name" : "Dragon's Eye",
 			"thumb" : "dragons-eye.png",
 			"category" : "Crystal",
-			"tier" : "3",
-			"cost" : "3000",
-			"description" : [
-				"Passive: Gain 12 crystal power each second you damage enemy heroes. After 4s, lose 1 stack per second. 18 stacks max."
+			"tier" : 3,
+			"cost" : 3000,
+			"activate" : false,
+			"passive" : "Gain 12 crystal power each second you damage enemy heroes. After 4s, lose 1 stack per second. 18 stacks max.",
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              false,
+				"energy" :              false,
+				"weapon_power" :        false,
+				"crystal_power" :       { "value" : 85, "name" : "Crystal Power", "units" : false },
+				"attack_speed" :        false,
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     false,
+				"cooldown" :            false,
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
+			"tip" : "Abilities strengthen the longer you stay in a fight.",
+			"build_from" : [
+				"heavy_prism",
+				"eclipse_prism"
 			],
-			"stats" : [
-				{
-					"name" : "Crystal Power",
-					"value" : 85
-				}
-			],
-			"tip" : "Tip: Abilities strengthen the longer you stay in a fight.",
-			"build" : [
-				"crystal-bit",
-				"heavy-prism",
-				"crystal-bit",
-				"eclipse-prism"
-			],
-			"buildto" : false
+			"builds_to" : false
 		},
-		{
-			"slug" : "dragonblood-contract",
+		"dragonblood_contract" : {
 			"name" : "Dragonblood Contract",
 			"thumb" : "dragonblood-contract.png",
 			"category" : "Other",
-			"tier" : "1",
-			"cost" : "250",
-			"description" : [
-				"Activate: After a brief delay, nearby enemy heroes are marked for 3s. The next basic attack from an ally consumes the mark, slowing by 30% for 2s and dealing 100 bonus crystal damage. 10s cooldown. 2 max charges. 25s per charge."
-			],
+			"tier" : 1,
+			"cost" : 250,
+			"activate" : "After a brief delay, nearby enemy heroes are marked for 3s. The next basic attack from an ally consumes the mark, slowing by 30% for 2s and dealing 100 bonus crystal damage. 10s cooldown. 2 max charges. 25s per charge.",
+			"passive" : false,
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
 			"stats" : false,
-			"tip" : "Tip: Use this to aggressively secure kills in the early game.",
-			"build" : false,
-			"buildto" : false
+			"tip" : "Use this to aggressively secure kills in the early game.",
+			"build_from" : false,
+			"builds_to" : false
 		},
-		{
-			"slug" : "dragonheart",
+		"dragonheart" : {
 			"name" : "Dragonheart",
 			"thumb" : "dragonheart.png",
 			"category" : "Defense",
-			"tier" : "2",
-			"cost" : "650",
-			"description" : false,
-			"stats" : [
-				{
-					"name" : "Max Health",
-					"value" : 450
-				}
-			],
+			"tier" : 2,
+			"cost" : 650,
+			"activate" : false,
+			"passive" : false,
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              { "value" : 450, "name" : "Max Health", "units" : false },
+				"energy" :              false,
+				"weapon_power" :        false,
+				"crystal_power" :       false,
+				"attack_speed" :        false,
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     false,
+				"cooldown" :            false,
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
 			"tip" : false,
-			"build" : [
+			"build_from" : [
 				"oakheart"
 			],
-			"buildto" : [
-				"slumbering-husk",
+			"builds_to" : [
+				"slumbering_husk",
 				"crucible",
-				"war-treads",
-				"nullwave-gauntlet",
+				"war_treads",
+				"nullwave_gauntlet",
 				"shiversteel"
 			]
 		},
-		{
-			"slug" : "echo",
+		"echo" : {
 			"name" : "Echo",
 			"thumb" : "echo.png",
 			"category" : "Utility",
-			"tier" : "3",
-			"cost" : "2200",
-			"description" : [
-				"Activate: The last ability to be put on cooldown is refreshed (150% of ability's cooldown +10s cooldown)."
+			"tier" : 3,
+			"cost" : 2200,
+			"activate" : "The last ability to be put on cooldown is refreshed (150% of ability's cooldown +10s cooldown).",
+			"passive" : false,
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              false,
+				"energy" :              { "value" : 350, "name" : "Max Energy", "units" : false },
+				"weapon_power" :        false,
+				"crystal_power" :       false,
+				"attack_speed" :        false,
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     { "value" : 6, "name" : "Energy Recharge", "units" : false },
+				"cooldown" :            false,
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
+			"tip" : "This item has a shorter cooldown if activated on a low cooldown ability.",
+			"build_from" : [
+				"void_battery"
 			],
-			"stats" : [
-				{
-					"name" : "Max Energy",
-					"value" : 350
-				},
-				{
-					"name" : "Energy Recharge",
-					"value" : 6
-				}
-			],
-			"tip" : "Tip: This item has a shorter cooldown if activated on a low cooldown ability.",
-			"build" : [
-				"energy-battery",
-				"void-battery"
-			],
-			"buildto" : false
+			"builds_to" : false
 		},
-		{
-			"slug" : "eclipse-prism",
+		"eclipse_prism" : {
 			"name" : "Eclipse Prism",
 			"thumb" : "eclipse-prism.png",
 			"category" : "Crystal",
-			"tier" : "2",
-			"cost" : "650",
-			"description" : false,
-			"stats" : [
-				{
-					"name" : "Crystal Power",
-					"value" : 35
-				}
+			"tier" : 2,
+			"cost" : 650,
+			"activate" : false,
+			"passive" : false,
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              false,
+				"energy" :              false,
+				"weapon_power" :        false,
+				"crystal_power" :       { "value" : 35, "name" : "Crystal Power", "units" : false },
+				"attack_speed" :        false,
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     false,
+				"cooldown" :            false,
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
+			"tip" : "Crystal power increases the strength of abilities.",
+			"build_from" : [
+				"crystal_bit"
 			],
-			"tip" : "Tip: Crystal power increases the strength of abilities.",
-			"build" : [
-				"crystal-bit"
-			],
-			"buildto" : [
+			"builds_to" : [
 				"shatterglass",
 				"spellfire",
 				"frostburn",
-				"dragons-eye",
+				"dragons_eye",
 				"aftershock"
 			]
 		},
-		{
-			"slug" : "energy-battery",
+		"energy_battery" : {
 			"name" : "Energy Battery",
 			"thumb" : "energy-battery.png",
 			"category" : "Utility",
-			"tier" : "1",
-			"cost" : "300",
-			"description" : false,
-			"stats" : [
-				{
-					"name" : "Max Energy",
-					"value" : 200
-				},
-				{
-					"name" : "Energy Recharge",
-					"value" : 4
-				}
-			],
-			"tip" : "Tip: Energy is needed to use your abilities.",
-			"build" : false,
-			"buildto" : [
-				"void-battery",
+			"tier" : 1,
+			"cost" : 300,
+			"activate" : false,
+			"passive" : false,
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              false,
+				"energy" :              { "value" : 200, "name" : "Max Energy", "units" : false },
+				"weapon_power" :        false,
+				"crystal_power" :       false,
+				"attack_speed" :        false,
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     { "value" : 4, "name" : "Energy Recharge", "units" : false },
+				"cooldown" :            false,
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
+			"tip" : "Energy is needed to use your abilities.",
+			"build_from" : false,
+			"builds_to" : [
+				"void_battery",
 				"clockwork",
-				"eve-of-harvest",
-				"halcyon-chargers",
+				"eve_of_harvest",
+				"halcyon_chargers",
 				"echo"
 			]
 		},
-		{
-			"slug" : "eve-of-harvest",
+		"eve_of_harvest" : {
 			"name" : "Eve of Harvest",
 			"thumb" : "eve-of-harvest.png",
 			"category" : "Crystal",
-			"tier" : "3",
-			"cost" : "2600",
-			"description" : [
-				"Passive: Your next 600-1200 (level 1-12) points of crystal damage to enemy heroes has +25% lifesteal, recharges over 40s.",
-				"Vampirism: +10% lifesteal (does not stack with other Vampirism)"
+			"tier" : 3,
+			"cost" : 2600,
+			"activate" : false,
+			"passive" : "Your next 600-1200 (level 1-12) points of crystal damage to enemy heroes has +25% lifesteal, recharges over 40s.",
+			"vampirism" : "+10% lifesteal (does not stack with other Vampirism)",
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              false,
+				"energy" :              { "value" : 400, "name" : "Max Energy", "units" : false },
+				"weapon_power" :        false,
+				"crystal_power" :       { "value" : 55, "name" : "Crystal Power", "units" : false },
+				"attack_speed" :        false,
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     { "value" : 7, "name" : "Energy Recharge", "units" : false },
+				"cooldown" :            false,
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   { "value" : 10, "name" : "Crystal Lifesteal", "units" : "%" }
+			},
+			"tip" : "Dealing high amounts of crystal damage to enemies will rapidly restore your health.",
+			"build_from" : [
+				"heavy_prism",
+				"void_battery"
 			],
-			"stats" : [
-				{
-					"name" : "Crystal Power",
-					"value" : 55
-				},
-				{
-					"name" : "Max Energy",
-					"value" : 400
-				},
-				{
-					"name" : "Energy Recharge",
-					"value" : 7
-				}
-			],
-			"tip" : "Tip: Dealing high amounts of crystal damage to enemies will rapidly restore your health.",
-			"build" : [
-				"crystal-bit",
-				"heavy-prism",
-				"energy-battery",
-				"void-battery"
-			],
-			"buildto" : false
+			"builds_to" : false
 		},
-		{
-			"slug" : "flare",
+		"flare" : {
 			"name" : "Flare",
 			"thumb" : "flare.png",
-			"category" : "Consumable",
-			"tier" : "1",
-			"cost" : "25",
-			"description" : [
-				"Consume: Reveal an area for 5s. Can see over walls, into brush, and stealthed units. Scout Traps within theis area are permanently revealed."
-			],
+			"category" : "Other",
+			"tier" : 1,
+			"cost" : 25,
+			"activate" : false,
+			"passive" : false,
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : "Reveal an area for 5s. Can see over walls, into brush, and stealthed units. Scout Traps within theis area are permanently revealed.",
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
 			"stats" : false,
-			"tip" : "Tip: Use this to avoid being ambushed, especially in the late game.",
-			"build" : false,
-			"buildto" : false
+			"tip" : "Use this to avoid being ambushed, especially in the late game.",
+			"build_from" : false,
+			"builds_to" : false
 		},
-		{
-			"slug" : "flare-gun",
+		"flare_gun" : {
 			"name" : "Flare Gun",
 			"thumb" : "flare-gun.png",
 			"category" : "Utility",
-			"tier" : "2",
-			"cost" : "600",
-			"description" : [
-				"Activate: Fire a flare. 5s cooldown. 2 charges max. 20s per charge."
-			],
-			"stats" : [
-				{
-					"name" : "Max Health",
-					"value" : 300
-				}
-			],
-			"tip" : "Tip: Use this to avoid being ambushed, especially in the late game.",
-			"build" : [
+			"tier" : 2,
+			"cost" : 600,
+			"activate" : "Fire a flare. 5s cooldown. 2 charges max. 20s per charge.",
+			"passive" : false,
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              { "value" : 300, "name" : "Max Health", "units" : false },
+				"energy" :              false,
+				"weapon_power" :        false,
+				"crystal_power" :       false,
+				"attack_speed" :        false,
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     false,
+				"cooldown" :            false,
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
+			"tip" : "Use this to avoid being ambushed, especially in the late game.",
+			"build_from" : [
 				"oakheart"
 			],
-			"buildto" : [
+			"builds_to" : [
 				"contraption"
 			]
 		},
-		{
-			"slug" : "fountain-of-renewal",
+		"fountain_of_renewal" : {
 			"name" : "Fountain of Renewal",
 			"thumb" : "fountain-of-renewal.png",
 			"category" : "Defense",
-			"tier" : "3",
-			"cost" : "2300",
-			"description" : [
-				"Passive: Lifespring",
-				"Activate: Heals you and nearby allies for 2.5 health for each % missing health per second for 3s. (65s coodlown)."
-			],
-			"stats" : [
-				{
-					"name" : "Max Health",
-					"value" : 300
-				},
-				{
-					"name" : "Shield",
-					"value" : 65
-				},
-				{
-					"name" : "Armor",
-					"value" : 20
-				}
-			],
-			"tip" : "Tip: Heal is especially powerful on allies who are almost dead.",
-			"build" : [
-				"oakheart",
+			"tier" : 3,
+			"cost" : 2300,
+			"activate" : "Heals you and nearby allies for 2.5 health for each % missing health per second for 3s. (65s coodlown).",
+			"passive" : "Lifespring",
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              { "value" : 300, "name" : "Max Health", "units" : false },
+				"energy" :              false,
+				"weapon_power" :        false,
+				"crystal_power" :       false,
+				"attack_speed" :        false,
+				"armor" :               { "value" : 20, "name" : "Armor", "units" : false },
+				"shield" :              { "value" : 65, "name" : "Shield", "units" : false },
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     false,
+				"cooldown" :            false,
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
+			"tip" : "Heal is especially powerful on allies who are almost dead.",
+			"build_from" : [
 				"lifespring",
-				"light-shield",
-				"kinetic-shield"
+				"kinetic_shield"
 			],
-			"buildto" : false
+			"builds_to" : false
 		},
-		{
-			"slug" : "frostburn",
+		"frostburn" : {
 			"name" : "Frostburn",
 			"thumb" : "frostburn.png",
 			"category" : "Crystal",
-			"tier" : "3",
-			"cost" : "2600",
-			"description" : [
-				"Passive: Crystal damage abilities slow enemy heroes by 30% for 1s."
+			"tier" : 3,
+			"cost" : 2600,
+			"activate" : false,
+			"passive" : "Crystal damage abilities slow enemy heroes by 30% for 1s.",
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              false,
+				"energy" :              false,
+				"weapon_power" :        false,
+				"crystal_power" :       { "value" : 85, "name" : "Crystal Power", "units" : false },
+				"attack_speed" :        false,
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     false,
+				"cooldown" :            false,
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
+			"tip" : "Slow down your opponents to make it easier to land abilities.",
+			"build_from" : [
+				"eclipse_prism",
+				"heavy_prism"
 			],
-			"stats" : [
-				{
-					"name" : "Crystal Power",
-					"value" : 85
-				}
-			],
-			"tip" : "Tip: Slow down your opponents to make it easier to land abilities.",
-			"build" : [
-				"crystal-bit",
-				"heavy-prism",
-				"crystal-bit",
-				"eclipse-prism"
-			],
-			"buildto" : false
+			"builds_to" : false
 		},
-		{
-			"slug" : "halcyon-chargers",
+		"halcyon_chargers" : {
 			"name" : "Halcyon Chargers",
 			"thumb" : "halcyon-chargers.png",
 			"category" : "Utility",
-			"tier" : "3",
-			"cost" : "1400",
-			"description" : [
-				"Boots: +0.5 move speed (does not stack)",
-				"Passive: Travel Boots",
-				"Activate: Sprint for 3s (50s cooldown)"
+			"tier" : 3,
+			"cost" : 1400,
+			"activate" : "Sprint for 3s (50s cooldown)",
+			"passive" : "Travel Boots",
+			"vampirism" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : "+0.5 move speed (does not stack)",
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              { "value" : 150, "name" : "Max Health", "units" : false },
+				"energy" :              { "value" : 350, "name" : "Max Energy", "units" : false },
+				"weapon_power" :        false,
+				"crystal_power" :       false,
+				"attack_speed" :        false,
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          { "value" : 0.5, "name" : "Move Speed", "units" : "m/s" },
+				"energy_recharge" :     { "value" : 6, "name" : "Energy Recharge", "units" : false },
+				"cooldown" :            { "value" : 15, "name" : "Cooldown Speed", "units" : "%" },
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
+			"tip" : "Allows you to chase down targets and use abilities more frequently... or to escape trouble!",
+			"build_from" : [
+				"sprint_boots",
+				"void_battery"
 			],
-			"stats" : [
-				{
-					"name" : "Max Health",
-					"value" : 150
-				},
-				{
-					"name" : "Cooldown Speed (%)",
-					"value" : 15
-				},
-				{
-					"name" : "Max Energy",
-					"value" : 350
-				},
-				{
-					"name" : "Energy Recharge",
-					"value" : 6
-				},
-				{
-					"name" : "Move Speed",
-					"value" : 0.5
-				}
-			],
-			"tip" : "Tip: Allows you to chase down targets and use abilities more frequently... or to escape trouble!.",
-			"build" : [
-				"sprint-boots",
-				"travel-boots",
-				"energy-battery",
-				"void-battery"
-			],
-			"buildto" : false
+			"builds_to" : false
 		}
-	],
+	},
 	"heroes" : {
 		"adagio" : {
 			"name" : "Adagio",
