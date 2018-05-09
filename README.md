@@ -1,6 +1,10 @@
 # Vainglory Base Stats v3.2.1.0
 A JSON object master file, hard-coded from the game itself, for use in web-based applications that can parse JSON data.
 
+## Table of Contents
+-  [Getting Started](#getting-started)
+-  [Road Map](#road-map)
+
 ### Getting Started
 Start by downloading the file, the project zip, or simplay copy/pasting the data directly into a file for your project.
 
