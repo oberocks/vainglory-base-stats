@@ -10,7 +10,7 @@ A JSON object master file, hard-coded from the game itself, for use in web-based
 -  [Road Map](#road-map)
 
 ### Getting Started
-Start by downloading the file, the project zip, or simplay copy/pasting the data directly into a file for your project.
+Start by downloading the file, the project zip, or simply copy/paste the data directly into a file for your project.
 
 ### Top-Level Data Objects
 Within the main Vainglory JSON object, there are currently 2 usable top-level data objects. The data for all of the heroes in the game can be accessed by using the JSON key `heroes`. The data for all of the items can be accessed by using the JSON key `items`.
