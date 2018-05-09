@@ -5,7 +5,7 @@ A JSON object master file, hard-coded from the game itself, for use in web-based
 -  [Getting Started](#getting-started)
 -  [Top-Level Data Objects](#top-level-data-objects)
 -  [Accessing the Data (as a JavaScript object)](#accessing-the-data-as-a-javascript-object)
--  [Accessing the Data (as an Asynchronous call)](#accessing-the-data-with-an-asynchronous-call)
+-  [Accessing the Data (with an Asynchronous call)](#accessing-the-data-with-an-asynchronous-call)
 -  [Data Structure](#data-structure)
 -  [Road Map](#road-map)
 
