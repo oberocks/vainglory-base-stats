@@ -12505,7 +12505,7 @@
 					"stat_levels" : 0,
 					"stats" : false
 				},
-				"a" : {
+				"a_ability" : {
 					"name" : "Jawbreaker",
 					"thumb" : "jawbreaker.png",
 					"description" : [
@@ -12548,7 +12548,7 @@
 						}
 					]
 				},
-				"b" : {
+				"b_ability" : {
 					"name" : "Trash Talk",
 					"thumb" : "trash-talk.png",
 					"description" : [
@@ -12587,7 +12587,7 @@
 						}
 					]
 				},
-				"c" : {
+				"c_ability" : {
 					"name" : "Bada Boom",
 					"thumb" : "bada-boom.png",
 					"description" : [
