@@ -217,7 +217,7 @@ The structure of the JSON data in the vainglory.json file is as follows:
           * overdrive
 
 ### Road Map
-Here are the tasks planned for the future of this data set:
+Here are the tasks planned for the future of this project:
 1. Add in all of the in-game recommended builds for each hero (requested by the community)
 2. Add in a data field for each hero to specify the attach type (IE melee or ranged or melee/ranged)
 3. Add in the difficulty rating for each hero (IE easy, medium, hard)
