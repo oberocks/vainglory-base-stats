@@ -145,7 +145,18 @@ The structure of the JSON data in the vainglory.json file is as follows:
         * min
         * max
       * energy (same as health)
-      * weapon (same as health)
+      * weapon_power
+        * name
+        * units
+        * wp_scaling
+        * min
+        * max 
+      * crystal_power
+        * name
+        * units
+        * cp_scaling
+        * min
+        * max 
       * attack_speed (same as health)
       * armor (same as health)
       * shield (same as health)
