@@ -234,6 +234,7 @@ The structure of the JSON data in the vainglory.json file is as follows:
 ### Road Map
 Here are the tasks planned for the future of this project:
 1. Add in all of the in-game recommended builds for each hero (requested by the community)
+2. Add a complete set of in-game images to this repository, to match the image file names used in this data!
 2. Add in a data field for each hero to specify the attack type of a hero (IE melee, ranged, or melee/ranged)
 3. Add in the difficulty rating for each hero (IE easy, medium, or hard)
 3. Add in talent data for each hero
