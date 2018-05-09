@@ -9,6 +9,8 @@ A JSON object master file, hard-coded from the game itself, for use in web-based
 -  [Data Structure](#data-structure)
 -  [Road Map](#road-map)
 
+______________________
+
 ### Getting Started
 Start by downloading the file, the project zip, or simply copy/paste the data directly into a file for your project.
 
