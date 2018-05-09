@@ -169,6 +169,7 @@ The structure of the JSON data in the vainglory.json file is as follows:
         * name
         * thumb
         * description
+        * stat_levels
         * stats (same for each stat)
           * name
           * values
@@ -178,6 +179,7 @@ The structure of the JSON data in the vainglory.json file is as follows:
         * name
         * thumb
         * description
+        * stat_levels
         * stats (same for each stat)
           * name
           * values
@@ -187,6 +189,7 @@ The structure of the JSON data in the vainglory.json file is as follows:
         * name
         * thumb
         * description
+        * stat_levels
         * stats (same for each stat)
           * name
           * values
@@ -196,6 +199,7 @@ The structure of the JSON data in the vainglory.json file is as follows:
         * name
         * thumb
         * description
+        * stat_levels
         * stats (same for each stat)
           * name
           * values
@@ -205,6 +209,7 @@ The structure of the JSON data in the vainglory.json file is as follows:
         * name
         * thumb
         * description
+        * stat_levels
         * stats (same for each stat)
           * name
           * values
