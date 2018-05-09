@@ -5,7 +5,7 @@ A JSON object master file, hard-coded from the game itself, for use in web-based
 -  [Getting Started](#getting-started)
 -  [Top-Level Data Objects](#top-level-data-objects)
 -  [Accessing the Data (as a JavaScript object)](#accessing-the-data-as-a-javascript-object)
--  [Accessing the Data (as an Asynchronous call)](#accessing-the-data-as-an-asynchronous-call)
+-  [Accessing the Data (as an Asynchronous call)](#accessing-the-data-with-an-asynchronous-call)
 -  [Data Structure](#data-structure)
 -  [Road Map](#road-map)
 
@@ -29,7 +29,7 @@ console.log(vaingloryObject.items.aegis.name);  // RETURNS: "Aegis"
 console.log(vaingloryObject.heroes.adagio.name);  // RETURNS: "Adagio"
 ```
 
-### Accessing the Data (as an Asynchronous call)
+### Accessing the Data (with an Asynchronous call)
 Many developers would prefer to call a file of this size asynchronously to better manage the UX and load times of their applications. To use this method, you would want to store the data as a file on your server, and use a server-side call to get the data and work with it.
 
 ##### If you're using jQuery in your project, you can call the data like so:
