@@ -233,6 +233,7 @@ The structure of the JSON data in the vainglory.json file is as follows:
 
 ### Road Map
 Here are the tasks planned for the future of this project:
+1. Add in Energy Recharge and Health Recharge data for each hero (Note - this info is NOT in the game currently, and can only be found on the official game website. Many other stats on that website do NOT match the current in-game stats, but for now it's the best we've got!)
 1. Add in all of the in-game recommended builds for each hero (requested by the community)
 2. Add a complete set of in-game images to this repository, to match the image file names used in this data!
 3. Add in a data field for each hero to specify the attack type of a hero (IE melee, ranged, or melee/ranged)
