@@ -1,4 +1,4 @@
-# Vainglory Base Stats v3.2.1.0
+# Vainglory Base Stats v3.2.1.1
 A JSON object master file, hard-coded from the game itself, for use in web-based applications that can parse JSON data.
 
 ______________________
@@ -10,6 +10,7 @@ ______________________
 -  [Accessing the Data (with an Asynchronous call)](#accessing-the-data-with-an-asynchronous-call)
 -  [Data Structure](#data-structure)
 -  [Road Map](#road-map)
+-  [Recent Changes](#road-map)
 
 ______________________
 
@@ -114,6 +115,7 @@ The structure of the JSON data in the vainglory.json file is as follows:
         * value
         * name
         * units
+      * health_recharge (same as health)
       * energy (same as health)
       * weapon_power (same as health)
       * crystal_power (same as health)
@@ -137,6 +139,8 @@ The structure of the JSON data in the vainglory.json file is as follows:
   * hero key
     * name
     * thumb
+    * difficulty
+    * attack_type
     * description
     * stats
       * health
@@ -160,19 +164,20 @@ The structure of the JSON data in the vainglory.json file is as follows:
       * attack_speed (same as health)
       * armor (same as health)
       * shield (same as health)
-      * range
+      * energy (same as health)
+      * energy_recharge (same as health)
+      * cooldown
         * name
         * units
         * min
-      * move_speed (same as range)
-      * energy_recharge (same as health)
-      * cooldown (same as range)
-      * crit_chance (same as range)
-      * crit_damage (same as range)
-      * armor_pierce (same as range)
-      * shield_pierce (same as range)
-      * weapon_lifesteal (same as range)
-      * crystal_lifesteal (same as range)
+      * range (same as cooldown)
+      * move_speed (same as cooldown)
+      * crit_chance (same as cooldown)
+      * crit_damage (same as cooldown)
+      * armor_pierce (same as cooldown)
+      * shield_pierce (same as cooldown)
+      * weapon_lifesteal (same as cooldown)
+      * crystal_lifesteal (same as cooldown)
     * abilities
       * heroic_perk
         * name
@@ -233,9 +238,12 @@ The structure of the JSON data in the vainglory.json file is as follows:
 
 ### Road Map
 Here are the tasks planned for the future of this project:
-1. Add in Energy Recharge and Health Recharge data for each hero (Note - this info is NOT in the game currently, and can only be found on the official game website. Many other stats on that website do NOT match the current in-game stats, but for now it's the best we've got!)
 1. Add in all of the in-game recommended builds for each hero (requested by the community)
-2. Add a complete set of in-game images to this repository, to match the image file names used in this data!
-3. Add in a data field for each hero to specify the attack type of a hero (IE melee, ranged, or melee/ranged)
-4. Add in the difficulty rating for each hero (IE easy, medium, or hard)
-5. Add in talent data for each hero
+1. Add (or link to) a complete set of in-game images to this repository, to match the image file names used in this data!
+1. Add in talent data for each hero
+
+### Recent Changes
+Here are the changes added during this release:
+1. Addede in a data field for each hero to specify the attack type of a hero (IE melee, ranged, or melee/ranged)
+1. Added in the difficulty rating for each hero (IE easy, medium, or hard)
+1. Added in Energy Recharge and Health Recharge data for each hero (Note - this info is NOT in the game currently, and can only be found on the official game website. Many other stats on that website do NOT match the current in-game stats, but for now it's the best we've got!)
