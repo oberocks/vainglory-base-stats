@@ -20,6 +20,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              { "value" : 250, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -64,6 +65,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       { "value" : 35, "name" : "Crystal Power", "units" : false },
@@ -108,6 +110,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       { "value" : 60, "name" : "Crystal Power", "units" : false },
@@ -152,6 +155,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -195,6 +199,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        { "value" : 12, "name" : "Weapon Power", "units" : false },
 				"crystal_power" :       false,
@@ -241,6 +246,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -289,6 +295,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        { "value" : 15, "name" : "Weapon Power", "units" : false },
 				"crystal_power" :       false,
@@ -333,6 +340,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        { "value" : 5, "name" : "Weapon Power", "units" : false },
 				"crystal_power" :       false,
@@ -376,6 +384,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        { "value" : 55, "name" : "Weapon Power", "units" : false },
 				"crystal_power" :       false,
@@ -419,6 +428,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       { "value" : 80, "name" : "Crystal Power", "units" : false },
@@ -463,6 +473,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -513,6 +524,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              { "value" : 600, "name" : "Max Energy", "units" : false },
 				"weapon_power" :        false,
 				"crystal_power" :       { "value" : 40, "name" : "Crystal Power", "units" : false },
@@ -557,6 +569,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -603,6 +616,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              { "value" : 450, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -647,6 +661,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              { "value" : 700, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -691,6 +706,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       { "value" : 20, "name" : "Crystal Power", "units" : false },
@@ -736,6 +752,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -777,6 +794,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       { "value" : 85, "name" : "Crystal Power", "units" : false },
@@ -821,6 +839,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -862,6 +881,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              { "value" : 450, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -911,6 +931,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              { "value" : 350, "name" : "Max Energy", "units" : false },
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -954,6 +975,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       { "value" : 35, "name" : "Crystal Power", "units" : false },
@@ -1003,6 +1025,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              { "value" : 200, "name" : "Max Energy", "units" : false },
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -1050,6 +1073,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              { "value" : 400, "name" : "Max Energy", "units" : false },
 				"weapon_power" :        false,
 				"crystal_power" :       { "value" : 55, "name" : "Crystal Power", "units" : false },
@@ -1094,6 +1118,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -1135,6 +1160,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              { "value" : 300, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -1180,6 +1206,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              { "value" : 150, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -1223,6 +1250,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              { "value" : 300, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -1267,6 +1295,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       { "value" : 85, "name" : "Crystal Power", "units" : false },
@@ -1311,6 +1340,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              { "value" : 150, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
 				"energy" :              { "value" : 350, "name" : "Max Energy", "units" : false },
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -1355,6 +1385,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -1396,6 +1427,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       { "value" : 50, "name" : "Crystal Power", "units" : false },
@@ -1447,6 +1479,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        { "value" : 55, "name" : "Weapon Power", "units" : false },
 				"crystal_power" :       false,
@@ -1495,6 +1528,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -1538,6 +1572,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -1579,6 +1614,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              { "value" : 250, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -1622,6 +1658,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -1668,6 +1705,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -1709,6 +1747,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              { "value" : 300, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -1754,6 +1793,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -1797,6 +1837,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -1840,6 +1881,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -1886,6 +1928,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -1929,6 +1972,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -1970,6 +2014,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -2013,6 +2058,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              { "value" : 500, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -2057,6 +2103,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              { "value" : 250, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -2102,6 +2149,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       { "value" : 20, "name" : "Crystal Power", "units" : false },
@@ -2147,6 +2195,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        { "value" : 15, "name" : "Weapon Power", "units" : false },
 				"crystal_power" :       false,
@@ -2193,6 +2242,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        { "value" : 40, "name" : "Weapon Power", "units" : false },
 				"crystal_power" :       false,
@@ -2237,6 +2287,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -2282,6 +2333,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              { "value" : 250, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -2328,6 +2380,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -2373,6 +2426,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -2414,6 +2468,7 @@
 			"depth" : "Scout Cams last 30s longer and take 1 extra hit(s) to kill.",
 			"stats" : {
 				"health" :              { "value" : 250, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -2459,6 +2514,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        { "value" : 100, "name" : "Weapon Power", "units" : false },
 				"crystal_power" :       false,
@@ -2503,6 +2559,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       { "value" : 150, "name" : "Crystal Power", "units" : false },
@@ -2547,6 +2604,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              { "value" : 650, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -2591,6 +2649,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        { "value" : 30, "name" : "Weapon Power", "units" : false },
 				"crystal_power" :       false,
@@ -2638,6 +2697,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              { "value" : 650, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -2681,6 +2741,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        { "value" : 150, "name" : "Weapon Power", "units" : false },
 				"crystal_power" :       false,
@@ -2725,6 +2786,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       { "value" : 90, "name" : "Crystal Power", "units" : false },
@@ -2768,6 +2830,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        { "value" : 100, "name" : "Weapon Power", "units" : false },
 				"crystal_power" :       false,
@@ -2812,6 +2875,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -2855,6 +2919,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              { "value" : 300, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -2899,6 +2964,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              { "value" : 250, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -2944,6 +3010,7 @@
 			"depth" : "Scout Cams last 60s longer and take 3 extra hit(s) to kill.",
 			"stats" : {
 				"health" :              { "value" : 500, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -2988,6 +3055,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -3033,6 +3101,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              { "value" : 150, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -3076,6 +3145,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        { "value" : 50, "name" : "Weapon Power", "units" : false },
 				"crystal_power" :       false,
@@ -3120,6 +3190,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -3164,6 +3235,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              { "value" : 100, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -3211,6 +3283,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        { "value" : 70, "name" : "Weapon Power", "units" : false },
 				"crystal_power" :       false,
@@ -3255,6 +3328,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              { "value" : 350, "name" : "Max Energy", "units" : false },
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -3303,6 +3377,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              { "value" : 500, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -3347,6 +3422,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        { "value" : 15, "name" : "Weapon Power", "units" : false },
 				"crystal_power" :       false,
@@ -3392,6 +3468,7 @@
 			"depth" : false,
 			"stats" : {
 				"health" :              false,
+				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
@@ -3418,51 +3495,79 @@
 		"adagio" : {
 			"name" : "Adagio",
 			"thumb" : "adagio.png",
+			"difficulty" : "Medium",
+			"attack_type" : "Ranged",
 			"description" : "Team healer and damage enhancer with a large area stun.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 685,
-					"max" : 2308
+					"max" : 2308,
+					"level_gain" : 147.54
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 400,
-					"max" : 785
+					"min" : 2.18,
+					"max" : 5.04,
+					"level_gain" : 0.26
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 75,
-					"max" : 117
+					"max" : 117,
+					"level_gain" : 3.81
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 122
+					"max" : 122,
+					"level_gain" : 2
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 400,
+					"max" : 785,
+					"level_gain" : 35
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 2.67,
+					"max" : 5.2,
+					"level_gain" : 0.23
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -3473,17 +3578,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.3
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -3678,51 +3772,79 @@
 		"alpha" : {
 			"name" : "Alpha",
 			"thumb" : "alpha.png",
+			"difficulty" : "Hard",
+			"attack_type" : "Melee",
 			"description" : "Killing machine who can resurrect herself.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 761,
-					"max" : 2438
+					"max" : 2438,
+					"level_gain" : 152.45
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 0,
-					"max" : 0
+					"min" : 3.14,
+					"max" : 6.99,
+					"level_gain" : 0.35
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 83,
-					"max" : 124
+					"max" : 124,
+					"level_gain" : 3.72
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 122
+					"max" : 122,
+					"level_gain" : 2
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : false
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : false
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -3733,17 +3855,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.5
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -3942,51 +4053,79 @@
 		"ardan" : {
 			"name" : "Ardan",
 			"thumb" : "ardan.png",
+			"difficulty" : "Easy",
+			"attack_type" : "Melee",
 			"description" : "Protects allies with barriers and traps enemies inside a large cage.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 838,
-					"max" : 2638
+					"max" : 2638,
+					"level_gain" : 163.63
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 0,
-					"max" : 0
+					"min" : 3.39,
+					"max" : 7.24,
+					"level_gain" : 0.35
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 80,
-					"max" : 140
+					"max" : 140,
+					"level_gain" : 5.45
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 136.3
+					"max" : 136.3,
+					"level_gain" : 3.3
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 70
+					"max" : 70,
+					"level_gain" : 4.54
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 70
+					"max" : 70,
+					"level_gain" : 4.54
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : false
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : false
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -3997,17 +4136,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.3
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -4189,51 +4317,79 @@
 		"baptiste" : {
 			"name" : "Baptiste",
 			"thumb" : "baptiste.png",
+			"difficulty" : "Medium",
+			"attack_type" : "Melee",
 			"description" : "Mid-range mage who inflicts fear on foes.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 739,
-					"max" : 2323
+					"max" : 2323,
+					"level_gain" : 144
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 273,
-					"max" : 636
+					"min" : 2.38,
+					"max" : 5.35,
+					"level_gain" : 0.27
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 78,
-					"max" : 167
+					"max" : 167,
+					"level_gain" : 8.09
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 136.3
+					"max" : 136.3,
+					"level_gain" : 3.3
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 273,
+					"max" : 636,
+					"level_gain" : 33
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 2.17,
+					"max" : 4.26,
+					"level_gain" : 0.19
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -4244,17 +4400,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.4
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -4442,51 +4587,79 @@
 		"baron" : {
 			"name" : "Baron",
 			"thumb" : "baron.png",
+			"difficulty" : "Medium",
+			"attack_type" : "Ranged",
 			"description" : "Rocket soldier who can nuke anywhere on the map.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 679,
-					"max" : 2054
+					"max" : 2054,
+					"level_gain" : 125
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 270,
-					"max" : 765
+					"min" : 3.29,
+					"max" : 7.91,
+					"level_gain" : 0.42
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 71,
-					"max" : 130
+					"max" : 130,
+					"level_gain" : 5.36
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 111
+					"max" : 111,
+					"level_gain" : 1
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 270,
+					"max" : 765,
+					"level_gain" : 45
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 6.67,
+					"max" : 18,
+					"level_gain" : 1.03
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -4497,17 +4670,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 2.9
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -4674,51 +4836,79 @@
 		"blackfeather" : {
 			"name" : "Blackfeather",
 			"thumb" : "blackfeather.png",
+			"difficulty" : "Hard",
+			"attack_type" : "Melee",
 			"description" : "Evasive fighter who excels at chasing and cleaning up fragile enemies.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 657,
-					"max" : 2387
+					"max" : 2387,
+					"level_gain" : 157.27
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 81,
-					"max" : 160
+					"max" : 160,
+					"level_gain" : 7.18
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 122
+					"max" : 122,
+					"level_gain" : 2
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : false
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : false
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -4729,17 +4919,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.4
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -4960,51 +5139,79 @@
 		"catherine" : {
 			"name" : "Catherine",
 			"thumb" : "catherine.png",
+			"difficulty" : "Easy",
+			"attack_type" : "Melee",
 			"description" : "Disruptive tank with lots of stuns and a powerful silence.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 808,
-					"max" : 2673
+					"max" : 2673,
+					"level_gain" : 169.54
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 200,
-					"max" : 464
+					"min" : 4.06,
+					"max" : 7.91,
+					"level_gain" : 0.35
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 74,
-					"max" : 141
+					"max" : 141,
+					"level_gain" : 6.09
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 136.3
+					"max" : 136.3,
+					"level_gain" : 3.3
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 200,
+					"max" : 464,
+					"level_gain" : 24
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 1.33,
+					"max" : 3.09,
+					"level_gain" : 0.16
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -5015,17 +5222,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.5
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -5202,51 +5398,79 @@
 		"celeste" : {
 			"name" : "Celeste",
 			"thumb" : "celeste.png",
+			"difficulty" : "Medium",
+			"attack_type" : "Ranged",
 			"description" : "Back-line mage with heavy area damage and a stun.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 649,
-					"max" : 2028
+					"max" : 2028,
+					"level_gain" : 125.36
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 380,
-					"max" : 732
+					"min" : 2.23,
+					"max" : 4.76,
+					"level_gain" : 0.23
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 10,
-					"max" : 10
+					"max" : 10,
+					"level_gain" : false
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 75,
 					"min" : 65,
-					"max" : 115
+					"max" : 115,
+					"level_gain" : 4.54
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 125
+					"max" : 125,
+					"level_gain" : 11.36
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 380,
+					"max" : 732,
+					"level_gain" : 32
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 2.53,
+					"max" : 4.84,
+					"level_gain" : 0.21
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -5257,17 +5481,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.3
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -5441,51 +5654,79 @@
 		"churnwalker" : {
 			"name" : "Churnwalker",
 			"thumb" : "churnwalker.png",
+			"difficulty" : "Medium",
+			"attack_type" : "Melee",
 			"description" : "A disruptor who throws multiple skillshot hooks, chaining victims to him.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 863,
-					"max" : 2749
+					"max" : 2749,
+					"level_gain" : 171.45
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 380,
-					"max" : 732
+					"min" : 4.05,
+					"max" : 6.8,
+					"level_gain" : 0.25
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 80,
-					"max" : 165
+					"max" : 165,
+					"level_gain" : 7.72
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 122
+					"max" : 122,
+					"level_gain" : 2
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 70
+					"max" : 70,
+					"level_gain" : 4.54
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 70
+					"max" : 70,
+					"level_gain" : 4.54
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 380,
+					"max" : 732,
+					"level_gain" : 32
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 2.38,
+					"max" : 4.69,
+					"level_gain" : 0.21
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -5496,17 +5737,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.1
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -5666,51 +5896,79 @@
 		"flicker" : {
 			"name" : "Flicker",
 			"thumb" : "flicker.png",
+			"difficulty" : "Hard",
+			"attack_type" : "Melee",
 			"description" : "Trickster who can make the entire team invisible.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 797,
-					"max" : 2648
+					"max" : 2648,
+					"level_gain" : 168.27
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 295,
-					"max" : 757
+					"min" : 3.85,
+					"max" : 3.85,
+					"level_gain" : false
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 77,
-					"max" : 155
+					"max" : 155,
+					"level_gain" : 7.09
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 136.3
+					"max" : 136.3,
+					"level_gain" : 3.3
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 70
+					"max" : 70,
+					"level_gain" : 4.54
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 70
+					"max" : 70,
+					"level_gain" : 4.54
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 295,
+					"max" : 757,
+					"level_gain" : 42
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 1.94,
+					"max" : 4.69,
+					"level_gain" : 0.25
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -5721,17 +5979,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.6
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -5903,51 +6150,79 @@
 			"slug" : "fortress",
 			"name" : "Fortress",
 			"thumb" : "fortress.png",
+			"difficulty" : "Easy",
+			"attack_type" : "Melee",
 			"description" : "Agressive pack leader who swarms the enemy with great speed.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 761,
-					"max" : 2581
+					"max" : 2581,
+					"level_gain" : 165.45
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 300,
-					"max" : 465
+					"min" : 4.3,
+					"max" : 9.91,
+					"level_gain" : 0.51
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 73,
-					"max" : 156
+					"max" : 156,
+					"level_gain" : 7.54
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 144
+					"max" : 144,
+					"level_gain" : 4
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 300,
+					"max" : 465,
+					"level_gain" : 15
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 1.56,
+					"max" : 3.21,
+					"level_gain" : 0.15
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -5958,17 +6233,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.5
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -6163,51 +6427,79 @@
 		"glaive" : {
 			"name" : "Glaive",
 			"thumb" : "glaive.png",
+			"difficulty" : "Easy",
+			"attack_type" : "Melee",
 			"description" : "Brutal axe warrior who can knock enemies out of position.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 834,
-					"max" : 2503
+					"max" : 2503,
+					"level_gain" : 151.72
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 275,
-					"max" : 440
+					"min" : 2.47,
+					"max" : 6.21,
+					"level_gain" : 0.34
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 70,
-					"max" : 156
+					"max" : 156,
+					"level_gain" : 7.81
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 113.2
+					"max" : 113.2,
+					"level_gain" : 1.2
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 275,
+					"max" : 440,
+					"level_gain" : 15
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 1.47,
+					"max" : 2.9,
+					"level_gain" : 0.13
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -6218,17 +6510,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.4
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -6396,51 +6677,79 @@
 		"grace" : {
 			"name" : "Grace",
 			"thumb" : "grace.png",
+			"difficulty" : "Easy",
+			"attack_type" : "Melee",
 			"description" : "A powerful paladin with a massive heal.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 740,
-					"max" : 2483
+					"max" : 2483,
+					"level_gain" : 158.45
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 268,
-					"max" : 653
+					"min" : 3.72,
+					"max" : 8.34,
+					"level_gain" : 0.42
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 73,
-					"max" : 152
+					"max" : 152,
+					"level_gain" : 7.18
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 136.3
+					"max" : 136.3,
+					"level_gain" : 3.3
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 70
+					"max" : 70,
+					"level_gain" : 4.54
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 70
+					"max" : 70,
+					"level_gain" : 4.54
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 268,
+					"max" : 653,
+					"level_gain" : 35
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 1.92,
+					"max" : 4.23,
+					"level_gain" : 0.21
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -6451,17 +6760,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.5
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -6628,51 +6926,79 @@
 		"grumpjaw" : {
 			"name" : "Grumpjaw",
 			"thumb" : "grumpjaw.png",
+			"difficulty" : "Easy",
+			"attack_type" : "Melee",
 			"description" : "A hungry beast who can swallow a hero whole.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 783,
-					"max" : 2592
+					"max" : 2592,
+					"level_gain" : 164.45
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 234,
-					"max" : 465
+					"min" : 3.39,
+					"max" : 3.39,
+					"level_gain" : false
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 74,
-					"max" : 158
+					"max" : 158,
+					"level_gain" : 7.63
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 113.2
+					"max" : 113.2,
+					"level_gain" : 1.2
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 234,
+					"max" : 465,
+					"level_gain" : 21
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 1.47,
+					"max" : 2.9,
+					"level_gain" : 0.13
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -6683,17 +7009,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.5
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -6878,51 +7193,79 @@
 		"gwen" : {
 			"name" : "Gwen",
 			"thumb" : "gwen.png",
+			"difficulty" : "Easy",
+			"attack_type" : "Ranged",
 			"description" : "Gunslinger with powerful burst damage and ability to shake off disables.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 661,
-					"max" : 2072
+					"max" : 2072,
+					"level_gain" : 128.27
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 175,
-					"max" : 395
+					"min" : 2.63,
+					"max" : 5.16,
+					"level_gain" : 0.23
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 68,
-					"max" : 132
+					"max" : 132,
+					"level_gain" : 5.81
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 136.3
+					"max" : 136.3,
+					"level_gain" : 3.3
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 175,
+					"max" : 395,
+					"level_gain" : 20
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 1.2,
+					"max" : 2.85,
+					"level_gain" : 0.15
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -6933,17 +7276,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -7108,51 +7440,79 @@
 		"idris" : {
 			"name" : "Idris",
 			"thumb" : "idris.png",
+			"difficulty" : "Hard",
+			"attack_type" : "Melee",
 			"description" : "Nimble assassin who unlocks melee or ranged fighting styles.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 697,
-					"max" : 2257
+					"max" : 2257,
+					"level_gain" : 141.81
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 0,
-					"max" : 0
+					"min" : 4.5,
+					"max" : 4.5,
+					"level_gain" : false
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 50,
 					"min" : 77,
-					"max" : 161
+					"max" : 161,
+					"level_gain" : 7.63
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power (w/ 100+ CP)",
 					"units" : false,
 					"cp_scaling" : 75,
 					"min" : 19,
-					"max" : 85
+					"max" : 85,
+					"level_gain" : 6
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 136.3
+					"max" : 136.3,
+					"level_gain" : 3.3
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : false
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : false
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -7163,17 +7523,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.4
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -7351,51 +7700,79 @@
 		"joule" : {
 			"name" : "Joule",
 			"thumb" : "joule.png",
+			"difficulty" : "Medium",
+			"attack_type" : "Melee",
 			"description" : "Heavily armored mech rider with a powerful energy beam.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 742,
-					"max" : 2487
+					"max" : 2487,
+					"level_gain" : 158.63
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 390,
-					"max" : 555
+					"min" : 4.27,
+					"max" : 9.44,
+					"level_gain" : 0.47
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 66,
-					"max" : 148
+					"max" : 148,
+					"level_gain" : 7.45
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 113.2
+					"max" : 113.2,
+					"level_gain" : 1.2
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 390,
+					"max" : 555,
+					"level_gain" : 15
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 3.5,
+					"max" : 7.02,
+					"level_gain" : 0.32
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -7406,17 +7783,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.4
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -7572,51 +7938,79 @@
 		"kestrel" : {
 			"name" : "Kestrel",
 			"thumb" : "kestrel.png",
+			"difficulty" : "Hard",
+			"attack_type" : "Ranged",
 			"description" : "Stealthy archer with devastating skillshots & traps.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 700,
-					"max" : 2073
+					"max" : 2073,
+					"level_gain" : 124.81
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 404,
-					"max" : 492
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : false
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 64,
-					"max" : 130
+					"max" : 130,
+					"level_gain" : 6
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 136.3
+					"max" : 136.3,
+					"level_gain" : 3.3
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 404,
+					"max" : 492,
+					"level_gain" : 88
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : false
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -7627,17 +8021,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.1
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -7836,51 +8219,79 @@
 		"koshka" : {
 			"name" : "Koshka",
 			"thumb" : "koshka.png",
+			"difficulty" : "Easy",
+			"attack_type" : "Melee",
 			"description" : "Hit-and-run assassin who can pin down enemies with a long stun.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 711,
-					"max" : 2367
+					"max" : 2367,
+					"level_gain" : 150.54
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 280,
-					"max" : 643
+					"min" : 3.54,
+					"max" : 6.95,
+					"level_gain" : 0.31
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 79,
-					"max" : 164
+					"max" : 164,
+					"level_gain" : 7.72
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 108.8
+					"max" : 108.8,
+					"level_gain" : 0.8
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 280,
+					"max" : 643,
+					"level_gain" : 33
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 1.87,
+					"max" : 4.29,
+					"level_gain" : 0.22
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -7891,17 +8302,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.3
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -8062,51 +8462,79 @@
 		"krul" : {
 			"name" : "Krul",
 			"thumb" : "krul.png",
+			"difficulty" : "Medium",
+			"attack_type" : "Melee",
 			"description" : "The king of duels with massive lifesteal and self-healing.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 748,
-					"max" : 2394
+					"max" : 2394,
+					"level_gain" : 149.63
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 220,
-					"max" : 506
+					"min" : 3.51,
+					"max" : 7.8,
+					"level_gain" : 0.39
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 77,
-					"max" : 147
+					"max" : 147,
+					"level_gain" : 6.36
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 136.3
+					"max" : 136.3,
+					"level_gain" : 3.3
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 220,
+					"max" : 506,
+					"level_gain" : 26
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 1.33,
+					"max" : 3.2,
+					"level_gain" : 0.17
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -8117,17 +8545,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.4
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -8326,51 +8743,79 @@
 		"lance" : {
 			"name" : "Lance",
 			"thumb" : "lance.png",
+			"difficulty" : "Hard",
+			"attack_type" : "Melee",
 			"description" : "Disruptive knight who stops enemies in their tracks.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 842,
-					"max" : 2609
+					"max" : 2609,
+					"level_gain" : 160.63
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 0,
-					"max" : 0
+					"min" : 3.79,
+					"max" : 10.94,
+					"level_gain" : 0.65
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 85,
-					"max" : 178
+					"max" : 178,
+					"level_gain" : 8.45
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 100
+					"max" : 100,
+					"level_gain" : false
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 70
+					"max" : 70,
+					"level_gain" : 4.54
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 70
+					"max" : 70,
+					"level_gain" : 4.54
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : false
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : false
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -8381,17 +8826,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.3
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -8581,51 +9015,79 @@
 		"lorelai" : {
 			"name" : "Lorelai",
 			"thumb" : "lorelai.png",
+			"difficulty" : "Medium",
+			"attack_type" : "Ranged",
 			"description" : "Backline support, excelling at zone control and team utility.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 691,
-					"max" : 2252
+					"max" : 2252,
+					"level_gain" : 141.9
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 360,
-					"max" : 690
+					"min" : 3.14,
+					"max" : 5.56,
+					"level_gain" : 0.22
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 10,
-					"max" : 10
+					"max" : 10,
+					"level_gain" : false
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 70,
 					"min" : 55,
-					"max" : 110
+					"max" : 110,
+					"level_gain" : 5
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 92.5,
-					"max" : 120
+					"max" : 120,
+					"level_gain" : 2.5
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 360,
+					"max" : 690,
+					"level_gain" : 30
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 3.47,
+					"max" : 6,
+					"level_gain" : 0.23
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -8636,17 +9098,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.3
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -8822,51 +9273,79 @@
 		"lyra" : {
 			"name" : "Lyra",
 			"thumb" : "lyra.png",
+			"difficulty" : "Medium",
+			"attack_type" : "Ranged",
 			"description" : "Healer and zone mage who can create teleportation portals.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 774,
-					"max" : 2253
+					"max" : 2253,
+					"level_gain" : 134.45
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 248,
-					"max" : 908
+					"min" : 4.01,
+					"max" : 7.42,
+					"level_gain" : 0.31
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 10,
-					"max" : 10
+					"max" : 10,
+					"level_gain" : false
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
-					"cp_scaling" : 0,
-					"min" : 0,
-					"max" : 0
+					"cp_scaling" : 60,
+					"min" : 50,
+					"max" : 85,
+					"level_gain" : 3.18
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 136.3
+					"max" : 136.3,
+					"level_gain" : 3.3
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 248,
+					"max" : 908,
+					"level_gain" : 60
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 2.15,
+					"max" : 7.1,
+					"level_gain" : 0.45
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -8877,17 +9356,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.3
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -9078,51 +9546,79 @@
 		"malene" : {
 			"name" : "Malene",
 			"thumb" : "malene.png",
+			"difficulty" : "Hard",
+			"attack_type" : "Ranged",
 			"description" : "Form swapping spellcaster who has the tools for any situation.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 696,
-					"max" : 2148
+					"max" : 2148,
+					"level_gain" : 132
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 300,
-					"max" : 685
+					"min" : false,
+					"max" : false,
+					"level_gain" : false
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 10,
-					"max" : 10
+					"max" : 10,
+					"level_gain" : false
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 60,
 					"min" : 60,
-					"max" : 126
+					"max" : 126,
+					"level_gain" : 6
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 122
+					"max" : 122,
+					"level_gain" : 2
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 300,
+					"max" : 685,
+					"level_gain" : 35
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : false,
+					"max" : false,
+					"level_gain" : false
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -9133,17 +9629,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.3
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -9367,51 +9852,79 @@
 		"ozo" : {
 			"name" : "Ozo",
 			"thumb" : "ozo.png",
+			"difficulty" : "Hard",
+			"attack_type" : "Melee",
 			"description" : "Acrobatic monkey with immense self-healing.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 769,
-					"max" : 2536
+					"max" : 2536,
+					"level_gain" : 160.63
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 350,
-					"max" : 650
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : false
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 80,
-					"max" : 157
+					"max" : 157,
+					"level_gain" : 7
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 136.3
+					"max" : 136.3,
+					"level_gain" : 3.3
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 350,
+					"max" : 650,
+					"level_gain" : 27.27
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : false
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -9422,17 +9935,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.4
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -9640,51 +10142,79 @@
 		"petal" : {
 			"name" : "Petal",
 			"thumb" : "petal.png",
+			"difficulty" : "Easy",
+			"attack_type" : "Ranged",
 			"description" : "Commands 3 pets who tear apart enemies and block incoming skillshots.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 636,
-					"max" : 1983
+					"max" : 1983,
+					"level_gain" : 122.45
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 410,
-					"max" : 718
+					"min" : 2.4,
+					"max" : 5.15,
+					"level_gain" : 0.25
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 64,
-					"max" : 134
+					"max" : 134,
+					"level_gain" : 6.36
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 136.3
+					"max" : 136.3,
+					"level_gain" : 3.3
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 410,
+					"max" : 718,
+					"level_gain" : 28
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 1,
+					"max" : 2.21,
+					"level_gain" : 0.11
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -9695,17 +10225,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.2
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -9893,51 +10412,79 @@
 		"phinn" : {
 			"name" : "Phinn",
 			"thumb" : "phinn.png",
+			"difficulty" : "Medium",
+			"attack_type" : "Melee",
 			"description" : "Extremely tanky and can pull in enemies from across the screen.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 892,
-					"max" : 2781
+					"max" : 2781,
+					"level_gain" : 171.72
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 220,
-					"max" : 440
+					"min" : 3.39,
+					"max" : 7.24,
+					"level_gain" : 0.35
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 95,
-					"max" : 154
+					"max" : 154,
+					"level_gain" : 5.36
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 113.2
+					"max" : 113.2,
+					"level_gain" : 1.2
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 70
+					"max" : 70,
+					"level_gain" : 4.54
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 70
+					"max" : 70,
+					"level_gain" : 4.54
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 220,
+					"max" : 440,
+					"level_gain" : 20
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : false
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -9948,17 +10495,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -10118,51 +10654,79 @@
 		"reim" : {
 			"name" : "Reim",
 			"thumb" : "reim.png",
+			"difficulty" : "Medium",
+			"attack_type" : "Melee",
 			"description" : "Resilient ice mage who dominates close-quarter battles.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 746,
-					"max" : 2499
+					"max" : 2499,
+					"level_gain" : 159.36
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 220,
-					"max" : 462
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : false
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 80,
-					"max" : 153
+					"max" : 153,
+					"level_gain" : 6.63
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 80,
 					"min" : 15,
-					"max" : 54
+					"max" : 54,
+					"level_gain" : 3.54
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 136.3
+					"max" : 136.3,
+					"level_gain" : 3.3
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 220,
+					"max" : 462,
+					"level_gain" : 22
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : false
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -10173,17 +10737,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.3
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -10380,51 +10933,79 @@
 		"reza" : {
 			"name" : "Reza",
 			"thumb" : "reza.png",
+			"difficulty" : "Hard",
+			"attack_type" : "Melee",
 			"description" : "A fast, devastating fire mage with a demon netherform.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 718,
-					"max" : 2306
+					"max" : 2306,
+					"level_gain" : 144.36
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 380,
-					"max" : 732
+					"min" : 3.82,
+					"max" : 7.23,
+					"level_gain" : 0.31
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 84,
-					"max" : 154
+					"max" : 154,
+					"level_gain" : 6.36
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 115,
 					"min" : 20,
-					"max" : 185
+					"max" : 185,
+					"level_gain" : 15
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 125
+					"max" : 125,
+					"level_gain" : 2.27
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 380,
+					"max" : 732,
+					"level_gain" : 32
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 2.53,
+					"max" : 4.84,
+					"level_gain" : 0.21
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -10435,17 +11016,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.5
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -10624,51 +11194,79 @@
 		"ringo" : {
 			"name" : "Ringo",
 			"thumb" : "ringo.png",
+			"difficulty" : "Easy",
+			"attack_type" : "Ranged",
 			"description" : "Fast-moving, fast-shooting gunslinger with an epic fireball.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 673,
-					"max" : 2077
+					"max" : 2077,
+					"level_gain" : 127.63
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 163,
-					"max" : 416
+					"min" : 2.15,
+					"max" : 4.68,
+					"level_gain" : 0.23
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 71,
-					"max" : 130
+					"max" : 130,
+					"level_gain" : 5.36
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 136.3
+					"max" : 136.3,
+					"level_gain" : 3.3
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 163,
+					"max" : 416,
+					"level_gain" : 23
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 1.2,
+					"max" : 2.85,
+					"level_gain" : 0.15
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -10679,17 +11277,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.1
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -10863,51 +11450,79 @@
 		"rona" : {
 			"name" : "Rona",
 			"thumb" : "rona.png",
+			"difficulty" : "Medium",
+			"attack_type" : "Melee",
 			"description" : "Durable berserker who excels in the thick of fights.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 778,
-					"max" : 2563
+					"max" : 2563,
+					"level_gain" : 162.27
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 77,
-					"max" : 156
+					"max" : 156,
+					"level_gain" : 7.18
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 113.2
+					"max" : 113.2,
+					"level_gain" : 1.2
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : false
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : false
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -10918,17 +11533,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.4
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -11139,51 +11743,79 @@
 		"samuel" : {
 			"name" : "Samuel",
 			"thumb" : "samuel.png",
+			"difficulty" : "Hard",
+			"attack_type" : "Ranged",
 			"description" : "Dark zone-control mage who can put enemies to sleep.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 652,
-					"max" : 2040
+					"max" : 2040,
+					"level_gain" : 126.18
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 290,
-					"max" : 620
+					"min" : 4.01,
+					"max" : 7.42,
+					"level_gain" : 0.31
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 78,
-					"max" : 148
+					"max" : 148,
+					"level_gain" : 6.36
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 50,
-					"max" : 160
+					"max" : 160,
+					"level_gain" : 10
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 129.7
+					"max" : 129.7,
+					"level_gain" : 2.7
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 290,
+					"max" : 620,
+					"level_gain" : 30
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 2.15,
+					"max" : 7.1,
+					"level_gain" : 0.45
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -11194,17 +11826,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.2
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -11395,51 +12016,79 @@
 		"saw" : {
 			"name" : "SAW",
 			"thumb" : "saw.png",
+			"difficulty" : "Easy",
+			"attack_type" : "Ranged",
 			"description" : "Heavy machine gunner who sacrifices move speed for damage.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 683,
-					"max" : 2023
+					"max" : 2023,
+					"level_gain" : 121.81
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 150,
-					"max" : 315
+					"min" : 2.4,
+					"max" : 5.15,
+					"level_gain" : 0.25
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 50,
-					"max" : 105
+					"max" : 105,
+					"level_gain" : 5
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 111
+					"max" : 111,
+					"level_gain" : 1
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 150,
+					"max" : 315,
+					"level_gain" : 15
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 1,
+					"max" : 2.21,
+					"level_gain" : 0.11
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -11450,17 +12099,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.1
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -11644,51 +12282,79 @@
 		"skaarf" : {
 			"name" : "Skaarf",
 			"thumb" : "skaarf.png",
+			"difficulty" : "Easy",
+			"attack_type" : "Ranged",
 			"description" : "Spits long-range fireballs and incinerates entire teams.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 638,
-					"max" : 2112
+					"max" : 2112,
+					"level_gain" : 134
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 200,
-					"max" : 464
+					"min" : 3.55,
+					"max" : 7.4,
+					"level_gain" : 0.35
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 80,
-					"max" : 154
+					"max" : 154,
+					"level_gain" : 6.72
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 122
+					"max" : 122,
+					"level_gain" : 2
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 200,
+					"max" : 464,
+					"level_gain" : 24
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 1.33,
+					"max" : 3.09,
+					"level_gain" : 0.16
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -11699,17 +12365,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.3
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -11898,51 +12553,74 @@
 		"skye" : {
 			"name" : "Skye",
 			"thumb" : "skye.png",
+			"difficulty" : "Hard",
+			"attack_type" : "Ranged",
 			"description" : "Versatile, elusive mech pilot who can flank enemies from any angle.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 668,
-					"max" : 2060
+					"max" : 2060,
+					"level_gain" : 126.54
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 380,
-					"max" : 732
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : false
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 72,
-					"max" : 111
+					"max" : 111,
+					"level_gain" : 3.54
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 136.3
+					"max" : 136.3,
+					"level_gain" : 3.3
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 380,
+					"max" : 732,
+					"level_gain" : 32
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : false
 				},
 				"range" : {
 					"name" : "Range",
@@ -11953,12 +12631,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.1
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
 				},
 				"cooldown" : {
 					"name" : "Cooldown Speed",
@@ -12162,51 +12834,79 @@
 		"taka" : {
 			"name" : "Taka",
 			"thumb" : "taka.png",
+			"difficulty" : "Medium",
+			"attack_type" : "Melee",
 			"description" : "Stealthy assassin who can heal while invisible.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 702,
-					"max" : 2287
+					"max" : 2287,
+					"level_gain" : 144.09
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 180,
-					"max" : 422
+					"min" : 3.51,
+					"max" : 7.36,
+					"level_gain" : 0.35
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 68,
-					"max" : 125
+					"max" : 125,
+					"level_gain" : 5.18
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 136.3
+					"max" : 136.3,
+					"level_gain" : 3.3
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 180,
+					"max" : 422,
+					"level_gain" : 22
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 1.33,
+					"max" : 3.09,
+					"level_gain" : 0.16
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -12217,17 +12917,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.4
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -12397,51 +13086,79 @@
 		"tony" : {
 			"name" : "Tony",
 			"thumb" : "tony.png",
+			"difficulty" : "Medium",
+			"attack_type" : "Melee",
 			"description" : "Dwarven brawler who taunts and pummels enemies.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 762,
-					"max" : 2544
+					"max" : 2544,
+					"level_gain" : 162
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 280,
-					"max" : 643
+					"min" : 4.01,
+					"max" : 7.42,
+					"level_gain" : 0.31
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 79,
-					"max" : 164
+					"max" : 164,
+					"level_gain" : 7.72
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
 					"min" : 0,
-					"max" : 0
+					"max" : 0,
+					"level_gain" : false
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 136.3
+					"max" : 136.3,
+					"level_gain" : 3.3
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 60
+					"max" : 60,
+					"level_gain" : 3.63
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 280,
+					"max" : 643,
+					"level_gain" : 33
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 1.87,
+					"max" : 4.29,
+					"level_gain" : 0.22
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -12452,17 +13169,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.4
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -12626,51 +13332,79 @@
 		"varya" : {
 			"name" : "Varya",
 			"thumb" : "varya.png",
+			"difficulty" : "Hard",
+			"attack_type" : "Ranged",
 			"description" : "Shocking valkyrie who chains massive damage across enemy teams.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 642,
-					"max" : 2127
+					"max" : 2127,
+					"level_gain" : 135
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 950,
-					"max" : 1500
+					"min" : 2.81,
+					"max" : 6.22,
+					"level_gain" : 0.31
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 10,
-					"max" : 10
+					"max" : 10,
+					"level_gain" : false
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 40,
 					"min" : 70,
-					"max" : 147
+					"max" : 147,
+					"level_gain" : 7
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 115
+					"max" : 115,
+					"level_gain" : 1.36
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 950,
+					"max" : 1500,
+					"level_gain" : 5
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 36,
+					"max" : 64.6,
+					"level_gain" : 2.6
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -12681,17 +13415,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.1
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -12873,51 +13596,79 @@
 		"vox" : {
 			"name" : "Vox",
 			"thumb" : "vox.png",
+			"difficulty" : "Medium",
+			"attack_type" : "Ranged",
 			"description" : "Agile damage dealer who dashes around the battlefield.",
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
 					"min" : 667,
-					"max" : 2054
+					"max" : 2054,
+					"level_gain" : 126.09
 				},
-				"energy" : {
-					"name" : "Energy",
+				"health_recharge" : {
+					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 200,
-					"max" : 464
+					"min" : 3.55,
+					"max" : 7.4,
+					"level_gain" : 0.35
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
 					"min" : 54,
-					"max" : 109
+					"max" : 109,
+					"level_gain" : 5
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 50,
 					"min" : 20,
-					"max" : 42
+					"max" : 42,
+					"level_gain" : 2
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 136.3
+					"max" : 136.3,
+					"level_gain" : 3.3
 				},
 				"armor" : {
 					"name" : "Armor",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
 				},
 				"shield" : {
 					"name" : "Shield",
 					"units" : false,
 					"min" : 20,
-					"max" : 50
+					"max" : 50,
+					"level_gain" : 2.72
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 200,
+					"max" : 464,
+					"level_gain" : 24
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 1.33,
+					"max" : 3.09,
+					"level_gain" : 0.16
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
 				},
 				"range" : {
 					"name" : "Range",
@@ -12928,17 +13679,6 @@
 					"name" : "Move Speed",
 					"units" : "m/s",
 					"min" : 3.3
-				},
-				"energy_recharge" : {
-					"name" : "Energy Recharge",
-					"units" : false,
-					"min" : 0,
-					"max" : 0
-				},
-				"cooldown" : {
-					"name" : "Cooldown Speed",
-					"units" : "%",
-					"min" : 100
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
