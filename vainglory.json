@@ -7935,6 +7935,261 @@
 				}
 			}
 		},
+		"kensei" : {
+			"name" : "Kensei",
+			"thumb" : "kensei.png",
+			"difficulty" : "Medium",
+			"attack_type" : "Melee",
+			"description" : "VainGlory's newest hero",
+			"stats" : {
+				"health" : {
+					"name" : "Health",
+					"units" : false,
+					"min" : 761,
+					"max" : 2493,
+					"level_gain" : 157.45
+				},
+				"health_recharge" : {
+					"name" : "Health Recharge",
+					"units" : false,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : 0
+				},
+				"weapon_power" : {
+					"name" : "Weapon Power",
+					"units" : false,
+					"wp_scaling" : 0,
+					"min" : 86,
+					"max" : 163,
+					"level_gain" : 7
+				},
+				"crystal_power" : {
+					"name" : "Crystal Power",
+					"units" : false,
+					"cp_scaling" : 0,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : 0
+				},
+				"attack_speed" : {
+					"name" : "Attack Speed",
+					"units" : "%",
+					"min" : 100,
+					"max" : 136.3,
+					"level_gain" : 3.3
+				},
+				"armor" : {
+					"name" : "Armor",
+					"units" : false,
+					"min" : 20,
+					"max" : 60,
+					"level_gain" : 3.63
+				},
+				"shield" : {
+					"name" : "Shield",
+					"units" : false,
+					"min" : 20,
+					"max" : 60,
+					"level_gain" : 3.63
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 280,
+					"max" : 643,
+					"level_gain" : 33
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : 0
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
+				},
+				"range" : {
+					"name" : "Range",
+					"units" : "m",
+					"min" : 3.5
+				},
+				"move_speed" : {
+					"name" : "Move Speed",
+					"units" : "m/s",
+					"min" : 3.5
+				},
+				"crit_chance" : {
+					"name" : "Critical Hit Chance",
+					"units" : "%",
+					"min" : 0
+				},
+				"crit_damage" : {
+					"name" : "Critical Hit Damage",
+					"units" : "%",
+					"min" : 150
+				},
+				"armor_pierce" : {
+					"name" : "Armor Piercing",
+					"units" : "%",
+					"min" : 0
+				},
+				"shield_pierce" : {
+					"name" : "Shield Piercing",
+					"units" : "%",
+					"min" : 0
+				},
+				"weapon_lifesteal" : {
+					"name" : "Weapon Lifesteal",
+					"units" : "%",
+					"min" : 0
+				},
+				"crystal_lifesteal" : {
+					"name" : "Crystal Lifesteal",
+					"units" : "%",
+					"min" : 0
+				}
+			},
+			"abilities" : {
+				"heroic_perk" : {
+					"name" : "Immovable Mind",
+					"thumb" : "immovable-mind.png",
+					"description" : [
+						"After striking enemy heroes or jungle monsters 3 times, Kensei's next basic attack deals 25% bonus damage and grants a burst of barrier.", 
+						[
+							"Bonus Barrier: 30-140 (level 1-12)",
+							"Bonus Barrier (Heroes): Target max health * 0.05% of bonus weapon power"
+						],
+						"Additionally, Kensei's basic attacks deal increased damage to heroes with higher health.",
+						[
+							"Attack Damage: 40% of weapon power + (target max health * 0.03% of bonus weapon power)"
+						]
+					],
+					"stat_levels" : 0,
+					"stats" : false
+				},
+				"a_ability" : {
+					"name" : "Lotus Strike",
+					"thumb" : "lotus-strike.png",
+					"description" : [
+						"Kensei rushes forward, swinging his blade and dealing basic attack damage in an arc in front of him.",
+						[
+							"This ability can be reactivated two additional times within 5s."
+						]
+					],
+					"stat_levels" : 5,
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [14, 13, 12, 11, 8],
+							"ratios" : [0, 0],
+							"overdrive" : 8
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [25, 25, 25, 25, 5],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage (%)",
+							"values" : [55, 55, 55, 55, 65],
+							"ratios" : [0, 0],
+							"overdrive" : 65
+						},
+						{
+							"name" : "Bonus Damage",
+							"values" : [20, 40, 60, 80, 100],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Slow Strength (Kensho) (%)",
+							"values" : [30, 35, 40, 45, 50],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					] 
+				},
+				"b_ability" : {
+					"name" : "Kensho",
+					"thumb" : "kensho.png",
+					"description" : [
+						"Kensei strikes his target and leaps backward, entering Kensho Stance and generating fortified health for the duration.", 
+						"Kensho Stance: The next Lotus Strike or Path of the Ronin gain a powerful bonus effect when activated within 2.5s of canceling this stance.", 
+						[
+							"Lotus Strike travels farther and slows enemies hit",
+							"Path of the Ronin stuns enemies hit",
+							"Stance is canceled automatically upon movement, attacking, or using any ability."
+						]
+					],
+					"stat_levels" : 5,
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [16, 14.5, 13, 11.5, 8.5],
+							"ratios" : [0, 0],
+							"overdrive" : 8.5
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [40, 45, 50, 55, 60],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Bonus Damage",
+							"values" : [20, 30, 40, 50, 80],
+							"ratios" : [0, 0],
+							"overdrive" : 80
+						},
+						{
+							"name" : "Fortified Health / Second",
+							"values" : [30, 50, 70, 90, 110],
+							"ratios" : [0, 20],
+							"overdrive" : false
+						}
+					]
+				},
+				"c_ability" : {
+					"name" : "Path of the Ronin",
+					"thumb" : "path-of-the-ronin.png",
+					"description" : [
+						"Kensei readies himself before quickly rushing forward, dealing basic attack plus bonus damage to all enemies in his wake."
+					],
+					"stat_levels" : 3,
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [70, 55, 40],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [100, 120, 140],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Bonus Damage",
+							"values" : [200, 300, 400],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Stun Duration (Kensho) (s)",
+							"values" : [0.8, 1.1, 1.4],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					]
+				}
+			}
+		},
 		"kestrel" : {
 			"name" : "Kestrel",
 			"thumb" : "kestrel.png",
