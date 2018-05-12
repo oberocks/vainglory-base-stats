@@ -10,6 +10,7 @@ ______________________
 -  [Accessing the Data (with an Asynchronous call)](#accessing-the-data-with-an-asynchronous-call)
 -  [Data Structure](#data-structure)
 -  [Road Map](#road-map)
+-  [Image Files](#image-files)
 -  [Recent Changes](#road-map)
 
 ______________________
@@ -235,6 +236,16 @@ The structure of the JSON data in the vainglory.json file is as follows:
           * values
           * ratios
           * overdrive
+
+### Image Files
+The link below will provide you with a .zip file from a public dropbox directory. This .zip file has each image thumbnail referenced in the JSON data for each hero, each hero ability and each item. The organization of the image directories are as follows:
+  * images
+    * abilities
+        * [directory with each heroes name]
+    * heroes
+    * items
+
+<a href="https://www.dropbox.com/s/9zonaih81knggfi/images.zip?dl=0" target="_blank">Download Images Zip</a>
 
 ### Road Map
 Here are the tasks planned for the future of this project:
