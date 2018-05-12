@@ -9,8 +9,8 @@ ______________________
 -  [Accessing the Data (as a JavaScript object)](#accessing-the-data-as-a-javascript-object)
 -  [Accessing the Data (with an Asynchronous call)](#accessing-the-data-with-an-asynchronous-call)
 -  [Data Structure](#data-structure)
--  [Road Map](#road-map)
 -  [Image Files](#image-files)
+-  [Road Map](#road-map)
 -  [Recent Changes](#road-map)
 
 ______________________
