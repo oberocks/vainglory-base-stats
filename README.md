@@ -244,6 +244,6 @@ Here are the tasks planned for the future of this project:
 
 ### Recent Changes
 Here are the changes added during this release:
-1. Addede in a data field for each hero to specify the attack type of a hero (IE melee, ranged, or melee/ranged)
-1. Added in the difficulty rating for each hero (IE easy, medium, or hard)
-1. Added in Energy Recharge and Health Recharge data for each hero (Note - this info is NOT in the game currently, and can only be found on the official game website. Many other stats on that website do NOT match the current in-game stats, but for now it's the best we've got!)
+1. Added in a data field for each hero to specify the attack type of a hero (IE `Melee` or `Ranged`)
+1. Added in the difficulty rating for each hero (IE `Easy`, ``Medium, or `Hard`)
+1. Added in `energy_recharge` and `health_recharge` data for each hero (Note - this info is not in the game currently, and can only be found on the official game website. Many other stats on that website don't match the current in-game stats, but for now it's the best we've got!)
