@@ -251,7 +251,7 @@ The link below will provide you with a .zip file from a public dropbox directory
     * heroes
     * items
 
-<a href="https://www.dropbox.com/s/9zonaih81knggfi/images.zip?dl=0" target="_blank">Download Images Zip</a>
+<a href="https://www.dropbox.com/s/jb81p8r6uh0bpsc/images-v3-3-1-2.zip?dl=0" target="_blank">Download Images Zip</a>
 
 ### Road Map
 Here are the tasks planned for the future of this project:
