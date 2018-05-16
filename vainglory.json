@@ -141,7 +141,7 @@
 			"category" : "Defense",
 			"tier" : 3,
 			"cost" : 1900,
-			"activate" : "Maim nearby enemies, lowering their attack speed by 50% of their total for 4s in a 4-meter range. (20s cooldown)",
+			"activate" : "Maim nearby enemies, lowering their attack speed by 65% of their total for 4s in a 5-meter range. (20s cooldown)",
 			"passive" : false,
 			"vampirism" : false,
 			"bookofeulogies" : false,
@@ -744,7 +744,7 @@
 			"bookofeulogies" : false,
 			"armorbreaker" : false,
 			"shieldbreaker" : false,
-			"consume" : "Temporarily gain 20-80 crystal power, 10-30% cooldown speed, and 0-15 armor and shield based on your level. Lasts 150s. Can only have on infusion active at a time.",
+			"consume" : "Temporarily gain 20-70 crystal power, 10-30% cooldown speed, and 0-15 armor and shield based on your level (level 1-12). Lasts 150s. Can only have one infusion at a time.",
 			"boots" : false,
 			"travelboots" : false,
 			"stormguard" : false,
@@ -1298,7 +1298,7 @@
 				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
-				"crystal_power" :       { "value" : 85, "name" : "Crystal Power", "units" : false },
+				"crystal_power" :       { "value" : 100, "name" : "Crystal Power", "units" : false },
 				"attack_speed" :        false,
 				"armor" :               false,
 				"shield" :              false,
@@ -2773,7 +2773,7 @@
 			"tier" : 3,
 			"cost" : 2700,
 			"activate" : false,
-			"passive" : "Abilities dealing crystal damage to enemies (excluding lane minions) deal 15-50 (level 1-12) +100% of your crystal power as bonus crystal damage over 3s and apply Mortal Wounds for the duration.",
+			"passive" : "Abilities dealing crystal damage to enemies (excluding lane minions) deal 8-30 (level 1-12) +100% of your crystal power as bonus crystal damage over 3s and apply Mortal Wounds for the duration.",
 			"vampirism" : false,
 			"bookofeulogies" : false,
 			"armorbreaker" : false,
@@ -2914,7 +2914,7 @@
 			"consume" : false,
 			"boots" : false,
 			"travelboots" : false,
-			"stormguard" : "Basic attacks deal 40-130 (level 1-12) bonus true damage per second. 20% effectiveness against heroes and structures. (Does not stack with other Stormguard)",
+			"stormguard" : "Basic attacks deal 40-130 (level 1-12) bonus true damage per second. 10% effectiveness against heroes and structures. (Does not stack with other Stormguard)",
 			"breadth" : false,
 			"depth" : false,
 			"stats" : {
@@ -2959,7 +2959,7 @@
 			"consume" : false,
 			"boots" : false,
 			"travelboots" : false,
-			"stormguard" : "Basic attacks deal 40-130 (level 1-12) bonus true damage per second. 20% effectiveness against heroes and structures. (Does not stack with other Stormguard)",
+			"stormguard" : "Basic attacks deal 10-60 (level 1-12) bonus true damage per second. 10% effectiveness against heroes and structures. (Does not stack with other Stormguard)",
 			"breadth" : false,
 			"depth" : false,
 			"stats" : {
@@ -3132,7 +3132,7 @@
 			"tier" : 3,
 			"cost" : 2150,
 			"activate" : false,
-			"passive" : "Every 6s, your next basic attack will deal 240 bonus damage.",
+			"passive" : "Every 6s, your next basic attack will deal 210 bonus damage.",
 			"vampirism" : false,
 			"bookofeulogies" : false,
 			"armorbreaker" : "+10% armor pierce (does not stack with other Armorbreakers)",
@@ -3460,7 +3460,7 @@
 			"bookofeulogies" : false,
 			"armorbreaker" : false,
 			"shieldbreaker" : false,
-			"consume" : "Temporarily gain 20-80 weapon power, 5%-20% attack speed, and 0-15 armor & shield based on your level (level 1-12)",
+			"consume" : "Temporarily gain 20-70 weapon power, 5%-20% attack speed, and 0-15 armor & shield based on your level (level 1-12). Lasts 150s. Can only have one infusion at a time.",
 			"boots" : false,
 			"travelboots" : false,
 			"stormguard" : false,
@@ -3498,6 +3498,13 @@
 			"difficulty" : "Medium",
 			"attack_type" : "Ranged",
 			"description" : "Team healer and damage enhancer with a large area stun.",
+			"primary_role" : "Captain",
+			"ratings" : {
+				"offense" : 5,
+				"defense" : 3,
+				"team_utility" : 7,
+				"mobility" : 1
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -3527,7 +3534,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -3775,6 +3782,13 @@
 			"difficulty" : "Hard",
 			"attack_type" : "Melee",
 			"description" : "Killing machine who can resurrect herself.",
+			"primary_role" : "Jungler",
+			"ratings" : {
+				"offense" : 7,
+				"defense" : 6,
+				"team_utility" : 1,
+				"mobility" : 6
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -3804,7 +3818,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -3832,14 +3846,14 @@
 					"units" : false,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"energy_recharge" : {
 					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"cooldown" : {
 					"name" : "Cooldown Speed",
@@ -4056,6 +4070,13 @@
 			"difficulty" : "Easy",
 			"attack_type" : "Melee",
 			"description" : "Protects allies with barriers and traps enemies inside a large cage.",
+			"primary_role" : "Captain",
+			"ratings" : {
+				"offense" : 4,
+				"defense" : 8,
+				"team_utility" : 6,
+				"mobility" : 7
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -4085,7 +4106,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -4113,14 +4134,14 @@
 					"units" : false,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"energy_recharge" : {
 					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"cooldown" : {
 					"name" : "Cooldown Speed",
@@ -4320,6 +4341,13 @@
 			"difficulty" : "Medium",
 			"attack_type" : "Melee",
 			"description" : "Mid-range mage who inflicts fear on foes.",
+			"primary_role" : "Laner",
+			"ratings" : {
+				"offense" : 6,
+				"defense" : 4,
+				"team_utility" : 8,
+				"mobility" : 1
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -4349,7 +4377,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -4590,6 +4618,13 @@
 			"difficulty" : "Medium",
 			"attack_type" : "Ranged",
 			"description" : "Rocket soldier who can nuke anywhere on the map.",
+			"primary_role" : "Laner",
+			"ratings" : {
+				"offense" : 9,
+				"defense" : 3,
+				"team_utility" : 2,
+				"mobility" : 5
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -4619,7 +4654,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -4765,7 +4800,7 @@
 						[
 							"Overdrive: At max rank, Baron ignores all debuffs while leaping.",
 							"Baron takes longer to power up the farther away he is from his destination. However, this delay is reduced by weapon and crystal power up to a maximum of 200 total.",
-							"Basic attacks reduce this ability's cooldown by 8%."
+							"Basic attacks reduce this ability's cooldown by 15%."
 						]
 					],
 					"stat_levels" : 5,
@@ -4839,6 +4874,13 @@
 			"difficulty" : "Hard",
 			"attack_type" : "Melee",
 			"description" : "Evasive fighter who excels at chasing and cleaning up fragile enemies.",
+			"primary_role" : "Laner",
+			"ratings" : {
+				"offense" : 7,
+				"defense" : 6,
+				"team_utility" : 3,
+				"mobility" : 8
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -4852,7 +4894,7 @@
 					"units" : false,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
@@ -4868,7 +4910,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -4896,14 +4938,14 @@
 					"units" : false,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"energy_recharge" : {
 					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"cooldown" : {
 					"name" : "Cooldown Speed",
@@ -4983,7 +5025,7 @@
 					"stats" : [
 						{
 							"name" : "Cooldown (s)",
-							"values" : [10, 9.5, 9, 8.5, 8],
+							"values" : [9, 8.5, 8, 7.5, 7],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						},
@@ -5098,7 +5140,7 @@
 					"stats" : [
 						{
 							"name" : "Charge Time",
-							"values" : [60, 55, 50],
+							"values" : [45, 40, 35],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						},
@@ -5142,6 +5184,13 @@
 			"difficulty" : "Easy",
 			"attack_type" : "Melee",
 			"description" : "Disruptive tank with lots of stuns and a powerful silence.",
+			"primary_role" : "Captain",
+			"ratings" : {
+				"offense" : 2,
+				"defense" : 7,
+				"team_utility" : 7,
+				"mobility" : 2
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -5171,7 +5220,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -5401,6 +5450,13 @@
 			"difficulty" : "Medium",
 			"attack_type" : "Ranged",
 			"description" : "Back-line mage with heavy area damage and a stun.",
+			"primary_role" : "Laner",
+			"ratings" : {
+				"offense" : 8,
+				"defense" : 1,
+				"team_utility" : 4,
+				"mobility" : 1
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -5422,7 +5478,7 @@
 					"wp_scaling" : 0,
 					"min" : 10,
 					"max" : 10,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
@@ -5553,14 +5609,14 @@
 						},
 						{
 							"name" : "Damage",
-							"values" : [80, 135, 190, 245, 300],
+							"values" : [80, 130, 180, 230, 280],
 							"ratios" : [90, 0],
 							"overdrive" : false
 						},
 						{
 							"name" : "Nova Damage",
 							"values" : [130, 185, 240, 295, 350],
-							"ratios" : [200, 0],
+							"ratios" : [170, 0],
 							"overdrive" : false
 						},
 						{
@@ -5657,6 +5713,13 @@
 			"difficulty" : "Medium",
 			"attack_type" : "Melee",
 			"description" : "A disruptor who throws multiple skillshot hooks, chaining victims to him.",
+			"primary_role" : "Captain",
+			"ratings" : {
+				"offense" : 5.5,
+				"defense" : 5.5,
+				"team_utility" : 8.5,
+				"mobility" : 2.5
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -5686,7 +5749,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -5816,9 +5879,9 @@
 						},
 						{
 							"name" : "Damage / Sec (%)",
-							"values" : [2, 2, 2, 2, 3],
+							"values" : [1, 1, 1, 1, 2],
 							"ratios" : [0, 0],
-							"overdrive" : 3
+							"overdrive" : 2
 						}
 					]
 				},
@@ -5899,6 +5962,13 @@
 			"difficulty" : "Hard",
 			"attack_type" : "Melee",
 			"description" : "Trickster who can make the entire team invisible.",
+			"primary_role" : "Captain",
+			"ratings" : {
+				"offense" : 4,
+				"defense" : 2,
+				"team_utility" : 9,
+				"mobility" : 3
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -5912,7 +5982,7 @@
 					"units" : false,
 					"min" : 3.85,
 					"max" : 3.85,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
@@ -5928,7 +5998,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -6153,6 +6223,13 @@
 			"difficulty" : "Easy",
 			"attack_type" : "Melee",
 			"description" : "Agressive pack leader who swarms the enemy with great speed.",
+			"primary_role" : "Captain",
+			"ratings" : {
+				"offense" : 5,
+				"defense" : 4,
+				"team_utility" : 6,
+				"mobility" : 6
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -6182,7 +6259,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -6430,6 +6507,13 @@
 			"difficulty" : "Easy",
 			"attack_type" : "Melee",
 			"description" : "Brutal axe warrior who can knock enemies out of position.",
+			"primary_role" : "Jungler",
+			"ratings" : {
+				"offense" : 7,
+				"defense" : 7,
+				"team_utility" : 6,
+				"mobility" : 5
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -6459,14 +6543,14 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 113.2,
-					"level_gain" : 1.2
+					"max" : 122,
+					"level_gain" : 2
 				},
 				"armor" : {
 					"name" : "Armor",
@@ -6598,7 +6682,7 @@
 					"stats" : [
 						{
 							"name" : "Cooldown (s)",
-							"values" : [12, 11, 10, 9, 8],
+							"values" : [10, 9, 8, 7, 6],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						},
@@ -6660,7 +6744,7 @@
 						},
 						{
 							"name" : "Damage / Stack",
-							"values" : [10, 15, 20],
+							"values" : [15, 20, 25],
 							"ratios" : [2, 0],
 							"overdrive" : false
 						},
@@ -6680,6 +6764,13 @@
 			"difficulty" : "Easy",
 			"attack_type" : "Melee",
 			"description" : "A powerful paladin with a massive heal.",
+			"primary_role" : "Captain",
+			"ratings" : {
+				"offense" : 3,
+				"defense" : 7,
+				"team_utility" : 8,
+				"mobility" : 4
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -6709,7 +6800,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -6929,6 +7020,13 @@
 			"difficulty" : "Easy",
 			"attack_type" : "Melee",
 			"description" : "A hungry beast who can swallow a hero whole.",
+			"primary_role" : "Jungler",
+			"ratings" : {
+				"offense" : 8,
+				"defense" : 8,
+				"team_utility" : 3,
+				"mobility" : 6
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -6942,7 +7040,7 @@
 					"units" : false,
 					"min" : 3.39,
 					"max" : 3.39,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
@@ -6958,7 +7056,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -7196,6 +7294,13 @@
 			"difficulty" : "Easy",
 			"attack_type" : "Ranged",
 			"description" : "Gunslinger with powerful burst damage and ability to shake off disables.",
+			"primary_role" : "Laner",
+			"ratings" : {
+				"offense" : 6,
+				"defense" : 3,
+				"team_utility" : 6,
+				"mobility" : 6
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -7225,7 +7330,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -7443,6 +7548,13 @@
 			"difficulty" : "Hard",
 			"attack_type" : "Melee",
 			"description" : "Nimble assassin who unlocks melee or ranged fighting styles.",
+			"primary_role" : "Laner",
+			"ratings" : {
+				"offense" : 9,
+				"defense" : 2,
+				"team_utility" : 0,
+				"mobility" : 10
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -7456,7 +7568,7 @@
 					"units" : false,
 					"min" : 4.5,
 					"max" : 4.5,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
@@ -7500,14 +7612,14 @@
 					"units" : false,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"energy_recharge" : {
 					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"cooldown" : {
 					"name" : "Cooldown Speed",
@@ -7560,7 +7672,7 @@
 					"name" : "Divergent Paths",
 					"thumb" : "divergent-paths.png",
 					"description" : [
-						"Idris unlocks unique combat styles upon attaining 100 weapon or crystal power:",
+						"Idris unlocks unique combat styles upon attaining 120 weapon or crystal power:",
 						[
 							"Melee (Weapon): Idris’s Shroudstep becomes an instantaneous blink. His basic attacks also restore 10 stamina and reduce the cooldowns of his Shroudstep and Shimmer Strike abilities by 1s.",
 							"Ranged (Crystal): Idris gains a 3.8-meter ranged attack with a 75% crystal ratio (with bonus crystal damage of 19-85) but only 50% weapon ratio."
@@ -7703,6 +7815,13 @@
 			"difficulty" : "Medium",
 			"attack_type" : "Melee",
 			"description" : "Heavily armored mech rider with a powerful energy beam.",
+			"primary_role" : "Jungler",
+			"ratings" : {
+				"offense" : 7,
+				"defense" : 7,
+				"team_utility" : 4,
+				"mobility" : 4
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -7732,7 +7851,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -7940,7 +8059,14 @@
 			"thumb" : "kensei.png",
 			"difficulty" : "Medium",
 			"attack_type" : "Melee",
-			"description" : "VainGlory's newest hero",
+			"description" : "Swift swordmaster who can easily manuever through the battlefield.",
+			"primary_role" : "Laner",
+			"ratings" : {
+				"offense" : 8,
+				"defense" : 2,
+				"team_utility" : 5,
+				"mobility" : 10
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -8196,6 +8322,13 @@
 			"difficulty" : "Hard",
 			"attack_type" : "Ranged",
 			"description" : "Stealthy archer with devastating skillshots & traps.",
+			"primary_role" : "Laner",
+			"ratings" : {
+				"offense" : 8,
+				"defense" : 1,
+				"team_utility" : 3,
+				"mobility" : 4
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -8209,14 +8342,14 @@
 					"units" : false,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
-					"min" : 64,
-					"max" : 130,
+					"min" : 70,
+					"max" : 136,
 					"level_gain" : 6
 				},
 				"crystal_power" : {
@@ -8225,7 +8358,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -8260,7 +8393,7 @@
 					"units" : false,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"cooldown" : {
 					"name" : "Cooldown Speed",
@@ -8352,9 +8485,9 @@
 						},
 						{
 							"name" : "Basic Attack Damage",
-							"values" : [100, 100, 100, 100, 100],
+							"values" : [100, 100, 100, 100, 110],
 							"ratios" : [0, 0],
-							"overdrive" : false
+							"overdrive" : 110
 						},
 						{
 							"name" : "Armor Piercing (%)",
@@ -8366,7 +8499,7 @@
 							"name" : "Splash Damage",
 							"values" : [40, 70, 100, 130, 160],
 							"ratios" : [135, 0],
-							"overdrive" : 160
+							"overdrive" : false
 						}
 					]
 				},
@@ -8477,6 +8610,13 @@
 			"difficulty" : "Easy",
 			"attack_type" : "Melee",
 			"description" : "Hit-and-run assassin who can pin down enemies with a long stun.",
+			"primary_role" : "Jungler",
+			"ratings" : {
+				"offense" : 10,
+				"defense" : 3,
+				"team_utility" : 3,
+				"mobility" : 8
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -8506,7 +8646,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -8594,7 +8734,7 @@
 					"name" : "Bloodrush",
 					"thumb" : "bloodrush.png",
 					"description" : [
-						"Koshka gains 2.5 move speed for 4s whenever she deals damage with her abilities."
+						"Koshka gains 2 move speed for 4s whenever she deals damage with her abilities."
 					],
 					"stat_levels" : 0,
 					"stats" : false
@@ -8720,6 +8860,13 @@
 			"difficulty" : "Medium",
 			"attack_type" : "Melee",
 			"description" : "The king of duels with massive lifesteal and self-healing.",
+			"primary_role" : "Jungler",
+			"ratings" : {
+				"offense" : 6,
+				"defense" : 7,
+				"team_utility" : 5,
+				"mobility" : 4
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -8739,9 +8886,9 @@
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
-					"min" : 77,
+					"min" : 70,
 					"max" : 147,
-					"level_gain" : 6.36
+					"level_gain" : 7
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
@@ -8749,7 +8896,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -8935,9 +9082,9 @@
 						},
 						{
 							"name" : "Lifesteal / Stack (%)",
-							"values" : [9, 9, 9, 9, 11],
+							"values" : [6, 7, 8, 9, 12],
 							"ratios" : [0, 0],
-							"overdrive" : 11
+							"overdrive" : 12
 						},
 						{
 							"name" : "Weakness Duration",
@@ -9001,6 +9148,13 @@
 			"difficulty" : "Hard",
 			"attack_type" : "Melee",
 			"description" : "Disruptive knight who stops enemies in their tracks.",
+			"primary_role" : "Captain",
+			"ratings" : {
+				"offense" : 5,
+				"defense" : 9,
+				"team_utility" : 8,
+				"mobility" : 6
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -9030,14 +9184,14 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 100,
-					"level_gain" : false
+					"max" : 122,
+					"level_gain" : 2
 				},
 				"armor" : {
 					"name" : "Armor",
@@ -9058,14 +9212,14 @@
 					"units" : false,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"energy_recharge" : {
 					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"cooldown" : {
 					"name" : "Cooldown Speed",
@@ -9208,7 +9362,7 @@
 						{
 							"name" : "Damage",
 							"values" : [70, 105, 140, 175, 210],
-							"ratios" : [80, 100],
+							"ratios" : [80, 120],
 							"overdrive" : false
 						},
 						{
@@ -9241,7 +9395,7 @@
 					"stats" : [
 						{
 							"name" : "Cooldown (s)",
-							"values" : [8, 6, 4],
+							"values" : [6, 4.5, 3],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						},
@@ -9253,14 +9407,14 @@
 						},
 						{
 							"name" : "Stamina Cost",
-							"values" : [30, 25, 20],
+							"values" : [25, 20, 15],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						},
 						{
 							"name" : "Damage",
 							"values" : [100, 175, 250],
-							"ratios" : [80, 0],
+							"ratios" : [80, 30],
 							"overdrive" : false
 						}
 					]
@@ -9273,6 +9427,13 @@
 			"difficulty" : "Medium",
 			"attack_type" : "Ranged",
 			"description" : "Backline support, excelling at zone control and team utility.",
+			"primary_role" : "Captain",
+			"ratings" : {
+				"offense" : 4.5,
+				"defense" : 2,
+				"team_utility" : 9.5,
+				"mobility" : 6.5
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -9294,7 +9455,7 @@
 					"wp_scaling" : 0,
 					"min" : 10,
 					"max" : 10,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
@@ -9531,6 +9692,13 @@
 			"difficulty" : "Medium",
 			"attack_type" : "Ranged",
 			"description" : "Healer and zone mage who can create teleportation portals.",
+			"primary_role" : "Captain",
+			"ratings" : {
+				"offense" : 3,
+				"defense" : 2,
+				"team_utility" : 10,
+				"mobility" : 4
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -9552,7 +9720,7 @@
 					"wp_scaling" : 0,
 					"min" : 10,
 					"max" : 10,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
@@ -9652,7 +9820,7 @@
 						[
 							"Each channeled missile consumes 15-20 (level 1-12) energy, but Lyra can continue using these even if she runs out of energy.",
 							"Light attack damage: 50-85 (level 1-12) (+60% Crystal Power)",
-							"Heavy attack damage: 60-170 (level 1-12) (+70% Crystal Power)",
+							"Heavy attack damage: 60-170 (level 1-12) (+80% Crystal Power)",
 							"Heavy attack slow: 35% (+0.02% of bonus max health)"
 						]
 					],
@@ -9706,7 +9874,7 @@
 						{
 							"name" : "Detonate Damage",
 							"values" : [80, 140, 200, 260, 380],
-							"ratios" : [120, 0],
+							"ratios" : [100, 0],
 							"overdrive" : 380
 						}
 					]
@@ -9804,6 +9972,13 @@
 			"difficulty" : "Hard",
 			"attack_type" : "Ranged",
 			"description" : "Form swapping spellcaster who has the tools for any situation.",
+			"primary_role" : "Laner",
+			"ratings" : {
+				"offense" : 8,
+				"defense" : 3,
+				"team_utility" : 8,
+				"mobility" : 5.5
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -9815,9 +9990,9 @@
 				"health_recharge" : {
 					"name" : "Health Recharge",
 					"units" : false,
-					"min" : false,
-					"max" : false,
-					"level_gain" : false
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : 0
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
@@ -9825,7 +10000,7 @@
 					"wp_scaling" : 0,
 					"min" : 10,
 					"max" : 10,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
@@ -9866,9 +10041,9 @@
 				"energy_recharge" : {
 					"name" : "Energy Recharge",
 					"units" : false,
-					"min" : false,
-					"max" : false,
-					"level_gain" : false
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : 0
 				},
 				"cooldown" : {
 					"name" : "Cooldown Speed",
@@ -9952,7 +10127,7 @@
 						},
 						{
 							"name" : "Damage",
-							"values" : [60, 115, 170, 225, 280],
+							"values" : [60, 105, 150, 195, 240],
 							"ratios" : [120, 0],
 							"overdrive" : false
 						},
@@ -10078,7 +10253,7 @@
 					"stats" : [
 						{
 							"name" : "Cooldown (s)",
-							"values" : [5, 4, 3, 2],
+							"values" : [6, 5, 4, 3],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						},
@@ -10090,13 +10265,13 @@
 						},
 						{
 							"name" : "Bonus Damage",
-							"values" : [60, 120, 180, 240],
+							"values" : [60, 100, 140, 180],
 							"ratios" : [100, 0],
 							"overdrive" : false
 						},
 						{
 							"name" : "Slow (%)",
-							"values" : [30, 45, 60, 75],
+							"values" : [30, 40, 50, 60],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						}
@@ -10110,6 +10285,13 @@
 			"difficulty" : "Hard",
 			"attack_type" : "Melee",
 			"description" : "Acrobatic monkey with immense self-healing.",
+			"primary_role" : "Jungler",
+			"ratings" : {
+				"offense" : 6,
+				"defense" : 7,
+				"team_utility" : 3,
+				"mobility" : 6
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -10123,7 +10305,7 @@
 					"units" : false,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
@@ -10139,7 +10321,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -10174,7 +10356,7 @@
 					"units" : false,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"cooldown" : {
 					"name" : "Cooldown Speed",
@@ -10267,19 +10449,19 @@
 						{
 							"name" : "First Hit Damage",
 							"values" : [15, 25, 35, 45, 55],
-							"ratios" : [75, 0],
+							"ratios" : [75, 20],
 							"overdrive" : false
 						},
 						{
 							"name" : "Second Hit Damage",
 							"values" : [15, 25, 35, 45, 55],
-							"ratios" : [75, 0],
+							"ratios" : [75, 20],
 							"overdrive" : false
 						},
 						{
 							"name" : "Third Hit Damage",
 							"values" : [15, 25, 35, 45, 55],
-							"ratios" : [75, 0],
+							"ratios" : [75, 40],
 							"overdrive" : false
 						},
 						{
@@ -10400,6 +10582,13 @@
 			"difficulty" : "Easy",
 			"attack_type" : "Ranged",
 			"description" : "Commands 3 pets who tear apart enemies and block incoming skillshots.",
+			"primary_role" : "Jungler",
+			"ratings" : {
+				"offense" : 7,
+				"defense" : 2,
+				"team_utility" : 5,
+				"mobility" : 4
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -10429,7 +10618,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -10670,6 +10859,13 @@
 			"difficulty" : "Medium",
 			"attack_type" : "Melee",
 			"description" : "Extremely tanky and can pull in enemies from across the screen.",
+			"primary_role" : "Captain",
+			"ratings" : {
+				"offense" : 4,
+				"defense" : 10,
+				"team_utility" : 9,
+				"mobility" : 0
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -10699,7 +10895,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -10734,7 +10930,7 @@
 					"units" : false,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"cooldown" : {
 					"name" : "Cooldown Speed",
@@ -10912,6 +11108,13 @@
 			"difficulty" : "Medium",
 			"attack_type" : "Melee",
 			"description" : "Resilient ice mage who dominates close-quarter battles.",
+			"primary_role" : "Jungler",
+			"ratings" : {
+				"offense" : 8,
+				"defense" : 7,
+				"team_utility" : 5,
+				"mobility" : 0
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -10925,7 +11128,7 @@
 					"units" : false,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
@@ -10976,7 +11179,7 @@
 					"units" : false,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"cooldown" : {
 					"name" : "Cooldown Speed",
@@ -10991,7 +11194,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.3
+					"min" : 3.4
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -11074,13 +11277,13 @@
 						{
 							"name" : "First Hit Damage",
 							"values" : [60, 90, 120, 150, 180],
-							"ratios" : [70, 0],
+							"ratios" : [80, 0],
 							"overdrive" : false
 						},
 						{
 							"name" : "Second Hit Damage",
 							"values" : [60, 90, 120, 150, 180],
-							"ratios" : [100, 0],
+							"ratios" : [120, 0],
 							"overdrive" : false
 						}
 					]
@@ -11191,6 +11394,13 @@
 			"difficulty" : "Hard",
 			"attack_type" : "Melee",
 			"description" : "A fast, devastating fire mage with a demon netherform.",
+			"primary_role" : "Laner",
+			"ratings" : {
+				"offense" : 8,
+				"defense" : 4,
+				"team_utility" : 3,
+				"mobility" : 6
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -11343,9 +11553,9 @@
 						},
 						{
 							"name" : "Range (m)",
-							"values" : [7, 7, 7, 7, 9],
+							"values" : [7.5, 7.5, 7.5, 7.5, 9.5],
 							"ratios" : [0, 0],
-							"overdrive" : 9
+							"overdrive" : 9.5
 						},
 						{
 							"name" : "Damage",
@@ -11381,7 +11591,7 @@
 						},
 						{
 							"name" : "Cooldown (s)",
-							"values" : [2, 2, 2, 2, 2],
+							"values" : [0.5, 0.5, 0.5, 0.5, 0.5],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						},
@@ -11452,12 +11662,19 @@
 			"difficulty" : "Easy",
 			"attack_type" : "Ranged",
 			"description" : "Fast-moving, fast-shooting gunslinger with an epic fireball.",
+			"primary_role" : "Laner",
+			"ratings" : {
+				"offense" : 7,
+				"defense" : 2,
+				"team_utility" : 1,
+				"mobility" : 4
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
 					"units" : false,
-					"min" : 673,
-					"max" : 2077,
+					"min" : 703,
+					"max" : 2107,
 					"level_gain" : 127.63
 				},
 				"health_recharge" : {
@@ -11481,7 +11698,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -11627,7 +11844,7 @@
 					"stats" : [
 						{
 							"name" : "Cooldown (s)",
-							"values" : [12, 12, 12, 12, 12],
+							"values" : [11, 11, 11, 11, 11],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						},
@@ -11708,6 +11925,13 @@
 			"difficulty" : "Medium",
 			"attack_type" : "Melee",
 			"description" : "Durable berserker who excels in the thick of fights.",
+			"primary_role" : "Jungler",
+			"ratings" : {
+				"offense" : 7,
+				"defense" : 6,
+				"team_utility" : 2,
+				"mobility" : 6
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -11721,7 +11945,7 @@
 					"units" : false,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
@@ -11737,7 +11961,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -11765,14 +11989,14 @@
 					"units" : false,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"energy_recharge" : {
 					"name" : "Energy Recharge",
 					"units" : false,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"cooldown" : {
 					"name" : "Cooldown Speed",
@@ -11825,7 +12049,7 @@
 					"name" : "Berserkers' Fury",
 					"thumb" : "berserkers-fury.png",
 					"description" : [
-						"Rona attacks faster than most heroes, but she deals 85% damage with each attack.",
+						"Rona attacks faster than most heroes, but she deals 80% damage with each attack.",
 						"Rona's abilities use Bloodrage instead of energy, a unique resource that is generated from basic attacks, abilities, and taking damage from enemies.",
 						[
 							"Critical strikes and basic attacks against targets afflicted by Mortal Wounds will generate additional Bloodrage.",
@@ -11906,9 +12130,9 @@
 					"stats" : [
 						{
 							"name" : "Cooldown (s)",
-							"values" : [16, 15, 14, 13, 12],
+							"values" : [18, 17, 16, 15, 13],
 							"ratios" : [0, 0],
-							"overdrive" : false
+							"overdrive" : 13
 						},
 						{
 							"name" : "Energy Cost",
@@ -11919,7 +12143,7 @@
 						{
 							"name" : "First Attack Damage",
 							"values" : [10, 20, 30, 40, 70],
-							"ratios" : [100, 85],
+							"ratios" : [100, 80],
 							"overdrive" : 70
 						},
 						{
@@ -11931,7 +12155,7 @@
 						{
 							"name" : "Second Attack Damage",
 							"values" : [10, 20, 30, 40, 70],
-							"ratios" : [100, 85],
+							"ratios" : [100, 80],
 							"overdrive" : 70
 						},
 						{
@@ -12001,6 +12225,13 @@
 			"difficulty" : "Hard",
 			"attack_type" : "Ranged",
 			"description" : "Dark zone-control mage who can put enemies to sleep.",
+			"primary_role" : "Laner",
+			"ratings" : {
+				"offense" : 8,
+				"defense" : 2,
+				"team_utility" : 2,
+				"mobility" : 4
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -12274,6 +12505,13 @@
 			"difficulty" : "Easy",
 			"attack_type" : "Ranged",
 			"description" : "Heavy machine gunner who sacrifices move speed for damage.",
+			"primary_role" : "Laner",
+			"ratings" : {
+				"offense" : 10,
+				"defense" : 2,
+				"team_utility" : 2,
+				"mobility" : 2
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -12303,7 +12541,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -12540,6 +12778,13 @@
 			"difficulty" : "Easy",
 			"attack_type" : "Ranged",
 			"description" : "Spits long-range fireballs and incinerates entire teams.",
+			"primary_role" : "Laner",
+			"ratings" : {
+				"offense" : 8,
+				"defense" : 2,
+				"team_utility" : 3,
+				"mobility" : 1
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -12569,7 +12814,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -12696,7 +12941,7 @@
 						{
 							"name" : "Damage",
 							"values" : [75, 135, 195, 255, 315],
-							"ratios" : [150, 0],
+							"ratios" : [130, 0],
 							"overdrive" : false
 						},
 						{
@@ -12785,8 +13030,8 @@
 						},
 						{
 							"name" : "Damage / Sec",
-							"values" : [325, 400, 475],
-							"ratios" : [100, 0],
+							"values" : [350, 450, 550],
+							"ratios" : [130, 0],
 							"overdrive" : false
 						},
 						{
@@ -12811,6 +13056,13 @@
 			"difficulty" : "Hard",
 			"attack_type" : "Ranged",
 			"description" : "Versatile, elusive mech pilot who can flank enemies from any angle.",
+			"primary_role" : "Laner",
+			"ratings" : {
+				"offense" : 9,
+				"defense" : 1,
+				"team_utility" : 3,
+				"mobility" : 9
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -12824,7 +13076,7 @@
 					"units" : false,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
@@ -12840,7 +13092,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -12875,7 +13127,7 @@
 					"units" : false,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"range" : {
 					"name" : "Range",
@@ -13092,6 +13344,13 @@
 			"difficulty" : "Medium",
 			"attack_type" : "Melee",
 			"description" : "Stealthy assassin who can heal while invisible.",
+			"primary_role" : "Jungler",
+			"ratings" : {
+				"offense" : 8,
+				"defense" : 4,
+				"team_utility" : 1,
+				"mobility" : 8
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -13121,7 +13380,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -13344,6 +13603,13 @@
 			"difficulty" : "Medium",
 			"attack_type" : "Melee",
 			"description" : "Dwarven brawler who taunts and pummels enemies.",
+			"primary_role" : "Jungler",
+			"ratings" : {
+				"offense" : 8,
+				"defense" : 6.5,
+				"team_utility" : 5,
+				"mobility" : 4
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -13373,7 +13639,7 @@
 					"cp_scaling" : 0,
 					"min" : 0,
 					"max" : 0,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -13590,6 +13856,13 @@
 			"difficulty" : "Hard",
 			"attack_type" : "Ranged",
 			"description" : "Shocking valkyrie who chains massive damage across enemy teams.",
+			"primary_role" : "Laner",
+			"ratings" : {
+				"offense" : 9,
+				"defense" : 3,
+				"team_utility" : 2,
+				"mobility" : 7
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
@@ -13611,7 +13884,7 @@
 					"wp_scaling" : 0,
 					"min" : 10,
 					"max" : 10,
-					"level_gain" : false
+					"level_gain" : 0
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
@@ -13854,6 +14127,13 @@
 			"difficulty" : "Medium",
 			"attack_type" : "Ranged",
 			"description" : "Agile damage dealer who dashes around the battlefield.",
+			"primary_role" : "Laner",
+			"ratings" : {
+				"offense" : 6,
+				"defense" : 2,
+				"team_utility" : 2,
+				"mobility" : 9
+			},
 			"stats" : {
 				"health" : {
 					"name" : "Health",
