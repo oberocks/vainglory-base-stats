@@ -1,5 +1,5 @@
-# Vainglory Base Stats v3.2.1.1
-A JSON object master file, hard-coded from the game itself, for use in web-based applications that can parse JSON data.
+# Vainglory Base Stats v3.3.1.2
+A JSON object master file, hard-coded from the game itself, for use in web-based applications that can parse JSON data. Updated for VainGlory patch 3.3!
 
 ______________________
 
@@ -143,13 +143,19 @@ The structure of the JSON data in the vainglory.json file is as follows:
     * difficulty
     * attack_type
     * description
-    * stats
+    * primary_role
+    * ratings
+      * offense
+      * defense
+      * team_utility
+      * mobility
+    * stats
       * health
         * name
         * units
         * min
         * max
-      * energy (same as health)
+      * health_recharge (same as health)
       * weapon_power
         * name
         * units
@@ -185,7 +191,7 @@ The structure of the JSON data in the vainglory.json file is as follows:
         * thumb
         * description
         * stat_levels
-        * stats
+        * stats (currently false in all cases, but this is the object planned for future inclusion of calculatable stats for perk abilities)
       * a_ability
         * name
         * thumb
