@@ -129,10 +129,10 @@
 				"crystal_lifesteal" :   false
 			},
 			"tip" : "Helps you deal consistent damage after you've built enough crystal power.",
-			"build_from" : {
-				"path_1" : ["heavy_crystal"],
-				"path_2" : ["blazing_salvo"]
-			},
+			"build_from" : [
+				"heavy_prism",
+				"blazing_salvo"
+			],
 			"builds_to" : false
 		},
 		"atlas_pauldron" : {
@@ -269,10 +269,12 @@
 				"swift_shooter"
 			],
 			"builds_to" : [
+				"alternating_current",
 				"poisoned_shiv",
 				"breaking_point",
 				"bonesaw",
-				"tornado_trigger"
+				"tornado_trigger",
+				"shiversteel"
 			]
 		},
 		"bonesaw" : {
@@ -403,10 +405,11 @@
 				"crystal_lifesteal" :   false
 			},
 			"tip" : "Helps you stay healthy while last-hitting in lane.",
-			"build_from" : false,
-			"builds_to" : [
-				"barbed_needle"
-			]
+			"build_from" : [
+				"heavy_steel",
+				"blazing_salvo"
+			],
+			"builds_to" : false
 		},
 		"broken_myth" : {
 			"name" : "Broken Myth",
@@ -510,8 +513,8 @@
 			"category" : "Crystal",
 			"tier" : 3,
 			"cost" : 2400,
-			"activate" : "Upon damaging an enemy hero with an ability, reduce all cooldowns by 6%. This can only occur once every 2s.",
-			"passive" : false,
+			"activate" : false,
+			"passive" : "Upon damaging an enemy hero with an ability, reduce all cooldowns by 6%. This can only occur once every 2s.",
 			"vampirism" : false,
 			"bookofeulogies" : false,
 			"armorbreaker" : false,
@@ -2172,7 +2175,7 @@
 				"crystal_bit"
 			],
 			"builds_to" : [
-				"borken_myth"
+				"broken_myth"
 			]
 		},
 		"piercing_spear" : {
@@ -2306,12 +2309,8 @@
 				"crystal_lifesteal" :   false
 			},
 			"tip" : "Purchase this if you expect heavy aggression coming from the enemy team or want early teamfights.",
-			"build_from" : [
-				"template_item"
-			],
-			"builds_to" : [
-				"template_item"
-			]
+			"build_from" : false,
+			"builds_to" : false
 		},
 		"reflex_block" : {
 			"name" : "Reflex Block",
@@ -2403,7 +2402,7 @@
 				"hourglass"
 			],
 			"builds_to" : [
-				"superscout2000"
+				"superscout_2000"
 			]
 		},
 		"scout_trap" : {
@@ -2491,7 +2490,7 @@
 				"flare_loader"
 			],
 			"builds_to" : [
-				"superscout2000"
+				"superscout_2000"
 			]
 		},
 		"serpent_mask" : {
@@ -2625,7 +2624,7 @@
 			"tip" : "Use this to slow fleeing enemies.",
 			"build_from" : [
 				"blazing_salvo",
-				"dragon_heart"
+				"dragonheart"
 			],
 			"builds_to" : false
 		},
@@ -2990,7 +2989,7 @@
 				"stormcrown"
 			]
 		},
-		"superscout2000" : {
+		"superscout_2000" : {
 			"name" : "SuperScout 2000",
 			"thumb" : "superscout-2000.png",
 			"category" : "Other",
@@ -3074,11 +3073,9 @@
 				"crystal_lifesteal" :   false
 			},
 			"tip" : false,
-			"build_from" : [
-				"template_item"
-			],
+			"build_from" : false,
 			"builds_to" : [
-				"template_item"
+				"blazing_salvo"
 			]
 		},
 		"teleport_boots" : {
