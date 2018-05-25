@@ -3771,7 +3771,60 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Team Support",
+					"role" : "Captain",
+					"type" : "Support",
+					"description" : [
+						"High Utility",
+						"Moderate Defense"
+					],
+					"items" : [
+						"fountain_of_renewal",
+						"crucible",
+						"war_treads",
+						"clockwork",
+						"metal_jacket",
+						"shatterglass"
+					]
+				},
+				{
+					"title" : "Hybrid Carry",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"High Damage",
+						"Moderate Healing"
+					],
+					"items" : [
+						"alternating_current",
+						"dragons_eye",
+						"aegis",
+						"broken_myth",
+						"journey_boots",
+						"metal_jacket"
+					]
+				},
+				{
+					"title" : "Continous Damage",
+					"role" : "Carry",
+					"type" : "Weapon",
+					"description" : [
+						"High Damage",
+						"Moderate Defense"
+					],
+					"items" : [
+						"sorrowblade",
+						"tornado_trigger",
+						"tyrants_monocle",
+						"aegis",
+						"tyrants_monocle",
+						"metal_jacket"
+					]
+				}
+			]
 		},
 		"alpha" : {
 			"name" : "Alpha",
@@ -4059,7 +4112,43 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Mobile Fighter",
+					"role" : "Jungler",
+					"type" : "Crystal",
+					"description" : [
+						"Fast Cooldowns",
+						"Moderate Damage"
+					],
+					"items" : [
+						"stormcrown",
+						"aftershock",
+						"aegis",
+						"dragons_eye",
+						"journey_boots",
+						"metal_jacket"
+					]
+				},
+				{
+					"title" : "Warrior",
+					"role" : "Jungler",
+					"type" : "Weapon",
+					"description" : [
+						"Ramping Damage",
+						"High Lifesteal"
+					],
+					"items" : [
+						"spellsword",
+						"breaking_point",
+						"aegis",
+						"metal_jacket",
+						"sorrowblade",
+						"journey_boots"
+					]
+				}
+			]
 		},
 		"ardan" : {
 			"name" : "Ardan",
@@ -4330,7 +4419,60 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Team Support",
+					"role" : "Captain",
+					"type" : "Support",
+					"description" : [
+						"High Utility",
+						"Moderate Damage"
+					],
+					"items" : [
+						"fountain_of_renewal",
+						"crucible",
+						"war_treads",
+						"metal_jacket",
+						"aftershock",
+						"stormcrown"
+					]
+				},
+				{
+					"title" : "Aggressive Support",
+					"role" : "Captain",
+					"type" : "Support",
+					"description" : [
+						"High Damage",
+						"Moderate Defense"
+					],
+					"items" : [
+						"stormcrown",
+						"fountain_of_renewal",
+						"clockwork",
+						"crucible",
+						"war_treads",
+						"aftershock"
+					]
+				},
+				{
+					"title" : "Beatdown",
+					"role" : "Jungler",
+					"type" : "Weapon",
+					"description" : [
+						"Ramping Damage",
+						"Moderate Defense"
+					],
+					"items" : [
+						"sorrowblade",
+						"shiversteel",
+						"breaking_point",
+						"aegis",
+						"war_treads",
+						"bonesaw"
+					]
+				}
+			]
 		},
 		"baptiste" : {
 			"name" : "Baptiste",
@@ -4607,7 +4749,60 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Continuous Damage",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"High Damage",
+						"High Defense"
+					],
+					"items" : [
+						"dragons_eye",
+						"clockwork",
+						"broken_myth",
+						"aegis",
+						"metal_jacket",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Warrior",
+					"role" : "Jungler",
+					"type" : "Weapon",
+					"description" : [
+						"Ramping Damage",
+						"High Lifesteal"
+					],
+					"items" : [
+						"serpent_mask",
+						"breaking_point",
+						"aegis",
+						"metal_jacket",
+						"bonesaw",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Team Support",
+					"role" : "Captain",
+					"type" : "Support",
+					"description" : [
+						"Ramping Damage",
+						"High Lifesteal"
+					],
+					"items" : [
+						"fountain_of_renewal",
+						"crucible",
+						"clockwork",
+						"war_treads",
+						"atlas_pauldron",
+						"dragons_eye"
+					]
+				}
+			]
 		},
 		"baron" : {
 			"name" : "Baron",
@@ -4863,7 +5058,60 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Continuous Damage",
+					"role" : "Carry",
+					"type" : "Weapon",
+					"description" : [
+						"Ramping Damage",
+						"Moderate Defense"
+					],
+					"items" : [
+						"sorrowblade",
+						"breaking_point",
+						"tyrants_monocle",
+						"aegis",
+						"journey_boots",
+						"metal_jacket"
+					]
+				},
+				{
+					"title" : "Glass Cannon",
+					"role" : "Carry",
+					"type" : "Weapon",
+					"description" : [
+						"Massive Damage",
+						"No Defense"
+					],
+					"items" : [
+						"sorrowblade",
+						"breaking_point",
+						"tyrants_monocle",
+						"tyrants_monocle",
+						"tornado_trigger",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Artillery",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"High Damage",
+						"Low Defense"
+					],
+					"items" : [
+						"shatterglass",
+						"clockwork",
+						"broken_myth",
+						"aegis",
+						"dragons_eye",
+						"journey_boots"
+					]
+				}
+			]
 		},
 		"blackfeather" : {
 			"name" : "Blackfeather",
@@ -5173,7 +5421,60 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Poke Fighter",
+					"role" : "Jungler",
+					"type" : "Crystal",
+					"description" : [
+						"High Damage",
+						"Moderate Defense"
+					],
+					"items" : [
+						"aftershock",
+						"stormcrown",
+						"dragons_eye",
+						"aegis",
+						"broken_myth",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Warrior",
+					"role" : "Carry",
+					"type" : "Weapon",
+					"description" : [
+						"Ramping Damage",
+						"Moderate Defense"
+					],
+					"items" : [
+						"serpent_mask",
+						"breaking_point",
+						"aegis",
+						"shiversteel",
+						"journey_boots",
+						"metal_jacket"
+					]
+				},
+				{
+					"title" : "Glass Cannon",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"Massive Damage",
+						"No Defense"
+					],
+					"items" : [
+						"shatterglass",
+						"clockwork",
+						"broken_myth",
+						"dragons_eye",
+						"halcyon_chargers",
+						"alternating_current"
+					]
+				}
+			]
 		},
 		"catherine" : {
 			"name" : "Catherine",
@@ -5439,7 +5740,60 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Stun Train",
+					"role" : "Captain",
+					"type" : "Support",
+					"description" : [
+						"Low Cooldowns",
+						"Moderate Defense"
+					],
+					"items" : [
+						"stormcrown",
+						"aftershock",
+						"clockwork",
+						"aegis",
+						"metal_jacket",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Team Support",
+					"role" : "Captain",
+					"type" : "Support",
+					"description" : [
+						"High Utility",
+						"Moderate Defense"
+					],
+					"items" : [
+						"fountain_of_renewal",
+						"crucible",
+						"stormcrown",
+						"war_treads",
+						"aftershock",
+						"atlas_pauldron"
+					]
+				},
+				{
+					"title" : "Aggressive Support",
+					"role" : "Captain",
+					"type" : "Support",
+					"description" : [
+						"Low Cooldowns",
+						"Moderate Defense"
+					],
+					"items" : [
+						"fountain_of_renewal",
+						"stormcrown",
+						"crucible",
+						"aftershock",
+						"war_treads",
+						"clockwork"
+					]
+				}
+			]
 		},
 		"celeste" : {
 			"name" : "Celeste",
@@ -5480,10 +5834,10 @@
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
-					"cp_scaling" : 75,
-					"min" : 65,
-					"max" : 115,
-					"level_gain" : 4.54
+					"cp_scaling" : 0,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -5702,7 +6056,43 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Continuous Damage",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"Ramping Damage",
+						"High Lifesteal"
+					],
+					"items" : [
+						"dragons_eye",
+						"eve_of_harvest",
+						"broken_myth",
+						"aegis",
+						"metal_jacket",
+						"halcyon_chargers"
+					]
+				},
+				{
+					"title" : "Glass Cannon",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"Massive Damage",
+						"Low Defense"
+					],
+					"items" : [
+						"dragons_eye",
+						"broken_myth",
+						"clockwork",
+						"frostburn",
+						"aegis",
+						"journey_boots"
+					]
+				}
+			]
 		},
 		"churnwalker" : {
 			"name" : "Churnwalker",
@@ -5875,6 +6265,12 @@
 							"overdrive" : false
 						},
 						{
+							"name" : "Range (m)",
+							"values" : [8.5, 8.5, 8.5, 8.5, 9.5],
+							"ratios" : [0, 0],
+							"overdrive" : 9.5
+						},
+						{
 							"name" : "Damage / Sec (%)",
 							"values" : [1, 1, 1, 1, 2],
 							"ratios" : [0, 0],
@@ -5951,7 +6347,43 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Team Support",
+					"role" : "Captain",
+					"type" : "Support",
+					"description" : [
+						"High Utility",
+						"Moderate Defense"
+					],
+					"items" : [
+						"fountain_of_renewal",
+						"crucible",
+						"war_treads",
+						"metal_jacket",
+						"clockwork",
+						"nullwave_gauntlet"
+					]
+				},
+				{
+					"title" : "Lockdown",
+					"role" : "Captain",
+					"type" : "Support",
+					"description" : [
+						"High Utility",
+						"Low Cooldowns"
+					],
+					"items" : [
+						"fountain_of_renewal",
+						"nullwave_gauntlet",
+						"war_treads",
+						"crucible",
+						"atlas_pauldron",
+						"aftershock"
+					]
+				}
+			]
 		},
 		"flicker" : {
 			"name" : "Flicker",
@@ -6211,7 +6643,43 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Team Support",
+					"role" : "Captain",
+					"type" : "Support",
+					"description" : [
+						"High Utility",
+						"Moderate Defense"
+					],
+					"items" : [
+						"fountain_of_renewal",
+						"crucible",
+						"shiversteel",
+						"stormcrown",
+						"war_treads",
+						"atlas_pauldron"
+					]
+				},
+				{
+					"title" : "Stealth Fighter",
+					"role" : "Jungler",
+					"type" : "Crystal",
+					"description" : [
+						"High Damage",
+						"Moderate Defense"
+					],
+					"items" : [
+						"stormcrown",
+						"fountain_of_renewal",
+						"aftershock",
+						"war_treads",
+						"clockwork",
+						"slumbering_husk"
+					]
+				}
+			]
 		},
 		"fortress" : {
 			"slug" : "fortress",
@@ -6496,7 +6964,42 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Team Support",
+					"role" : "Captain",
+					"type" : "Support",
+					"description" : [
+						"High Utility",
+						"Moderate Damage"
+					],
+					"items" : [
+						"fountain_of_renewal",
+						"crucible",
+						"atlas_pauldron",
+						"war_treads",
+						"stormcrown",
+						"aftershock"
+					]
+				},
+				{
+					"title" : "Agressive Support",
+					"role" : "Captain",
+					"type" : "Crystal",
+					"description" : [
+						"High Damage"
+					],
+					"items" : [
+						"stormcrown",
+						"aftershock",
+						"aegis",
+						"clockwork",
+						"war_treads",
+						"metal_jacket"
+					]
+				}
+			]
 		},
 		"glaive" : {
 			"name" : "Glaive",
@@ -6753,7 +7256,43 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Continuous Damage",
+					"role" : "Jungler",
+					"type" : "Weapon",
+					"description" : [
+						"High Damage",
+						"High Defense"
+					],
+					"items" : [
+						"tension_bow",
+						"sorrowblade",
+						"aegis",
+						"breaking_point",
+						"journey_boots",
+						"metal_jacket"
+					]
+				},
+				{
+					"title" : "Team Support",
+					"role" : "Captain",
+					"type" : "Support",
+					"description" : [
+						"High Mobility",
+						"High Utility"
+					],
+					"items" : [
+						"fountain_of_renewal",
+						"stormcrown",
+						"crucible",
+						"war_treads",
+						"aftershock",
+						"clockwork"
+					]
+				}
+			]
 		},
 		"grace" : {
 			"name" : "Grace",
@@ -7009,7 +7548,60 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Agressive Support",
+					"role" : "Captain",
+					"type" : "Crystal",
+					"description" : [
+						"High Utility",
+						"Moderate Damage"
+					],
+					"items" : [
+						"fountain_of_renewal",
+						"dragons_eye",
+						"war_treads",
+						"crucible",
+						"aftershock",
+						"clockwork"
+					]
+				},
+				{
+					"title" : "Team Support",
+					"role" : "Captain",
+					"type" : "Crystal",
+					"description" : [
+						"High Utility",
+						"High Healing"
+					],
+					"items" : [
+						"fountain_of_renewal",
+						"crucible",
+						"shatterglass",
+						"war_treads",
+						"atlas_pauldron",
+						"clockwork"
+					]
+				},
+				{
+					"title" : "Warrior",
+					"role" : "Jungler",
+					"type" : "Weapon",
+					"description" : [
+						"Ramping Damage",
+						"Moderate Defense"
+					],
+					"items" : [
+						"tension_bow",
+						"sorrowblade",
+						"tyrants_monocle",
+						"aegis",
+						"metal_jacket",
+						"journey_boots"
+					]
+				}
+			]
 		},
 		"grumpjaw" : {
 			"name" : "Grumpjaw",
@@ -7283,7 +7875,60 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Continuous Damage",
+					"role" : "Jungler",
+					"type" : "Weapon",
+					"description" : [
+						"Ramping Damage",
+						"High Defense"
+					],
+					"items" : [
+						"sorrowblade",
+						"breaking_point",
+						"poisoned_shiv",
+						"aegis",
+						"metal_jacket",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Team Support",
+					"role" : "Captain",
+					"type" : "Support",
+					"description" : [
+						"High Mobility",
+						"High Utility"
+					],
+					"items" : [
+						"fountain_of_renewal",
+						"crucible",
+						"war_treads",
+						"atlas_pauldron",
+						"aftershock",
+						"clockwork"
+					]
+				},
+				{
+					"title" : "Mobile Fighter",
+					"role" : "Jungler",
+					"type" : "Crystal",
+					"description" : [
+						"High Defense",
+						"High Utility"
+					],
+					"items" : [
+						"stormcrown",
+						"aftershock",
+						"aegis",
+						"journey_boots",
+						"metal_jacket",
+						"dragons_eye"
+					]
+				}
+			]
 		},
 		"gwen" : {
 			"name" : "Gwen",
@@ -7537,7 +8182,43 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Continuous Damage",
+					"role" : "Carry",
+					"type" : "Weapon",
+					"description" : [
+						"Ramping Damage",
+						"Moderate Defense"
+					],
+					"items" : [
+						"tension_bow",
+						"sorrowblade",
+						"breaking_point",
+						"aegis",
+						"journey_boots",
+						"metal_jacket"
+					]
+				},
+				{
+					"title" : "Mobile Cannon",
+					"role" : "Carry",
+					"type" : "Weapon",
+					"description" : [
+						"High Damage",
+						"Long Range"
+					],
+					"items" : [
+						"shatterglass",
+						"clockwork",
+						"broken_myth",
+						"slumbering_husk",
+						"dragons_eye",
+						"journey_boots"
+					]
+				}
+			]
 		},
 		"idris" : {
 			"name" : "Idris",
@@ -7576,12 +8257,12 @@
 					"level_gain" : 7.63
 				},
 				"crystal_power" : {
-					"name" : "Crystal Power (w/ 100+ CP)",
+					"name" : "Crystal Power",
 					"units" : false,
-					"cp_scaling" : 75,
-					"min" : 19,
-					"max" : 85,
-					"level_gain" : 6
+					"cp_scaling" : 0,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -7804,7 +8485,60 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Mobile Fighter",
+					"role" : "Carry",
+					"type" : "Weapon",
+					"description" : [
+						"Ramping Damage",
+						"High Mobility"
+					],
+					"items" : [
+						"sorrowblade",
+						"breaking_point",
+						"poisoned_shiv",
+						"aegis",
+						"journey_boots",
+						"metal_jacket"
+					]
+				},
+				{
+					"title" : "Continuous Damage",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"High Damage",
+						"Long Range"
+					],
+					"items" : [
+						"alternating_current",
+						"dragons_eye",
+						"eve_of_harvest",
+						"broken_myth",
+						"aegis",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Glass Cannon",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"Massive Damage",
+						"No Defense"
+					],
+					"items" : [
+						"alternating_current",
+						"dragons_eye",
+						"eve_of_harvest",
+						"broken_myth",
+						"journey_boots",
+						"shatterglass"
+					]
+				}
+			]
 		},
 		"joule" : {
 			"name" : "Joule",
@@ -8049,7 +8783,43 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Continuous Damage",
+					"role" : "Jungler",
+					"type" : "Weapon",
+					"description" : [
+						"High Damage",
+						"High Defense"
+					],
+					"items" : [
+						"sorrowblade",
+						"tyrants_monocle",
+						"tornado_trigger",
+						"aegis",
+						"tyrants_monocle",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Burst Damage",
+					"role" : "Jungler",
+					"type" : "Crystal",
+					"description" : [
+						"Massive Damage",
+						"Moderate Defense"
+					],
+					"items" : [
+						"shatterglass",
+						"clockwork",
+						"broken_myth",
+						"aegis",
+						"dragons_eye",
+						"journey_boots"
+					]
+				}
+			]
 		},
 		"kensei" : {
 			"name" : "Kensei",
@@ -8311,7 +9081,43 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Mobile Fighter",
+					"role" : "Carry",
+					"type" : "Weapon",
+					"description" : [
+						"High Mobility",
+						"Moderate Defense"
+					],
+					"items" : [
+						"spellsword",
+						"breaking_point",
+						"tornado_trigger",
+						"aegis",
+						"tyrants_monocle",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Continuous Damage",
+					"role" : "Carry",
+					"type" : "Weapon",
+					"description" : [
+						"High Damage",
+						"High Defense"
+					],
+					"items" : [
+						"poisoned_shiv",
+						"breaking_point",
+						"aegis",
+						"metal_jacket",
+						"journey_boots",
+						"sorrowblade"
+					]
+				}
+			]
 		},
 		"kestrel" : {
 			"name" : "Kestrel",
@@ -8599,7 +9405,60 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Deadly Sniper",
+					"role" : "Carry",
+					"type" : "Weapon",
+					"description" : [
+						"Massive Damage",
+						"Moderate Defense"
+					],
+					"items" : [
+						"sorrowblade",
+						"tyrants_monocle",
+						"tornado_trigger",
+						"aegis",
+						"tyrants_monocle",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Splash Damage",
+					"role" : "Jungler",
+					"type" : "Crystal",
+					"description" : [
+						"High Damage",
+						"Long Range"
+					],
+					"items" : [
+						"frostburn",
+						"shatterglass",
+						"spellfire",
+						"slumbering_husk",
+						"halcyon_chargers",
+						"dragons_eye"
+					]
+				},
+				{
+					"title" : "Stealth Assassin",
+					"role" : "Jungler",
+					"type" : "Crystal",
+					"description" : [
+						"Massive Damage",
+						"No Defense"
+					],
+					"items" : [
+						"shatterglass",
+						"clockwork",
+						"frostburn",
+						"spellfire",
+						"halcyon_chargers",
+						"broken_myth"
+					]
+				}
+			]
 		},
 		"koshka" : {
 			"name" : "Koshka",
@@ -8849,7 +9708,43 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Mobile Fighter",
+					"role" : "Jungler",
+					"type" : "Crystal",
+					"description" : [
+						"High Damage",
+						"High Mobility"
+					],
+					"items" : [
+						"aftershock",
+						"dragons_eye",
+						"broken_myth",
+						"aegis",
+						"metal_jacket",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Assassin",
+					"role" : "Jungler",
+					"type" : "Crystal",
+					"description" : [
+						"Massive Damage",
+						"Low Defense"
+					],
+					"items" : [
+						"shatterglass",
+						"clockwork",
+						"broken_myth",
+						"aegis",
+						"dragons_eye",
+						"journey_boots"
+					]
+				}
+			]
 		},
 		"krul" : {
 			"name" : "Krul",
@@ -9137,7 +10032,43 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Warrior",
+					"role" : "Jungler",
+					"type" : "Weapon",
+					"description" : [
+						"Ramping Damage",
+						"High Defense"
+					],
+					"items" : [
+						"shiversteel",
+						"breaking_point",
+						"sorrowblade",
+						"aegis",
+						"journey_boots",
+						"metal_jacket"
+					]
+				},
+				{
+					"title" : "Assassin",
+					"role" : "Jungler",
+					"type" : "Weapon",
+					"description" : [
+						"Massive Damage",
+						"Low Defense"
+					],
+					"items" : [
+						"breaking_point",
+						"tyrants_monocle",
+						"tornado_trigger",
+						"tyrants_monocle",
+						"slumbering_husk",
+						"journey_boots"
+					]
+				}
+			]
 		},
 		"lance" : {
 			"name" : "Lance",
@@ -9416,7 +10347,60 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Team Support",
+					"role" : "Captain",
+					"type" : "Support",
+					"description" : [
+						"High Utility",
+						"High Defense"
+					],
+					"items" : [
+						"fountain_of_renewal",
+						"crucible",
+						"war_treads",
+						"atlas_pauldron",
+						"nullwave_gauntlet",
+						"clockwork"
+					]
+				},
+				{
+					"title" : "Lockdown",
+					"role" : "Captain",
+					"type" : "Crystal",
+					"description" : [
+						"Massive Utility",
+						"Moderate Defense"
+					],
+					"items" : [
+						"fountain_of_renewal",
+						"dragons_eye",
+						"crucible",
+						"clockwork",
+						"war_treads",
+						"atlas_pauldron"
+					]
+				},
+				{
+					"title" : "Mobile Fighter",
+					"role" : "Jungler",
+					"type" : "Weapon",
+					"description" : [
+						"High Damage",
+						"Moderate Defense"
+					],
+					"items" : [
+						"tension_bow",
+						"spellsword",
+						"aegis",
+						"spellsword",
+						"metal_jacket",
+						"war_treads"
+					]
+				}
+			]
 		},
 		"lorelai" : {
 			"name" : "Lorelai",
@@ -9457,10 +10441,10 @@
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
-					"cp_scaling" : 70,
-					"min" : 55,
-					"max" : 110,
-					"level_gain" : 5
+					"cp_scaling" : 0,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -9681,7 +10665,43 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Team Support",
+					"role" : "Captain",
+					"type" : "Support",
+					"description" : [
+						"High Utility",
+						"Moderate Defense"
+					],
+					"items" : [
+						"fountain_of_renewal",
+						"crucible",
+						"war_treads",
+						"clockwork",
+						"nullwave_gauntlet",
+						"aftershock"
+					]
+				},
+				{
+					"title" : "Hybrid Carry",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"High Damage",
+						"Low Cooldowns"
+					],
+					"items" : [
+						"alternating_current",
+						"dragons_eye",
+						"broken_myth",
+						"aegis",
+						"war_treads",
+						"clockwork"
+					]
+				}
+			]
 		},
 		"lyra" : {
 			"name" : "Lyra",
@@ -9722,10 +10742,10 @@
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
-					"cp_scaling" : 60,
-					"min" : 50,
-					"max" : 85,
-					"level_gain" : 3.18
+					"cp_scaling" : 0,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -9961,7 +10981,43 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Team Support",
+					"role" : "Captain",
+					"type" : "Support",
+					"description" : [
+						"High Utility",
+						"High Healing"
+					],
+					"items" : [
+						"crucible",
+						"fountain_of_renewal",
+						"war_treads",
+						"atlas_pauldron",
+						"nullwave_gauntlet",
+						"clockwork"
+					]
+				},
+				{
+					"title" : "Hybrid Carry",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"High Damage",
+						"Moderate Healing"
+					],
+					"items" : [
+						"alternating_current",
+						"dragons_eye",
+						"broken_myth",
+						"aegis",
+						"eve_of_harvest",
+						"journey_boots"
+					]
+				}
+			]
 		},
 		"malene" : {
 			"name" : "Malene",
@@ -10002,10 +11058,10 @@
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
-					"cp_scaling" : 60,
-					"min" : 60,
-					"max" : 126,
-					"level_gain" : 6
+					"cp_scaling" : 0,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -10274,7 +11330,60 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Sheltered Royalty",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"High Damage",
+						"Low Defense"
+					],
+					"items" : [
+						"shatterglass",
+						"clockwork",
+						"slumbering_husk",
+						"spellfire",
+						"halcyon_chargers",
+						"broken_myth"
+					]
+				},
+				{
+					"title" : "Malevolent Deity",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"Massive Damage",
+						"No Defense"
+					],
+					"items" : [
+						"alternating_current",
+						"dragons_eye",
+						"clockwork",
+						"broken_myth",
+						"spellfire",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Benevolent Nobility",
+					"role" : "Captain",
+					"type" : "Support",
+					"description" : [
+						"High Utility",
+						"Moderate Defense"
+					],
+					"items" : [
+						"fountain_of_renewal",
+						"clockwork",
+						"aftershock",
+						"crucible",
+						"spellfire",
+						"war_treads"
+					]
+				}
+			]
 		},
 		"ozo" : {
 			"name" : "Ozo",
@@ -10571,7 +11680,43 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Mobile Fighter",
+					"role" : "Jungler",
+					"type" : "Crystal",
+					"description" : [
+						"Massive Lifesteal",
+						"Moderate Damage"
+					],
+					"items" : [
+						"aftershock",
+						"dragons_eye",
+						"aegis",
+						"eve_of_harvest",
+						"metal_jacket",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Continuous Damage",
+					"role" : "Jungler",
+					"type" : "Weapon",
+					"description" : [
+						"Ramping Damage",
+						"High Defense"
+					],
+					"items" : [
+						"serpent_mask",
+						"breaking_point",
+						"aegis",
+						"metal_jacket",
+						"journey_boots",
+						"bonesaw"
+					]
+				}
+			]
 		},
 		"petal" : {
 			"name" : "Petal",
@@ -10848,7 +11993,43 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Munion Master",
+					"role" : "Jungler",
+					"type" : "Crystal",
+					"description" : [
+						"High Damage",
+						"Moderate Defense"
+					],
+					"items" : [
+						"dragons_eye",
+						"shatterglass",
+						"broken_myth",
+						"aegis",
+						"journey_boots",
+						"metal_jacket"
+					]
+				},
+				{
+					"title" : "Weapon Carry",
+					"role" : "Carry",
+					"type" : "Weapon",
+					"description" : [
+						"High Damage",
+						"Moderate Defense"
+					],
+					"items" : [
+						"sorrowblade",
+						"tornado_trigger",
+						"tyrants_monocle",
+						"aegis",
+						"journey_boots",
+						"tornado_trigger"
+					]
+				}
+			]
 		},
 		"phinn" : {
 			"name" : "Phinn",
@@ -11097,7 +12278,60 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Team Support",
+					"role" : "Captain",
+					"type" : "Support",
+					"description" : [
+						"High Utility",
+						"High Defense"
+					],
+					"items" : [
+						"fountain_of_renewal",
+						"crucible",
+						"war_treads",
+						"metal_jacket",
+						"clockwork",
+						"nullwave_gauntlet"
+					]
+				},
+				{
+					"title" : "Aggressive Support",
+					"role" : "Captain",
+					"type" : "Support",
+					"description" : [
+						"High Damage",
+						"Moderate Defense"
+					],
+					"items" : [
+						"fountain_of_renewal",
+						"shatterglass",
+						"crucible",
+						"halcyon_chargers",
+						"clockwork",
+						"atlas_pauldron"
+					]
+				},
+				{
+					"title" : "Piledriver",
+					"role" : "Jungler",
+					"type" : "Crystal",
+					"description" : [
+						"Massive Damage",
+						"No Mobility"
+					],
+					"items" : [
+						"shatterglass",
+						"clockwork",
+						"broken_myth",
+						"aegis",
+						"dragons_eye",
+						"war_treads"
+					]
+				}
+			]
 		},
 		"reim" : {
 			"name" : "Reim",
@@ -11138,10 +12372,10 @@
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
-					"cp_scaling" : 80,
-					"min" : 15,
-					"max" : 54,
-					"level_gain" : 3.54
+					"cp_scaling" : 0,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -11383,7 +12617,60 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Warrior",
+					"role" : "Jungler",
+					"type" : "Crystal",
+					"description" : [
+						"Ramping Damage",
+						"High Lifesteal"
+					],
+					"items" : [
+						"eve_of_harvest",
+						"dragons_eye",
+						"journey_boots",
+						"aegis",
+						"metal_jacket",
+						"broken_myth"
+					]
+				},
+				{
+					"title" : "Continuous Damage",
+					"role" : "Jungler",
+					"type" : "Crystal",
+					"description" : [
+						"Massive Damage",
+						"Low Defense"
+					],
+					"items" : [
+						"eve_of_harvest",
+						"dragons_eye",
+						"clockwork",
+						"aegis",
+						"journey_boots",
+						"metal_jacket"
+					]
+				},
+				{
+					"title" : "Double Ultimate",
+					"role" : "Jungler",
+					"type" : "Crystal",
+					"description" : [
+						"Moderate Damage",
+						"High Utility"
+					],
+					"items" : [
+						"dragons_eye",
+						"eve_of_harvest",
+						"aegis",
+						"echo",
+						"metal_jacket",
+						"journey_boots"
+					]
+				}
+			]
 		},
 		"reza" : {
 			"name" : "Reza",
@@ -11424,10 +12711,10 @@
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
-					"cp_scaling" : 115,
-					"min" : 20,
-					"max" : 185,
-					"level_gain" : 15
+					"cp_scaling" : 0,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -11651,7 +12938,43 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Assassin",
+					"role" : "Jungler",
+					"type" : "Crystal",
+					"description" : [
+						"Massive Damage",
+						"Low Defense"
+					],
+					"items" : [
+						"aftershock",
+						"shatterglass",
+						"clockwork",
+						"broken_myth",
+						"aegis",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Warrior",
+					"role" : "Jungler",
+					"type" : "Crystal",
+					"description" : [
+						"High Damage",
+						"Moderate Defense"
+					],
+					"items" : [
+						"aftershock",
+						"stormcrown",
+						"clockwork",
+						"aegis",
+						"journey_boots",
+						"broken_myth"
+					]
+				}
+			]
 		},
 		"ringo" : {
 			"name" : "Ringo",
@@ -11914,7 +13237,43 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Continuous Damage",
+					"role" : "carry",
+					"type" : "Weapon",
+					"description" : [
+						"Ramping Damage",
+						"Low Defense"
+					],
+					"items" : [
+						"spellsword",
+						"breaking_point",
+						"tyrants_monocle",
+						"aegis",
+						"tyrants_monocle",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Burst Damage",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"High Damage",
+						"Long Range"
+					],
+					"items" : [
+						"alternating_current",
+						"shatterglass",
+						"broken_myth",
+						"aegis",
+						"halcyon_chargers",
+						"dragons_eye"
+					]
+				}
+			]
 		},
 		"rona" : {
 			"name" : "Rona",
@@ -12214,7 +13573,43 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Mobile Fighter",
+					"role" : "Jungler",
+					"type" : "Weapon",
+					"description" : [
+						"Ramping Damage",
+						"High Lifesteal"
+					],
+					"items" : [
+						"serpent_mask",
+						"breaking_point",
+						"aegis",
+						"metal_jacket",
+						"journey_boots",
+						"sorrowblade"
+					]
+				},
+				{
+					"title" : "Burst Damage",
+					"role" : "Jungler",
+					"type" : "Crystal",
+					"description" : [
+						"Massive Damage",
+						"Low Defense"
+					],
+					"items" : [
+						"alternating_current",
+						"shatterglass",
+						"slumbering_husk",
+						"broken_myth",
+						"journey_boots",
+						"shatterglass"
+					]
+				}
+			]
 		},
 		"samuel" : {
 			"name" : "Samuel",
@@ -12256,9 +13651,9 @@
 					"name" : "Crystal Power",
 					"units" : false,
 					"cp_scaling" : 0,
-					"min" : 50,
-					"max" : 160,
-					"level_gain" : 10
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -12494,7 +13889,43 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Continuous Damage",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"High Damage",
+						"High Lifesteal"
+					],
+					"items" : [
+						"dragons_eye",
+						"eve_of_harvest",
+						"clockwork",
+						"aegis",
+						"broken_myth",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Artillery",
+					"role" : "Jungler",
+					"type" : "Crystal",
+					"description" : [
+						"Massive Damage",
+						"High Defense"
+					],
+					"items" : [
+						"dragons_eye",
+						"eve_of_harvest",
+						"aegis",
+						"broken_myth",
+						"metal_jacket",
+						"halcyon_chargers"
+					]
+				}
+			]
 		},
 		"saw" : {
 			"name" : "SAW",
@@ -12767,7 +14198,60 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Continuous Damage",
+					"role" : "Carry",
+					"type" : "Weapon",
+					"description" : [
+						"High Damage",
+						"High Lifesteal"
+					],
+					"items" : [
+						"sorrowblade",
+						"serpent_mask",
+						"slumbering_husk",
+						"breaking_point",
+						"journey_boots",
+						"aegis"
+					]
+				},
+				{
+					"title" : "Artillery",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"High Damage",
+						"Low Defense"
+					],
+					"items" : [
+						"shatterglass",
+						"eve_of_harvest",
+						"slumbering_husk",
+						"spellfire",
+						"halcyon_chargers",
+						"broken_myth"
+					]
+				},
+				{
+					"title" : "Assassin",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"Massive Damage",
+						"Low Defense"
+					],
+					"items" : [
+						"shatterglass",
+						"spellfire",
+						"broken_myth",
+						"slumbering_husk",
+						"journey_boots",
+						"shatterglass"
+					]
+				}
+			]
 		},
 		"skaarf" : {
 			"name" : "Skaarf",
@@ -13045,7 +14529,43 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Continuous Damage",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"High Damage",
+						"Long Range"
+					],
+					"items" : [
+						"eve_of_harvest",
+						"frostburn",
+						"spellfire",
+						"aegis",
+						"halcyon_chargers",
+						"metal_jacket"
+					]
+				},
+				{
+					"title" : "Burst Damage",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"High Damage",
+						"Long Range"
+					],
+					"items" : [
+						"shatterglass",
+						"spellfire",
+						"clockwork",
+						"slumbering_husk",
+						"halcyon_chargers",
+						"broken_myth"
+					]
+				}
+			]
 		},
 		"skye" : {
 			"name" : "Skye",
@@ -13333,7 +14853,43 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Continuous Damage",
+					"role" : "Carry",
+					"type" : "Weapon",
+					"description" : [
+						"Ramping Damage",
+						"Moderate Defense"
+					],
+					"items" : [
+						"tension_bow",
+						"spellfire",
+						"aegis",
+						"breaking_point",
+						"journey_boots",
+						"metal_jacket"
+					]
+				},
+				{
+					"title" : "Mobile Fighter",
+					"role" : "Jungler",
+					"type" : "Crystal",
+					"description" : [
+						"High Damage",
+						"High Mobility"
+					],
+					"items" : [
+						"frostburn",
+						"spellfire",
+						"aegis",
+						"eve_of_harvest",
+						"halcyon_chargers",
+						"shatterglass"
+					]
+				}
+			]
 		},
 		"taka" : {
 			"name" : "Taka",
@@ -13592,7 +15148,60 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Assassin",
+					"role" : "Jungler",
+					"type" : "Crystal",
+					"description" : [
+						"High Damage",
+						"Moderate Defense"
+					],
+					"items" : [
+						"aftershock",
+						"stormcrown",
+						"clockwork",
+						"aegis",
+						"broken_myth",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Warrior",
+					"role" : "Jungler",
+					"type" : "Weapon",
+					"description" : [
+						"Ramping Damage",
+						"Moderate Defense"
+					],
+					"items" : [
+						"tension_bow",
+						"spellsword",
+						"aegis",
+						"breaking_point",
+						"metal_jacket",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Glass Cannon",
+					"role" : "Jungler",
+					"type" : "Crystal",
+					"description" : [
+						"Massive Damage",
+						"No Defense"
+					],
+					"items" : [
+						"shatterglass",
+						"spellfire",
+						"clockwork",
+						"shatterglass",
+						"halcyon_chargers",
+						"broken_myth"
+					]
+				}
+			]
 		},
 		"tony" : {
 			"name" : "Tony",
@@ -13845,7 +15454,42 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Mobile Fighter",
+					"role" : "Jungler",
+					"type" : "Weapon",
+					"description" : [
+						"Ramping Damage"
+					],
+					"items" : [
+						"serpent_mask",
+						"sorrowblade",
+						"breaking_point",
+						"aegis",
+						"journey_boots",
+						"metal_jacket"
+					]
+				},
+				{
+					"title" : "Team Support",
+					"role" : "Captain",
+					"type" : "Support",
+					"description" : [
+						"High Utility",
+						"Moderate Defense"
+					],
+					"items" : [
+						"fountain_of_renewal",
+						"crucible",
+						"war_treads",
+						"metal_jacket",
+						"shiversteel",
+						"slumbering_husk"
+					]
+				}
+			]
 		},
 		"varya" : {
 			"name" : "Varya",
@@ -13886,10 +15530,10 @@
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
-					"cp_scaling" : 40,
-					"min" : 70,
-					"max" : 147,
-					"level_gain" : 7
+					"cp_scaling" : 0,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -14116,7 +15760,60 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Storm Mage",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"High Damage",
+						"Low Defense"
+					],
+					"items" : [
+						"alternating_current",
+						"dragons_eye",
+						"broken_myth",
+						"slumbering_husk",
+						"journey_boots",
+						"shatterglass"
+					]
+				},
+				{
+					"title" : "Valkyrie",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"Ramping Damage",
+						"High Lifesteal"
+					],
+					"items" : [
+						"alternating_current",
+						"dragons_eye",
+						"eve_of_harvest",
+						"aegis",
+						"broken_myth",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Arc Cannon",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"Massive Damage",
+						"No Defense"
+					],
+					"items" : [
+						"shatterglass",
+						"clockwork",
+						"broken_myth",
+						"spellfire",
+						"dragons_eye",
+						"journey_boots"
+					]
+				}
+			]
 		},
 		"vox" : {
 			"name" : "Vox",
@@ -14157,10 +15854,10 @@
 				"crystal_power" : {
 					"name" : "Crystal Power",
 					"units" : false,
-					"cp_scaling" : 50,
-					"min" : 20,
-					"max" : 42,
-					"level_gain" : 2
+					"cp_scaling" : 0,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : 0
 				},
 				"attack_speed" : {
 					"name" : "Attack Speed",
@@ -14373,7 +16070,60 @@
 						}
 					]
 				}
-			}
+			},
+			"builds" : [
+				{
+					"title" : "Continuous Damage",
+					"role" : "Carry",
+					"type" : "Weapon",
+					"description" : [
+						"Ramping Damage",
+						"Moderate Defense"
+					],
+					"items" : [
+						"sorrowblade",
+						"tyrants_monocle",
+						"tornado_trigger",
+						"tyrants_monocle",
+						"slumbering_husk",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Mobile Fighter",
+					"role" : "Carry",
+					"type" : "Weapon",
+					"description" : [
+						"High Mobility",
+						"Moderate Damage"
+					],
+					"items" : [
+						"poisoned_shiv",
+						"breaking_point",
+						"sorrowblade",
+						"aegis",
+						"metal_jacket",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Team Killer",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"Massive Damage",
+						"High Difficulty"
+					],
+					"items" : [
+						"alternating_current",
+						"dragons_eye",
+						"eve_of_harvest",
+						"aegis",
+						"broken_myth",
+						"journey_boots"
+					]
+				}
+			]
 		}
 	}
 }
