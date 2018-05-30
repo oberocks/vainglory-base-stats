@@ -3382,7 +3382,7 @@
 				"armor" :               false,
 				"shield" :              false,
 				"range" :               false,
-				"move_speed" :          false,
+				"move_speed" :          { "value" : 0.4, "name" : "Move Speed", "units" : "m/s" },
 				"energy_recharge" :     false,
 				"cooldown" :            false,
 				"crit_chance" :         false,
@@ -10953,7 +10953,7 @@
 							"Heroes standing directly on top of a portal as it forms must step off the portal then re-enter to use it."
 						]
 					],
-					"stat_levels" : 5,
+					"stat_levels" : 3,
 					"stats" : [
 						{
 							"name" : "Cooldown (s)",
