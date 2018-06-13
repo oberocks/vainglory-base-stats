@@ -52,7 +52,7 @@
 			"tier" : 3,
 			"cost" : 2400,
 			"activate" : false,
-			"passive" : "After using an ability, your next basic attack deals 13% of target's max health as damage with +50% lifesteal. Max 400 damage vs non-heroes. 1.5s cooldown.",
+			"passive" : "After using an ability, your next basic attack deals 12% of target's max health as damage with +50% lifesteal. Max 400 damage vs non-heroes. 1.5s cooldown.",
 			"vampirism" : false,
 			"bookofeulogies" : false,
 			"armorbreaker" : false,
@@ -75,7 +75,7 @@
 				"range" :               false,
 				"move_speed" :          false,
 				"energy_recharge" :     { "value" : 2.5, "name" : "Energy Recharge", "units" : false },
-				"cooldown" :            { "value" : 25, "name" : "Cooldown Speed", "units" : "%" },
+				"cooldown" :            { "value" : 15, "name" : "Cooldown Speed", "units" : "%" },
 				"crit_chance" :         false,
 				"crit_damage" :         false,
 				"armor_pierce" :        false,
@@ -114,7 +114,7 @@
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       { "value" : 60, "name" : "Crystal Power", "units" : false },
-				"attack_speed" :        { "value" : 35, "name" : "Attack Speed", "units" : "%" },
+				"attack_speed" :        { "value" : 30, "name" : "Attack Speed", "units" : "%" },
 				"armor" :               false,
 				"shield" :              false,
 				"range" :               false,
@@ -301,7 +301,7 @@
 				"energy" :              false,
 				"weapon_power" :        { "value" : 15, "name" : "Weapon Power", "units" : false },
 				"crystal_power" :       false,
-				"attack_speed" :        { "value" : 25, "name" : "Attack Speed", "units" : "%" },
+				"attack_speed" :        { "value" : 20, "name" : "Attack Speed", "units" : "%" },
 				"armor" :               false,
 				"shield" :              false,
 				"range" :               false,
@@ -456,6 +456,51 @@
 			],
 			"builds_to" : false
 		},
+		"capacitor_plate" : {
+			"name" : "Capacitor Plate",
+			"thumb" : "capacitor-plate.png",
+			"category" : "Defense",
+			"tier" : 3,
+			"cost" : 2100,
+			"activate" : false,
+			"passive" : "Your heals and barriers are 20% stronger. Also, Capacitor Plate lets your heals and barriers also grant other allied heroes bonus move speed for 2s. (10s cooldown per hero)",
+			"vampirism" : false,
+			"bookofeulogies" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"travelboots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              { "value" : 450, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
+				"energy" :              false,
+				"weapon_power" :        false,
+				"crystal_power" :       false,
+				"attack_speed" :        false,
+				"armor" :               { "value" : 30, "name" : "Armor", "units" : false },
+				"shield" :              { "value" : 30, "name" : "Shield", "units" : false },
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     { "value" : 2.5, "name" : "Energy Recharge", "units" : false },
+				"cooldown" :            { "value" : 15, "name" : "Cooldown Speed", "units" : "%" },
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
+			"tip" : false,
+			"build_from" : [
+				"dragonheart",
+				"chronograph"
+			],
+			"builds_to" : false
+		},
 		"chronograph" : {
 			"name" : "Chronograph",
 			"thumb" : "chronograph.png",
@@ -486,7 +531,7 @@
 				"range" :               false,
 				"move_speed" :          false,
 				"energy_recharge" :     { "value" : 2.5, "name" : "Energy Recharge", "units" : false },
-				"cooldown" :            { "value" : 20, "name" : "Cooldown Speed", "units" : "%" },
+				"cooldown" :            { "value" : 10, "name" : "Cooldown Speed", "units" : "%" },
 				"crit_chance" :         false,
 				"crit_damage" :         false,
 				"armor_pierce" :        false,
@@ -502,6 +547,8 @@
 				"clockwork",
 				"aftershock",
 				"spellsword",
+				"capacitor_plate",
+				"rooks_decree",
 				"contraption",
 				"stormcrown",
 				"nullwave_gauntlet"
@@ -514,7 +561,7 @@
 			"tier" : 3,
 			"cost" : 2400,
 			"activate" : false,
-			"passive" : "Upon damaging an enemy hero with an ability, reduce all cooldowns by 6%. This can only occur once every 2s.",
+			"passive" : "Upon damaging an enemy hero with an ability, reduce all cooldowns by 10% (max of 3s). This can only occur once every 3s.",
 			"vampirism" : false,
 			"bookofeulogies" : false,
 			"armorbreaker" : false,
@@ -537,7 +584,7 @@
 				"range" :               false,
 				"move_speed" :          false,
 				"energy_recharge" :     { "value" : 10, "name" : "Energy Recharge", "units" : false },
-				"cooldown" :            { "value" : 35, "name" : "Cooldown Speed", "units" : "%" },
+				"cooldown" :            { "value" : 20, "name" : "Cooldown Speed", "units" : "%" },
 				"crit_chance" :         false,
 				"crit_damage" :         false,
 				"armor_pierce" :        false,
@@ -578,7 +625,7 @@
 				"crystal_power" :       false,
 				"attack_speed" :        false,
 				"armor" :               { "value" : 65, "name" : "Armor", "units" : false },
-				"shield" :              { "value" : 20, "name" : "Shield", "units" : false },
+				"shield" :              { "value" : 10, "name" : "Shield", "units" : false },
 				"range" :               false,
 				"move_speed" :          false,
 				"energy_recharge" :     false,
@@ -629,7 +676,7 @@
 				"range" :               false,
 				"move_speed" :          false,
 				"energy_recharge" :     { "value" : 30, "name" : "Energy Recharge", "units" : false },
-				"cooldown" :            { "value" : 3, "name" : "Cooldown Speed", "units" : "%" },
+				"cooldown" :            { "value" : 20, "name" : "Cooldown Speed", "units" : "%" },
 				"crit_chance" :         false,
 				"crit_damage" :         false,
 				"armor_pierce" :        false,
@@ -747,7 +794,7 @@
 			"bookofeulogies" : false,
 			"armorbreaker" : false,
 			"shieldbreaker" : false,
-			"consume" : "Temporarily gain 20-70 crystal power, 10-30% cooldown speed, and 0-15 armor and shield based on your level (level 1-12). Lasts 150s. Can only have one infusion at a time.",
+			"consume" : "Temporarily gain 20-70 crystal power, 5-15% cooldown speed, and 0-15 armor and shield based on your level (level 1-12). Lasts 150s. Can only have one infusion at a time.",
 			"boots" : false,
 			"travelboots" : false,
 			"stormguard" : false,
@@ -908,55 +955,14 @@
 			],
 			"builds_to" : [
 				"slumbering_husk",
+				"pulseweave",
 				"crucible",
+				"capacitor_plate",
+				"rooks_decree",
 				"war_treads",
 				"nullwave_gauntlet",
 				"shiversteel"
 			]
-		},
-		"echo" : {
-			"name" : "Echo",
-			"thumb" : "echo.png",
-			"category" : "Utility",
-			"tier" : 3,
-			"cost" : 2200,
-			"activate" : "The last ability to be put on cooldown is refreshed (150% of ability's cooldown +10s cooldown).",
-			"passive" : false,
-			"vampirism" : false,
-			"bookofeulogies" : false,
-			"armorbreaker" : false,
-			"shieldbreaker" : false,
-			"consume" : false,
-			"boots" : false,
-			"travelboots" : false,
-			"stormguard" : false,
-			"breadth" : false,
-			"depth" : false,
-			"stats" : {
-				"health" :              false,
-				"health_recharge" :     false,
-				"energy" :              { "value" : 350, "name" : "Max Energy", "units" : false },
-				"weapon_power" :        false,
-				"crystal_power" :       false,
-				"attack_speed" :        false,
-				"armor" :               false,
-				"shield" :              false,
-				"range" :               false,
-				"move_speed" :          false,
-				"energy_recharge" :     { "value" : 6, "name" : "Energy Recharge", "units" : false },
-				"cooldown" :            false,
-				"crit_chance" :         false,
-				"crit_damage" :         false,
-				"armor_pierce" :        false,
-				"shield_pierce" :       false,
-				"weapon_lifesteal" :    false,
-				"crystal_lifesteal" :   false
-			},
-			"tip" : "This item has a shorter cooldown if activated on a low cooldown ability.",
-			"build_from" : [
-				"void_battery"
-			],
-			"builds_to" : false
 		},
 		"eclipse_prism" : {
 			"name" : "Eclipse Prism",
@@ -1252,7 +1258,7 @@
 			"breadth" : false,
 			"depth" : false,
 			"stats" : {
-				"health" :              { "value" : 300, "name" : "Max Health", "units" : false },
+				"health" :              { "value" : 250, "name" : "Max Health", "units" : false },
 				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
@@ -1336,7 +1342,7 @@
 			"armorbreaker" : false,
 			"shieldbreaker" : false,
 			"consume" : false,
-			"boots" : "+0.5 move speed (does not stack)",
+			"boots" : "+0.4 move speed (does not stack)",
 			"travelboots" : "+1 move speed when not in combat.",
 			"stormguard" : false,
 			"breadth" : false,
@@ -1351,9 +1357,9 @@
 				"armor" :               false,
 				"shield" :              false,
 				"range" :               false,
-				"move_speed" :          { "value" : 0.5, "name" : "Move Speed", "units" : "m/s" },
+				"move_speed" :          { "value" : 0.4, "name" : "Move Speed", "units" : "m/s" },
 				"energy_recharge" :     { "value" : 6, "name" : "Energy Recharge", "units" : false },
-				"cooldown" :            { "value" : 15, "name" : "Cooldown Speed", "units" : "%" },
+				"cooldown" :            { "value" : 10, "name" : "Cooldown Speed", "units" : "%" },
 				"crit_chance" :         false,
 				"crit_damage" :         false,
 				"armor_pierce" :        false,
@@ -1541,7 +1547,7 @@
 				"range" :               false,
 				"move_speed" :          false,
 				"energy_recharge" :     { "value" : 1.5, "name" : "Energy Recharge", "units" : false },
-				"cooldown" :            { "value" : 10, "name" : "Cooldown Speed", "units" : "%" },
+				"cooldown" :            { "value" : 5, "name" : "Cooldown Speed", "units" : "%" },
 				"crit_chance" :         false,
 				"crit_damage" :         false,
 				"armor_pierce" :        false,
@@ -1610,7 +1616,7 @@
 			"armorbreaker" : false,
 			"shieldbreaker" : false,
 			"consume" : false,
-			"boots" : "+0.6 move speed (does not stack)",
+			"boots" : "+0.5 move speed (does not stack)",
 			"travelboots" : "+1 move speed when not in combat.",
 			"stormguard" : false,
 			"breadth" : false,
@@ -1625,7 +1631,7 @@
 				"armor" :               false,
 				"shield" :              false,
 				"range" :               false,
-				"move_speed" :          { "value" : 0.6, "name" : "Move Speed", "units" : "m/s" },
+				"move_speed" :          { "value" : 0.5, "name" : "Move Speed", "units" : "m/s" },
 				"energy_recharge" :     false,
 				"cooldown" :            false,
 				"crit_chance" :         false,
@@ -1666,7 +1672,7 @@
 				"weapon_power" :        false,
 				"crystal_power" :       false,
 				"attack_speed" :        false,
-				"armor" :               { "value" : 5, "name" : "Armor", "units" : false },
+				"armor" :               { "value" : 10, "name" : "Armor", "units" : false },
 				"shield" :              { "value" : 30, "name" : "Shield", "units" : false },
 				"range" :               false,
 				"move_speed" :          false,
@@ -1749,7 +1755,7 @@
 			"breadth" : false,
 			"depth" : false,
 			"stats" : {
-				"health" :              { "value" : 300, "name" : "Max Health", "units" : false },
+				"health" :              { "value" : 250, "name" : "Max Health", "units" : false },
 				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
@@ -1773,6 +1779,7 @@
 				"oakheart"
 			],
 			"builds_to" : [
+				"pulseweave",
 				"fountain_of_renewal"
 			]
 		},
@@ -2071,7 +2078,7 @@
 				"range" :               false,
 				"move_speed" :          false,
 				"energy_recharge" :     { "value" : 4, "name" : "Energy Recharge", "units" : false },
-				"cooldown" :            { "value" : 25, "name" : "Cooldown Speed", "units" : "%" },
+				"cooldown" :            { "value" : 15, "name" : "Cooldown Speed", "units" : "%" },
 				"crit_chance" :         false,
 				"crit_damage" :         false,
 				"armor_pierce" :        false,
@@ -2249,7 +2256,7 @@
 				"energy" :              false,
 				"weapon_power" :        { "value" : 40, "name" : "Weapon Power", "units" : false },
 				"crystal_power" :       false,
-				"attack_speed" :        { "value" : 30, "name" : "Attack Speed", "units" : "%" },
+				"attack_speed" :        { "value" : 25, "name" : "Attack Speed", "units" : "%" },
 				"armor" :               false,
 				"shield" :              false,
 				"range" :               false,
@@ -2312,6 +2319,51 @@
 			"build_from" : false,
 			"builds_to" : false
 		},
+		"pulseweave" : {
+			"name" : "Pulseweave",
+			"thumb" : "pulseweave.png",
+			"category" : "Defense",
+			"tier" : 3,
+			"cost" : 2000,
+			"activate" : false,
+			"passive" : "Upon taking damage from an enemy hero, gain bonus move speed for 3s then deal 200 (+15% of bonus health) damage and slow nearby enemies by 25% (+0.015% of bonus health) for 2s. (30s cooldown). Pulseweave also adds +10% base move speed. Pulseweave also has the passive of Lifespring.",
+			"vampirism" : false,
+			"bookofeulogies" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"travelboots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              { "value" : 700, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
+				"energy" :              false,
+				"weapon_power" :        false,
+				"crystal_power" :       false,
+				"attack_speed" :        false,
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     false,
+				"cooldown" :            false,
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
+			"tip" : "Tip: Purchase this to strengthen your engage.",
+			"build_from" : [
+				"dragonheart",
+				"lifespring"
+			],
+			"builds_to" : false
+		},
 		"reflex_block" : {
 			"name" : "Reflex Block",
 			"thumb" : "reflex-block.png",
@@ -2359,6 +2411,51 @@
 				"aegis"
 			]
 		},
+		"rooks_decree" : {
+			"name" : "Rook's Decree",
+			"thumb" : "rooks-decree.png",
+			"category" : "Defense",
+			"tier" : 3,
+			"cost" : 2200,
+			"activate" : false,
+			"passive" : "After using an ability, your next basic attack against an enemy hero will grant 100 (+15% of bonus health) barrier to nearby allies for 2s. (8s cooldown)",
+			"vampirism" : false,
+			"bookofeulogies" : false,
+			"armorbreaker" : false,
+			"shieldbreaker" : false,
+			"consume" : false,
+			"boots" : false,
+			"travelboots" : false,
+			"stormguard" : false,
+			"breadth" : false,
+			"depth" : false,
+			"stats" : {
+				"health" :              { "value" : 600, "name" : "Max Health", "units" : false },
+				"health_recharge" :     false,
+				"energy" :              false,
+				"weapon_power" :        false,
+				"crystal_power" :       false,
+				"attack_speed" :        false,
+				"armor" :               false,
+				"shield" :              false,
+				"range" :               false,
+				"move_speed" :          false,
+				"energy_recharge" :     { "value" : 2.5, "name" : "Energy Recharge", "units" : false },
+				"cooldown" :            { "value" : 15, "name" : "Cooldown Speed", "units" : "%" },
+				"crit_chance" :         false,
+				"crit_damage" :         false,
+				"armor_pierce" :        false,
+				"shield_pierce" :       false,
+				"weapon_lifesteal" :    false,
+				"crystal_lifesteal" :   false
+			},
+			"tip" : false,
+			"build_from" : [
+				"dragonheart",
+				"chronograph"
+			],
+			"builds_to" : false
+		},
 		"scoutpak" : {
 			"name" : "ScoutPak",
 			"thumb" : "scoutpak.png",
@@ -2389,7 +2486,7 @@
 				"range" :               false,
 				"move_speed" :          false,
 				"energy_recharge" :     { "value" : 2.5, "name" : "Energy Recharge", "units" : false },
-				"cooldown" :            { "value" : 20, "name" : "Cooldown Speed", "units" : "%" },
+				"cooldown" :            { "value" : 10, "name" : "Cooldown Speed", "units" : "%" },
 				"crit_chance" :         false,
 				"crit_damage" :         false,
 				"armor_pierce" :        false,
@@ -2607,7 +2704,7 @@
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
-				"attack_speed" :        { "value" : 30, "name" : "Attack Speed", "units" : "%" },
+				"attack_speed" :        { "value" : 25, "name" : "Attack Speed", "units" : "%" },
 				"armor" :               false,
 				"shield" :              false,
 				"range" :               false,
@@ -2681,9 +2778,9 @@
 			"thumb" : "slumbering-husk.png",
 			"category" : "Defense",
 			"tier" : 3,
-			"cost" : 1700,
+			"cost" : 2350,
 			"activate" : false,
-			"passive" : "Taking 25% of your max health in damage over 1.5s fortifies your remaining health for 2s (25s cooldown)",
+			"passive" : "Taking 20% of your max health in damage over 1.5s fortifies your remaining health for 2s (25s cooldown)",
 			"vampirism" : false,
 			"bookofeulogies" : false,
 			"armorbreaker" : false,
@@ -2695,14 +2792,14 @@
 			"breadth" : false,
 			"depth" : false,
 			"stats" : {
-				"health" :              { "value" : 650, "name" : "Max Health", "units" : false },
+				"health" :              false,
 				"health_recharge" :     false,
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
 				"attack_speed" :        false,
-				"armor" :               false,
-				"shield" :              false,
+				"armor" :               { "value" : 75, "name" : "Armor", "units" : false },
+				"shield" :              { "value" : 75, "name" : "Shield", "units" : false },
 				"range" :               false,
 				"move_speed" :          false,
 				"energy_recharge" :     false,
@@ -2716,7 +2813,8 @@
 			},
 			"tip" : "Buy this to survive against opponents with high burst damage.",
 			"build_from" : [
-				"dragonheart"
+				"kinetic_shield",
+				"coat_of_plates"
 			],
 			"builds_to" : false
 		},
@@ -2839,7 +2937,7 @@
 				"range" :               false,
 				"move_speed" :          false,
 				"energy_recharge" :     { "value" : 3, "name" : "Energy Recharge", "units" : false },
-				"cooldown" :            { "value" : 35, "name" : "Cooldown Speed", "units" : "%" },
+				"cooldown" :            { "value" : 20, "name" : "Cooldown Speed", "units" : "%" },
 				"crit_chance" :         false,
 				"crit_damage" :         false,
 				"armor_pierce" :        false,
@@ -2867,7 +2965,7 @@
 			"armorbreaker" : false,
 			"shieldbreaker" : false,
 			"consume" : false,
-			"boots" : "+0.4 move speed (does not stack)",
+			"boots" : "+0.3 move speed (does not stack)",
 			"travelboots" : false,
 			"stormguard" : false,
 			"breadth" : false,
@@ -2882,7 +2980,7 @@
 				"armor" :               false,
 				"shield" :              false,
 				"range" :               false,
-				"move_speed" :          { "value" : 0.4, "name" : "Move Speed", "units" : "m/s" },
+				"move_speed" :          { "value" : 0.3, "name" : "Move Speed", "units" : "m/s" },
 				"energy_recharge" :     false,
 				"cooldown" :            false,
 				"crit_chance" :         false,
@@ -3174,7 +3272,7 @@
 			"tier" : 3,
 			"cost" : 2600,
 			"activate" : false,
-			"passive" : false,
+			"passive" : "Basic attacks grant you 10% bonus base move speed for 1.2s.",
 			"vampirism" : false,
 			"bookofeulogies" : false,
 			"armorbreaker" : false,
@@ -3191,7 +3289,7 @@
 				"energy" :              false,
 				"weapon_power" :        false,
 				"crystal_power" :       false,
-				"attack_speed" :        { "value" : 45, "name" : "Attack Speed", "units" : "%" },
+				"attack_speed" :        { "value" : 40, "name" : "Attack Speed", "units" : "%" },
 				"armor" :               false,
 				"shield" :              false,
 				"range" :               false,
@@ -3199,7 +3297,7 @@
 				"energy_recharge" :     false,
 				"cooldown" :            false,
 				"crit_chance" :         { "value" : 35, "name" : "Critical Hit Chance", "units" : "%" },
-				"crit_damage" :         { "value" : 10, "name" : "Critical Hit Damage", "units" : "%" },
+				"crit_damage" :         false,
 				"armor_pierce" :        false,
 				"shield_pierce" :       false,
 				"weapon_lifesteal" :    false,
@@ -3225,7 +3323,7 @@
 			"armorbreaker" : false,
 			"shieldbreaker" : false,
 			"consume" : false,
-			"boots" : "+0.4 move speed (does not stack)",
+			"boots" : "+0.3 move speed (does not stack)",
 			"travelboots" : "+1 move speed when not in combat.",
 			"stormguard" : false,
 			"breadth" : false,
@@ -3240,7 +3338,7 @@
 				"armor" :               false,
 				"shield" :              false,
 				"range" :               false,
-				"move_speed" :          false,
+				"move_speed" :          { "value" : 0.3, "name" : "Move Speed", "units" : "m/s" },
 				"energy_recharge" :     false,
 				"cooldown" :            false,
 				"crit_chance" :         false,
@@ -3367,7 +3465,7 @@
 			"armorbreaker" : false,
 			"shieldbreaker" : false,
 			"consume" : false,
-			"boots" : "+0.4 move speed (does not stack)",
+			"boots" : "+0.3 move speed (does not stack)",
 			"travelboots" : "+1 move speed when not in combat.",
 			"stormguard" : false,
 			"breadth" : false,
@@ -3382,7 +3480,7 @@
 				"armor" :               false,
 				"shield" :              false,
 				"range" :               false,
-				"move_speed" :          { "value" : 0.4, "name" : "Move Speed", "units" : "m/s" },
+				"move_speed" :          { "value" : 0.3, "name" : "Move Speed", "units" : "m/s" },
 				"energy_recharge" :     false,
 				"cooldown" :            false,
 				"crit_chance" :         false,
@@ -3457,7 +3555,7 @@
 			"bookofeulogies" : false,
 			"armorbreaker" : false,
 			"shieldbreaker" : false,
-			"consume" : "Temporarily gain 20-70 weapon power, 5%-20% attack speed, and 0-15 armor & shield based on your level (level 1-12). Lasts 150s. Can only have one infusion at a time.",
+			"consume" : "Temporarily gain 20-70 weapon power, 5%-15% attack speed, and 0-15 armor & shield based on your level (level 1-12). Lasts 150s. Can only have one infusion at a time.",
 			"boots" : false,
 			"travelboots" : false,
 			"stormguard" : false,
@@ -3581,7 +3679,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.3
+					"min" : 3.4
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -3918,7 +4016,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.5
+					"min" : 3.6
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -4242,7 +4340,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.3
+					"min" : 3.4
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -4566,7 +4664,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.4
+					"min" : 3.5
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -4643,13 +4741,13 @@
 						{
 							"name" : "Damage",
 							"values" : [80, 120, 160, 200, 280],
-							"ratios" : [105, 0],
+							"ratios" : [115, 0],
 							"overdrive" : 280
 						},
 						{
 							"name" : "Splash Damage",
 							"values" : [40, 60, 80, 100, 140],
-							"ratios" : [55, 0],
+							"ratios" : [60, 0],
 							"overdrive" : 140
 						},
 						{
@@ -4896,7 +4994,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 2.9
+					"min" : 3
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -5205,7 +5303,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.4
+					"min" : 3.5
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -5568,7 +5666,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.5
+					"min" : 3.6
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -5624,7 +5722,7 @@
 					"stats" : [
 						{
 							"name" : "Cooldown (s)",
-							"values" : [14, 13.5, 13, 12.5, 12],
+							"values" : [14, 13, 12, 11, 10],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						},
@@ -5710,7 +5808,7 @@
 					"stats" : [
 						{
 							"name" : "Cooldown (s)",
-							"values" : [100, 85, 70],
+							"values" : [70, 60, 50],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						},
@@ -5734,7 +5832,7 @@
 						},
 						{
 							"name" : "Silence Duration",
-							"values" : [2, 2.1, 2.2],
+							"values" : [2, 2.5, 3],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						}
@@ -5887,7 +5985,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.3
+					"min" : 3.4
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -6186,7 +6284,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.1
+					"min" : 3.2
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -6226,7 +6324,7 @@
 					"description" : [
 						[
 							"Whenever chained victims take damage from any source, Churnwalker regenerates 15% of that damage as health.",
-							"Whenever any chained victim takes damage, 25% of that damage is conferred on all other chained victims."
+							"Whenever any chained victim takes damage, 30% of that damage is conferred on all other chained victims."
 						]
 					],
 					"stat_levels" : 0,
@@ -6315,8 +6413,7 @@
 					"description" : [
 						"Churnwalker channels churn power for a short time, then travels to the target location, stunning all chained victims and breaking all chains.",
 						[
-							"Churnwalker can only target a location near a chained victim.",
-							"Leveling this ability increases its stun duration and lowers its cooldown."
+							"Churnwalker requires a chained target to cast this ability."
 						]
 					],
 					"stat_levels" : 3,
@@ -6477,7 +6574,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.6
+					"min" : 3.7
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -6774,7 +6871,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.5
+					"min" : 3.6
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -6842,15 +6939,15 @@
 						},
 						{
 							"name" : "Damage",
-							"values" : [20, 50, 80, 110, 170],
+							"values" : [20, 45, 50, 55, 60],
 							"ratios" : [110, 0],
 							"overdrive" : 170
 						},
 						{
 							"name" : "Speed Boost",
-							"values" : [2, 2, 2, 2, 3],
+							"values" : [3, 3, 3, 3, 3],
 							"ratios" : [0, 0],
-							"overdrive" : 3
+							"overdrive" : false
 						},
 						{
 							"name" : "Duration (s)",
@@ -6900,9 +6997,9 @@
 						},
 						{
 							"name" : "Percent Max Health",
-							"values" : [8, 10, 12, 14, 18],
+							"values" : [8, 10, 12, 14, 16],
 							"ratios" : [5, 0],
-							"overdrive" : 18
+							"overdrive" : false
 						}
 					]
 				},
@@ -7093,7 +7190,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.4
+					"min" : 3.5
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -7386,7 +7483,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.5
+					"min" : 3.6
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -7530,7 +7627,7 @@
 					"stats" : [
 						{
 							"name" : "Cooldown (s)",
-							"values" : [70, 60, 50],
+							"values" : [50, 40, 30],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						},
@@ -7695,7 +7792,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.5
+					"min" : 3.6
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -8022,7 +8119,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3
+					"min" : 3.1
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -8312,7 +8409,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.4
+					"min" : 3.5
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -8632,7 +8729,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.4
+					"min" : 3.5
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -8845,17 +8942,17 @@
 				"health_recharge" : {
 					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 0,
-					"max" : 0,
-					"level_gain" : 0
+					"min" : 4.01,
+					"max" : 7.42,
+					"level_gain" : 0.31
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
 					"units" : false,
 					"wp_scaling" : 0,
-					"min" : 86,
+					"min" : 119,
 					"max" : 163,
-					"level_gain" : 7
+					"level_gain" : 4
 				},
 				"crystal_power" : {
 					"name" : "Crystal Power",
@@ -8896,9 +8993,9 @@
 				"energy_recharge" : {
 					"name" : "Energy Recharge",
 					"units" : false,
-					"min" : 0,
-					"max" : 0,
-					"level_gain" : 0
+					"min" : 1.87,
+					"max" : 4.29,
+					"level_gain" : 0.22
 				},
 				"cooldown" : {
 					"name" : "Cooldown Speed",
@@ -8913,7 +9010,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.5
+					"min" : 3.6
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -8951,14 +9048,14 @@
 					"name" : "Immovable Mind",
 					"thumb" : "immovable-mind.png",
 					"description" : [
-						"After striking enemy heroes or jungle monsters 3 times, Kensei's next basic attack deals 25% bonus damage and grants a burst of barrier.", 
+						"After striking enemy heroes or jungle monsters 3 times, Kensei's next basic attack deals 20% bonus damage and grants a burst of barrier.", 
 						[
 							"Bonus Barrier: 30-140 (level 1-12)",
-							"Bonus Barrier (Heroes): Target max health * 0.05% of bonus weapon power"
+							"Bonus Barrier (Heroes): Target max health * 0.04% of bonus weapon power"
 						],
 						"Additionally, Kensei's basic attacks deal increased damage to heroes with higher health.",
 						[
-							"Attack Damage: 40% of weapon power + (target max health * 0.03% of bonus weapon power)"
+							"Attack Damage: 40% of weapon power + (target max health * 0.022% of bonus weapon power)"
 						]
 					],
 					"stat_levels" : 0,
@@ -9075,7 +9172,7 @@
 						},
 						{
 							"name" : "Stun Duration (Kensho) (s)",
-							"values" : [0.8, 1.1, 1.4],
+							"values" : [0.6, 0.8, 1],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						}
@@ -9211,7 +9308,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.1
+					"min" : 3.2
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -9301,7 +9398,7 @@
 						{
 							"name" : "Splash Damage",
 							"values" : [40, 70, 100, 130, 160],
-							"ratios" : [135, 0],
+							"ratios" : [120, 0],
 							"overdrive" : false
 						}
 					]
@@ -9460,6 +9557,305 @@
 				}
 			]
 		},
+		"kinetic" : {
+			"name" : "Kinetic",
+			"thumb" : "kinetic.png",
+			"difficulty" : "Easy",
+			"attack_type" : "Melee",
+			"description" : "Nimble duelist weilding a powerful pulse cannon",
+			"primary_role" : "Laner",
+			"ratings" : {
+				"offense" : 8,
+				"defense" : 1,
+				"team_utility" : 4,
+				"mobility" : 4
+			},
+			"stats" : {
+				"health" : {
+					"name" : "Health",
+					"units" : false,
+					"min" : 721,
+					"max" : 2019,
+					"level_gain" : 118
+				},
+				"health_recharge" : {
+					"name" : "Health Recharge",
+					"units" : false,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : 0
+				},
+				"weapon_power" : {
+					"name" : "Weapon Power",
+					"units" : false,
+					"wp_scaling" : 0,
+					"min" : 64,
+					"max" : 97,
+					"level_gain" : 3
+				},
+				"crystal_power" : {
+					"name" : "Crystal Power",
+					"units" : false,
+					"cp_scaling" : 0,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : 0
+				},
+				"attack_speed" : {
+					"name" : "Attack Speed",
+					"units" : "%",
+					"min" : 100,
+					"max" : 136.3,
+					"level_gain" : 3.3
+				},
+				"armor" : {
+					"name" : "Armor",
+					"units" : false,
+					"min" : 20,
+					"max" : 50,
+					"level_gain" : 2.72
+				},
+				"shield" : {
+					"name" : "Shield",
+					"units" : false,
+					"min" : 20,
+					"max" : 50,
+					"level_gain" : 2.72
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 169,
+					"max" : 389,
+					"level_gain" : 20
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : 0
+				},
+				"cooldown" : {
+					"name" : "Cooldown Speed",
+					"units" : "%",
+					"min" : 100
+				},
+				"range" : {
+					"name" : "Range",
+					"units" : "m",
+					"min" : 6.4
+				},
+				"move_speed" : {
+					"name" : "Move Speed",
+					"units" : "m/s",
+					"min" : 3.4
+				},
+				"crit_chance" : {
+					"name" : "Critical Hit Chance",
+					"units" : "%",
+					"min" : 0
+				},
+				"crit_damage" : {
+					"name" : "Critical Hit Damage",
+					"units" : "%",
+					"min" : 150
+				},
+				"armor_pierce" : {
+					"name" : "Armor Piercing",
+					"units" : "%",
+					"min" : 0
+				},
+				"shield_pierce" : {
+					"name" : "Shield Piercing",
+					"units" : "%",
+					"min" : 0
+				},
+				"weapon_lifesteal" : {
+					"name" : "Weapon Lifesteal",
+					"units" : "%",
+					"min" : 0
+				},
+				"crystal_lifesteal" : {
+					"name" : "Crystal Lifesteal",
+					"units" : "%",
+					"min" : 0
+				}
+			},
+			"abilities" : {
+				"heroic_perk" : {
+					"name" : "Tracer Shots",
+					"thumb" : "tracer-shots.png",
+					"description" : [
+						"Landing Plasma Driver grants Kinetic a stack of Tracer Shots up to 4 stacks.",
+						"Tracer Shots: Kinetic fires a tracer at her target.",
+						[
+							"Tracer Damage: 4-15 (Level 1-12) (+10% weapon power)"
+						]
+					],
+					"stat_levels" : 0,
+					"stats" : false
+				},
+				"a_ability" : {
+					"name" : "Plasma Driver",
+					"thumb" : "plasma-driver.png",
+					"description" : [
+						"Kinetic unleashes a burst of energy, damaging the first enemy struck."
+					],
+					"stat_levels" : 5,
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [3, 2.8, 2.6, 2.4, 2],
+							"ratios" : [0, 0],
+							"overdrive" : 2
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [25, 25, 25, 25, 25],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage",
+							"values" : [60, 100, 140, 180, 260],
+							"ratios" : [140, 60],
+							"overdrive" : 260
+						}
+					] 
+				},
+				"b_ability" : {
+					"name" : "Inertial Dash",
+					"thumb" : "inertial-dash.png",
+					"description" : [
+						"Kinetic dashes and temporarily becomes Charged for 5s.",
+						"Charged: Kinetic's next Plasma Driver deals more damage, has increased range, and slows her target.",
+						[
+							"Overdrive: Kinetic's next Plasma Driver briefly stuns her target.",
+							"Refreshes Plasma Driver's cooldown"
+						]
+					],
+					"stat_levels" : 5,
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [20, 18, 16, 14, 12],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [50, 55, 60, 65, 70],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Bonus Damage (%)",
+							"values" : [40, 45, 50, 55, 60],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Slow Strength",
+							"values" : [30, 35, 40, 45, 50],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Slow Duration (s)",
+							"values" : [1.5, 1.5, 1.5, 1.5, 1.5],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					]
+				},
+				"c_ability" : {
+					"name" : "Charged Pulse",
+					"thumb" : "charged-pulse.png",
+					"description" : [
+						"Kinetic charges up a powerful blast and fires it at her target.",
+						[
+							"Consumes all stacks of Tracer Shots to deal 25% bonus damage per stack",
+							"Can be blocked by enemy heroes, structures, and jungle bosses."
+						]
+					],
+					"stat_levels" : 3,
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [60, 50, 40],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [100, 100, 100],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage",
+							"values" : [200, 300, 400],
+							"ratios" : [130, 100],
+							"overdrive" : false
+						}
+					]
+				}
+			},
+			"builds" : [
+				{
+					"title" : "Mobile Fighter",
+					"role" : "Carry",
+					"type" : "Weapon",
+					"description" : [
+						"High Damage",
+						"Moderate Mobility"
+					],
+					"items" : [
+						"spellsword",
+						"breaking_point",
+						"poisoned_shiv",
+						"slumbering_husk",
+						"sorrowblade",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Continuous Damage",
+					"role" : "Carry",
+					"type" : "Weapon",
+					"description" : [
+						"Ramping Damage",
+						"Moderate Defense"
+					],
+					"items" : [
+						"spellsword",
+						"breaking_point",
+						"tornado_trigger",
+						"bonesaw",
+						"slumbering_husk",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Artillery",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"High Damage",
+						"Low Defense"
+					],
+					"items" : [
+						"dragons_eye",
+						"clockwork",
+						"broken_myth",
+						"slumbering_husk",
+						"journey_boots",
+						"shatterglass"
+					]
+				}
+			]
+		},
 		"koshka" : {
 			"name" : "Koshka",
 			"thumb" : "koshka.png",
@@ -9552,7 +9948,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.3
+					"min" : 3.4
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -9838,7 +10234,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.4
+					"min" : 3.5
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -10162,7 +10558,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.3
+					"min" : 3.4
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -10494,7 +10890,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.3
+					"min" : 3.4
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -10540,7 +10936,8 @@
 							"Empowered Fish Food: Reduced delay before impact.",
 							"Empowered Splashdown: Reduced delay before impact.",
 							"Empowered Waterwall: Stronger barrier."
-						]
+						],
+						"Water Denizen: Lorelai gains the 5V5 river movement bonus in both directions."
 					],
 					"stat_levels" : 0,
 					"stats" : false
@@ -10551,7 +10948,7 @@
 					"description" : [
 						"Lorelai calls upon her aquatic friends at the target location.",
 						[
-							"After 0.8s, her pet clam snaps the area, dealing damage to enemy units inside and stunning them.",
+							"After 0.6s, her pet clam snaps the area, dealing damage to enemy units inside and stunning them.",
 							"A pool filled with small piranhas persists afterwards, dealing damage over time to enemy units inside.",
 							"The stun duration scales with 0.03% of Lorelai's bonus health.",
 							"Deals 50% damage to minions, structures, summons, and Mythic Creatures."
@@ -10795,7 +11192,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.3
+					"min" : 3.4
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -10848,7 +11245,7 @@
 					"name" : "Imperial Sigil",
 					"thumb" : "imperial-sigil.png",
 					"description" : [
-						"Lyra creates a sigil that heals nearby allied heroes and damages nearby enemy heroes. Reactivate this ability to detonate the sigil, dealing heavy damage to enemies while providing a move speed boost to allies inside and immediately consuming the remaining duration to heal at 50% effectiveness.",
+						"Lyra creates a sigil that heals nearby allied heroes and damages nearby enemy heroes. Reactivate this ability to detonate the sigil, dealing heavy damage to enemies while providing a move speed boost to allies inside and immediately consuming the remaining duration to heal at 30% effectiveness.",
 						[
 							"The healing per second is increase by 11% of Lyra's bonus health.",
 							"The sigil depletes faster the more heroes it is healing / damaging.",
@@ -10923,7 +11320,7 @@
 						},
 						{
 							"name" : "Duration (s)",
-							"values" : [4, 4, 4, 4, 4],
+							"values" : [3, 3, 3, 3, 3],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						},
@@ -11043,9 +11440,9 @@
 				"health_recharge" : {
 					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 0,
-					"max" : 0,
-					"level_gain" : 0
+					"min" : 4.75,
+					"max" : 8.05,
+					"level_gain" : 0.3
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
@@ -11094,9 +11491,9 @@
 				"energy_recharge" : {
 					"name" : "Energy Recharge",
 					"units" : false,
-					"min" : 0,
-					"max" : 0,
-					"level_gain" : 0
+					"min" : 3.2,
+					"max" : 5.4,
+					"level_gain" : 0.2
 				},
 				"cooldown" : {
 					"name" : "Cooldown Speed",
@@ -11111,7 +11508,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.3
+					"min" : 3.4
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -11306,7 +11703,7 @@
 					"stats" : [
 						{
 							"name" : "Cooldown (s)",
-							"values" : [6, 5, 4, 3],
+							"values" : [7, 6, 5, 4],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						},
@@ -11318,8 +11715,8 @@
 						},
 						{
 							"name" : "Bonus Damage",
-							"values" : [60, 100, 140, 180],
-							"ratios" : [100, 0],
+							"values" : [40, 80, 120, 160],
+							"ratios" : [80, 0],
 							"overdrive" : false
 						},
 						{
@@ -11477,7 +11874,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.4
+					"min" : 3.5
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -11810,7 +12207,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.2
+					"min" : 3.3
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -12123,7 +12520,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3
+					"min" : 3.1
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -12164,7 +12561,8 @@
 						"Phinn cannot be stopped or stunned. All movement-impairing effects are instead reduced to moderate slows, and stuns are converted to silences.",
 						[
 							"He even shrugs off attempts on his life, passively gaining 18% additional armor, shield, and max health."
-						]
+						],
+						"Water Denizen: Phinn gains the 5V5 river movement bonus in both directions."
 					],
 					"stat_levels" : 0,
 					"stats" : false
@@ -12425,7 +12823,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.4
+					"min" : 3.5
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -12764,7 +13162,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.5
+					"min" : 3.6
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -12882,7 +13280,7 @@
 						{
 							"name" : "Bonus Damage",
 							"values" : [25, 50, 75, 100, 125],
-							"ratios" : [80, 0],
+							"ratios" : [60, 0],
 							"overdrive" : false
 						},
 						{
@@ -13068,7 +13466,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.1
+					"min" : 3.2
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -13367,7 +13765,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.4
+					"min" : 3.5
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -13703,7 +14101,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.2
+					"min" : 3.3
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -13791,7 +14189,7 @@
 						{
 							"name" : "Empowered Damage",
 							"values" : [75, 105, 135, 165, 225],
-							"ratios" : [115, 0],
+							"ratios" : [110, 0],
 							"overdrive" : 225
 						}
 					]
@@ -14019,7 +14417,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.1
+					"min" : 3.2
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -14345,7 +14743,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.3
+					"min" : 3.4
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -14654,7 +15052,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.1
+					"min" : 3.2
 				},
 				"cooldown" : {
 					"name" : "Cooldown Speed",
@@ -14770,9 +15168,9 @@
 					"stats" : [
 						{
 							"name" : "Cooldown (s)",
-							"values" : [17, 15, 13, 11, 8],
+							"values" : [16, 14, 12, 10, 7],
 							"ratios" : [0, 0],
-							"overdrive" : false
+							"overdrive" : 7
 						},
 						{
 							"name" : "Energy Cost",
@@ -14983,7 +15381,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.4
+					"min" : 3.5
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -15021,10 +15419,12 @@
 					"name" : "House Kamuha",
 					"thumb" : "house-kamuha.png",
 					"description" : [
-						"When Taka uses an ability or landa a Mortal Strike, he gains a stack of Ki.",
+						"Taka gains Mortal Strike every 4s.",
+						"Mortal Strike: Taka's next basic attack deals 30-63 (level 1-12) (+35% weapon power) bonus damage and briefly gains bonus movement speed.",
+						"When Taka uses an ability or lands a Mortal Strike, he gains a stack of Ki.",
+						"Ki: Taka gains Mortal Strike faster and his ability cooldown are reduced by 10% per stack.",
 						[
-							"Every 4s, Taka's next basic attack is replaced with a Mortal Strike. Mortal Strikes deal 30-63 (level 1-12) (+35% of bonus weapon power) bonus damage and grant Take +2 move speed for 2s.",
-							"Ki speeds up Taka's Mortal Strike timer and grants 25% cooldown speed (max 5 Ki stacks)."
+							"5 stacks max."
 						]
 					],
 					"stat_levels" : 0,
@@ -15131,7 +15531,7 @@
 						{
 							"name" : "Damage",
 							"values" : [250, 350, 450],
-							"ratios" : [150, 0],
+							"ratios" : [150, 100],
 							"overdrive" : false
 						},
 						{
@@ -15295,7 +15695,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.4
+					"min" : 3.5
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -15583,7 +15983,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.1
+					"min" : 3.2
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
@@ -15907,7 +16307,7 @@
 				"move_speed" : {
 					"name" : "Move Speed",
 					"units" : "m/s",
-					"min" : 3.3
+					"min" : 3.4
 				},
 				"crit_chance" : {
 					"name" : "Critical Hit Chance",
