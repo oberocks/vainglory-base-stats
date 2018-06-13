@@ -251,16 +251,72 @@ The link below will provide you with a .zip file from a public dropbox directory
     * heroes
     * items
 
-<a href="https://www.dropbox.com/s/jb81p8r6uh0bpsc/images-v3-3-1-2.zip?dl=0" target="_blank">Download Images Zip</a>
+<a href="https://www.dropbox.com/s/w2jp7nlehesjobe/vg-images-patch-3-4.zip?dl=0" target="_blank">Download Images Zip</a>
 
 ### Road Map
 Here are the tasks planned for the future of this project:
-1. Add in all of the in-game recommended builds for each hero (requested by the community)
-1. Add (or link to) a complete set of in-game images to this repository, to match the image file names used in this data!
 1. Add in talent data for each hero
 
 ### Recent Changes
-Here are the changes added during this release:
-1. Added in a data field for each hero to specify the attack type of a hero (IE `"Melee"` or `"Ranged"`)
-1. Added in the difficulty rating for each hero (IE `"Easy"`, `"Medium"`, or `"Hard"`)
-1. Added in `energy_recharge` and `health_recharge` data for each hero (Note - this info is not in the game currently, and can only be found on the official game website. Many other stats on that website don't match the current in-game stats, but for now it's the best we've got!)
+Here are the changes from the most recent release:
+  * fixed missing move speed number for "war_treads" in "items"
+  * fixed "lyra" "ability_c" stat levels (changed from 5 to 3)
+  * fixed "skye" recommend weapon build from spellfire to spellsword
+  * added in health and energy regen data for "malene" and "kensei" (from vainglorygame.com)
+  * added in new hero "kenetic" and all data for this hero
+  * removed "echo" item and data
+  * added "pulseweave" item and data
+  * added "capacitor_plate" item and data
+  * added "rooks_decree" item and data
+  * changed "aftershock" cooldown to 15
+  * changed "chronograph" cooldown to 10
+  * changed "clockwork" cooldown to 20
+  * changed "contraption" cooldown to 20
+  * changed "crystal_infusion" cooldown to 5-15
+  * changed "halcyon_chargers" cooldown to 10
+  * changed "hourglass" cooldown to 5
+  * changed "nullwave_gauntlet" cooldown to 15
+  * changed "scoutpak" cooldown to 10
+  * changed "spellsword" cooldown to 20
+  * added +0.1 move_speed to each hero's base stat
+  * updated "baptiste" bad mojo damage and splash damage crystal ratios
+  * updated "catherine" merciless pursuit cooldown
+  * updated "catherine" blast tremor silence duration and cooldown
+  * updated "churnwalker" Futility of Life percentage
+  * updated "churnwalker" Tresspass text per rework
+  * updated "fortress" truth of the tooth damage and speed boost
+  * updated "fortress" law of the claw percent damage
+  * updated "grace" divine intervention cooldown
+  * updated "kensei" base weapon power stats 
+  * updated "kensei" immovable mind data 
+  * updated "kensei" path of the ronin stun duration 
+  * updated "kestrel" glimmer shot splash damage crystal ratio
+  * updated "lyra" imperial sigil text data for heal
+  * updated "lyra" bright bulwark duration
+  * updated "lorelai" added WATER DENIZEN perk to her text 
+  * updated "lorelai" fish food cast time number 
+  * updated "malene" enchanted transformation damage
+  * updated "malene" enchanted transformation crystal ratio
+  * updated "malene" enchanted transformation cooldown
+  * updated "phinn" heroic perk to include WATER DENIZEN
+  * updated "reza" trouble maker bonus damage crystal ratio 
+  * updated "samuel" malice & verdict empowered damage crystal ratio 
+  * updated "skye" suri strike cooldown
+  * updated "taka" heroic perk rework text
+  * updated "taka" x-retsu damage weapon ratio
+  * updated boots items ("sprint_boots", "travel_boots", "journey_boots", "war_treads", & "halcyon_chargers") with -0.1 movement speed
+  * NOTE: according to the game... "teleport_boots" move speed did not go down by 0.1 and is still at 0.5 which matches "journey_boots" for the most move speed added per item
+  * updated "aftershock" next basic attack damage percentage
+  * updated "alternating_current" attack speed 
+  * updated "bonesaw" attack speed 
+  * NOTE: updated "capacitor_plate" in-game is missing the stat of 2.5 energy regen which is stated in the notes - have included in this data as stated in the notes and NOT the game
+  * updated "coat_of_plates" shield amount 
+  * updated "clockwork" text data 
+  * updated "fountain_of_renewal" health amount
+  * updated "kinetic_shield" armor
+  * updated "lifespring" health 
+  * updated "poisoned_shiv" attack speed
+  * updated "shiversteel" attack speed
+  * updated "slumbering_husk" with all of rework data
+  * updated "tornado_trigger" with all of rework data
+  * updated "weapon_infusion" text data
