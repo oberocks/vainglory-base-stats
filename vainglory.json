@@ -8173,7 +8173,8 @@
 					"description" : [
 						"Gwen blasts enemies in the target direction, dealing weapon damage to all targets in a cone. Enemies hit by this ability are slowed and revealed for 2s.",
 						[
-							"Deals 50% less damage to minions."
+							"Deals 50% less damage to minions.",
+							"Maximum slow amount: 65%"
 						]
 					],
 					"stat_levels" : 5,
