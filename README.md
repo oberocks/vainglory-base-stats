@@ -1,4 +1,4 @@
-# Vainglory Base Stats v3.3.1.2
+# Vainglory Base Stats v3.4.1.1
 A JSON object master file, hard-coded from the game itself, for use in web-based applications that can parse JSON data. Updated for VainGlory patch 3.3!
 
 ______________________
@@ -259,64 +259,29 @@ Here are the tasks planned for the future of this project:
 
 ### Recent Changes
 Here are the changes from the most recent release:
-  * fixed missing move speed number for "war_treads" in "items"
-  * fixed "lyra" "ability_c" stat levels (changed from 5 to 3)
-  * fixed "skye" recommend weapon build from spellfire to spellsword
-  * added in health and energy regen data for "malene" and "kensei" (from vainglorygame.com)
-  * added in new hero "kenetic" and all data for this hero
-  * removed "echo" item and data
-  * added "pulseweave" item and data
-  * added "capacitor_plate" item and data
-  * added "rooks_decree" item and data
-  * changed "aftershock" cooldown to 15
-  * changed "chronograph" cooldown to 10
-  * changed "clockwork" cooldown to 20
-  * changed "contraption" cooldown to 20
-  * changed "crystal_infusion" cooldown to 5-15
-  * changed "halcyon_chargers" cooldown to 10
-  * changed "hourglass" cooldown to 5
-  * changed "nullwave_gauntlet" cooldown to 15
-  * changed "scoutpak" cooldown to 10
-  * changed "spellsword" cooldown to 20
-  * added +0.1 move_speed to each hero's base stat
-  * updated "baptiste" bad mojo damage and splash damage crystal ratios
-  * updated "catherine" merciless pursuit cooldown
-  * updated "catherine" blast tremor silence duration and cooldown
-  * updated "churnwalker" Futility of Life percentage
-  * updated "churnwalker" Tresspass text per rework
-  * updated "fortress" truth of the tooth damage and speed boost
-  * updated "fortress" law of the claw percent damage
-  * updated "grace" divine intervention cooldown
-  * updated "kensei" base weapon power stats 
-  * updated "kensei" immovable mind data 
-  * updated "kensei" path of the ronin stun duration 
-  * updated "kestrel" glimmer shot splash damage crystal ratio
-  * updated "lyra" imperial sigil text data for heal
-  * updated "lyra" bright bulwark duration
-  * updated "lorelai" added WATER DENIZEN perk to her text 
-  * updated "lorelai" fish food cast time number 
-  * updated "malene" enchanted transformation damage
-  * updated "malene" enchanted transformation crystal ratio
-  * updated "malene" enchanted transformation cooldown
-  * updated "phinn" heroic perk to include WATER DENIZEN
-  * updated "reza" trouble maker bonus damage crystal ratio 
-  * updated "samuel" malice & verdict empowered damage crystal ratio 
-  * updated "skye" suri strike cooldown
-  * updated "taka" heroic perk rework text
-  * updated "taka" x-retsu damage weapon ratio
-  * updated boots items ("sprint_boots", "travel_boots", "journey_boots", "war_treads", & "halcyon_chargers") with -0.1 movement speed
-  * NOTE: according to the game... "teleport_boots" move speed did not go down by 0.1 and is still at 0.5 which matches "journey_boots" for the most move speed added per item
-  * updated "aftershock" next basic attack damage percentage
-  * updated "alternating_current" attack speed 
-  * updated "bonesaw" attack speed 
-  * NOTE: updated "capacitor_plate" in-game is missing the stat of 2.5 energy regen which is stated in the notes - have included in this data as stated in the notes and NOT the game
-  * updated "coat_of_plates" shield amount 
-  * updated "clockwork" text data 
-  * updated "fountain_of_renewal" health amount
-  * updated "kinetic_shield" armor
-  * updated "lifespring" health 
-  * updated "poisoned_shiv" attack speed
-  * updated "shiversteel" attack speed
-  * updated "slumbering_husk" with all of rework data
-  * updated "tornado_trigger" with all of rework data
-  * updated "weapon_infusion" text data
+  * updated all captain hero recommended builds (Adagio, Ardan, Catherine, Churnwalker, Flicker, Fortress, Grace, Lance, Lorelai, Lyra, Phinn)
+  * updated alpha's cp recommended build
+  * updated glaive's captain recommended build
+  * NOTE: grumpjaw's support build is missing the clockwork item in-game! :(
+  * updated joule's weapon recommended build
+  * updated ozo's crystal recommended build
+  * updated taka's weapon recommended build
+  * updated taka's glass cannon crystal recommended build
+  * updated tony's support recommended build
+  * removed reims's double ult (echo) recommended build
+  * updated baptiste's support recommended build
+  * updated baron's continuous damage recommended build
+  * updated baron's artillery crystal recommended build
+  * updated blackfeather's poke crystal recommended build
+  * updated celeste's continuous damage recommended build
+  * updated celeste's Glass Cannon recommended build
+  * updated kensei's Continuous Damage recommended build
+  * updated kestrel's Deadly Sniper recommended build
+  * updated kestrel's Splash Damage recommended build
+  * updated kestrel's Stealth Assassin recommended build
+  * updated reza's Assassin recommended build
+  * updated ringo's Continuous Damage recommended build
+  * updated ringo's Burst Damage recommended build
+  * updated samuel's Artillery recommended build
+  * updated skaarf's Continuous Damage recommended build
+  * updated skaarf's Burst Damage recommended build
