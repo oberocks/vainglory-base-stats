@@ -1,4 +1,5 @@
 {
+	"version" : "3.4.1.1",
 	"items" : {
 		"aegis" : {
 			"name" : "Aegis",
@@ -3881,11 +3882,11 @@
 					],
 					"items" : [
 						"fountain_of_renewal",
+						"capacitor_plate",
 						"crucible",
 						"war_treads",
-						"clockwork",
 						"metal_jacket",
-						"shatterglass"
+						"clockwork"
 					]
 				},
 				{
@@ -3916,10 +3917,10 @@
 					"items" : [
 						"sorrowblade",
 						"tornado_trigger",
+						"slumbering_husk",
 						"tyrants_monocle",
-						"aegis",
 						"tyrants_monocle",
-						"metal_jacket"
+						"journey_boots"
 					]
 				}
 			]
@@ -4221,12 +4222,12 @@
 						"Moderate Damage"
 					],
 					"items" : [
-						"stormcrown",
 						"aftershock",
-						"aegis",
 						"dragons_eye",
-						"journey_boots",
-						"metal_jacket"
+						"aegis",
+						"metal_jacket",
+						"broken_myth",
+						"journey_boots"
 					]
 				},
 				{
@@ -4529,11 +4530,11 @@
 					],
 					"items" : [
 						"fountain_of_renewal",
+						"rooks_decree",
 						"crucible",
 						"war_treads",
-						"metal_jacket",
-						"aftershock",
-						"stormcrown"
+						"capacitor_plate",
+						"pulseweave"
 					]
 				},
 				{
@@ -4547,10 +4548,10 @@
 					"items" : [
 						"stormcrown",
 						"fountain_of_renewal",
-						"clockwork",
+						"aftershock",
+						"rooks_decree",
 						"crucible",
-						"war_treads",
-						"aftershock"
+						"war_treads"
 					]
 				},
 				{
@@ -4562,12 +4563,12 @@
 						"Moderate Defense"
 					],
 					"items" : [
-						"sorrowblade",
+						"tension_bow",
 						"shiversteel",
+						"sorrowblade",
 						"breaking_point",
 						"aegis",
-						"war_treads",
-						"bonesaw"
+						"war_treads"
 					]
 				}
 			]
@@ -4893,11 +4894,11 @@
 					],
 					"items" : [
 						"fountain_of_renewal",
+						"rooks_decree",
 						"crucible",
-						"clockwork",
 						"war_treads",
-						"atlas_pauldron",
-						"dragons_eye"
+						"clockwork",
+						"metal_jacket"
 					]
 				}
 			]
@@ -5170,9 +5171,9 @@
 						"sorrowblade",
 						"breaking_point",
 						"tyrants_monocle",
-						"aegis",
-						"journey_boots",
-						"metal_jacket"
+						"slumbering_husk",
+						"tyrants_monocle",
+						"journey_boots"
 					]
 				},
 				{
@@ -5204,7 +5205,7 @@
 						"shatterglass",
 						"clockwork",
 						"broken_myth",
-						"aegis",
+						"slumbering_husk",
 						"dragons_eye",
 						"journey_boots"
 					]
@@ -5531,10 +5532,10 @@
 					],
 					"items" : [
 						"aftershock",
-						"stormcrown",
 						"dragons_eye",
 						"aegis",
 						"broken_myth",
+						"metal_jacket",
 						"journey_boots"
 					]
 				},
@@ -5849,12 +5850,12 @@
 						"Moderate Defense"
 					],
 					"items" : [
-						"stormcrown",
+						"fountain_of_renewal",
+						"rooks_decree",
+						"crucible",
 						"aftershock",
-						"clockwork",
-						"aegis",
-						"metal_jacket",
-						"journey_boots"
+						"war_treads",
+						"atlas_pauldron"
 					]
 				},
 				{
@@ -6166,7 +6167,7 @@
 					],
 					"items" : [
 						"dragons_eye",
-						"eve_of_harvest",
+						"clockwork",
 						"broken_myth",
 						"aegis",
 						"metal_jacket",
@@ -6186,7 +6187,7 @@
 						"broken_myth",
 						"clockwork",
 						"frostburn",
-						"aegis",
+						"slumbering_husk",
 						"journey_boots"
 					]
 				}
@@ -6458,9 +6459,9 @@
 						"fountain_of_renewal",
 						"crucible",
 						"war_treads",
-						"metal_jacket",
-						"clockwork",
-						"nullwave_gauntlet"
+						"rooks_decree",
+						"pulseweave",
+						"metal_jacket"
 					]
 				},
 				{
@@ -6473,11 +6474,11 @@
 					],
 					"items" : [
 						"fountain_of_renewal",
-						"nullwave_gauntlet",
-						"war_treads",
+						"rooks_decree",
+						"capacitor_plate",
 						"crucible",
-						"atlas_pauldron",
-						"aftershock"
+						"war_treads",
+						"atlas_pauldron"
 					]
 				}
 			]
@@ -6752,9 +6753,9 @@
 					],
 					"items" : [
 						"fountain_of_renewal",
+						"stormcrown",
 						"crucible",
 						"shiversteel",
-						"stormcrown",
 						"war_treads",
 						"atlas_pauldron"
 					]
@@ -6772,8 +6773,8 @@
 						"fountain_of_renewal",
 						"aftershock",
 						"war_treads",
-						"clockwork",
-						"slumbering_husk"
+						"broken_myth",
+						"pulseweave"
 					]
 				}
 			]
@@ -7073,11 +7074,11 @@
 					],
 					"items" : [
 						"fountain_of_renewal",
-						"crucible",
+						"rooks_decree",
+						"aftershock",
 						"atlas_pauldron",
 						"war_treads",
-						"stormcrown",
-						"aftershock"
+						"pulseweave"
 					]
 				},
 				{
@@ -7091,9 +7092,9 @@
 						"stormcrown",
 						"aftershock",
 						"aegis",
-						"clockwork",
-						"war_treads",
-						"metal_jacket"
+						"broken_myth",
+						"metal_jacket",
+						"war_treads"
 					]
 				}
 			]
@@ -7382,11 +7383,11 @@
 					],
 					"items" : [
 						"fountain_of_renewal",
-						"stormcrown",
+						"rooks_decree",
+						"clockwork",
 						"crucible",
 						"war_treads",
-						"aftershock",
-						"clockwork"
+						"atlas_pauldron"
 					]
 				}
 			]
@@ -7657,11 +7658,11 @@
 					],
 					"items" : [
 						"fountain_of_renewal",
-						"dragons_eye",
+						"rooks_decree",
+						"shatterglass",
+						"clockwork",
 						"war_treads",
-						"crucible",
-						"aftershock",
-						"clockwork"
+						"atlas_pauldron"
 					]
 				},
 				{
@@ -7674,11 +7675,11 @@
 					],
 					"items" : [
 						"fountain_of_renewal",
-						"crucible",
+						"rooks_decree",
 						"shatterglass",
 						"war_treads",
-						"atlas_pauldron",
-						"clockwork"
+						"capacitor_plate",
+						"crucible"
 					]
 				},
 				{
@@ -8612,8 +8613,8 @@
 					"items" : [
 						"alternating_current",
 						"dragons_eye",
-						"eve_of_harvest",
 						"broken_myth",
+						"eve_of_harvest",
 						"aegis",
 						"journey_boots"
 					]
@@ -8893,8 +8894,8 @@
 					"items" : [
 						"sorrowblade",
 						"tyrants_monocle",
+						"slumbering_husk",
 						"tornado_trigger",
-						"aegis",
 						"tyrants_monocle",
 						"journey_boots"
 					]
@@ -9206,12 +9207,12 @@
 						"High Defense"
 					],
 					"items" : [
-						"poisoned_shiv",
+						"sorrowblade",
 						"breaking_point",
+						"tyrants_monocle",
 						"aegis",
-						"metal_jacket",
-						"journey_boots",
-						"sorrowblade"
+						"tyrants_monocle",
+						"journey_boots"
 					]
 				}
 			]
@@ -9515,8 +9516,8 @@
 					"items" : [
 						"sorrowblade",
 						"tyrants_monocle",
+						"slumbering_husk",
 						"tornado_trigger",
-						"aegis",
 						"tyrants_monocle",
 						"journey_boots"
 					]
@@ -9530,12 +9531,12 @@
 						"Long Range"
 					],
 					"items" : [
-						"frostburn",
-						"shatterglass",
 						"spellfire",
+						"clockwork",
+						"shatterglass",
 						"slumbering_husk",
-						"halcyon_chargers",
-						"dragons_eye"
+						"broken_myth",
+						"halcyon_chargers"
 					]
 				},
 				{
@@ -9547,12 +9548,12 @@
 						"No Defense"
 					],
 					"items" : [
-						"shatterglass",
-						"clockwork",
-						"frostburn",
 						"spellfire",
-						"halcyon_chargers",
-						"broken_myth"
+						"clockwork",
+						"shatterglass",
+						"frostburn",
+						"broken_myth",
+						"halcyon_chargers"
 					]
 				}
 			]
@@ -9561,7 +9562,7 @@
 			"name" : "Kinetic",
 			"thumb" : "kinetic.png",
 			"difficulty" : "Easy",
-			"attack_type" : "Melee",
+			"attack_type" : "Ranged",
 			"description" : "Nimble duelist weilding a powerful pulse cannon",
 			"primary_role" : "Laner",
 			"ratings" : {
@@ -10755,10 +10756,10 @@
 					],
 					"items" : [
 						"fountain_of_renewal",
+						"rooks_decree",
 						"crucible",
 						"war_treads",
-						"atlas_pauldron",
-						"nullwave_gauntlet",
+						"pulseweave",
 						"clockwork"
 					]
 				},
@@ -10772,7 +10773,7 @@
 					],
 					"items" : [
 						"fountain_of_renewal",
-						"dragons_eye",
+						"shatterglass",
 						"crucible",
 						"clockwork",
 						"war_treads",
@@ -11074,11 +11075,11 @@
 					],
 					"items" : [
 						"fountain_of_renewal",
+						"rooks_decree",
 						"crucible",
 						"war_treads",
-						"clockwork",
-						"nullwave_gauntlet",
-						"aftershock"
+						"capacitor_plate",
+						"pulseweave"
 					]
 				},
 				{
@@ -11391,10 +11392,10 @@
 					"items" : [
 						"crucible",
 						"fountain_of_renewal",
+						"capacitor_plate",
 						"war_treads",
-						"atlas_pauldron",
-						"nullwave_gauntlet",
-						"clockwork"
+						"rooks_decree",
+						"pulseweave"
 					]
 				},
 				{
@@ -11408,9 +11409,9 @@
 					"items" : [
 						"alternating_current",
 						"dragons_eye",
+						"slumbering_husk",
 						"broken_myth",
-						"aegis",
-						"eve_of_harvest",
+						"spellfire",
 						"journey_boots"
 					]
 				}
@@ -12091,7 +12092,7 @@
 						"aftershock",
 						"dragons_eye",
 						"aegis",
-						"eve_of_harvest",
+						"broken_myth",
 						"metal_jacket",
 						"journey_boots"
 					]
@@ -12688,11 +12689,11 @@
 					],
 					"items" : [
 						"fountain_of_renewal",
+						"capacitor_plate",
 						"crucible",
 						"war_treads",
-						"metal_jacket",
-						"clockwork",
-						"nullwave_gauntlet"
+						"rooks_decree",
+						"metal_jacket"
 					]
 				},
 				{
@@ -13050,23 +13051,6 @@
 						"journey_boots",
 						"metal_jacket"
 					]
-				},
-				{
-					"title" : "Double Ultimate",
-					"role" : "Jungler",
-					"type" : "Crystal",
-					"description" : [
-						"Moderate Damage",
-						"High Utility"
-					],
-					"items" : [
-						"dragons_eye",
-						"eve_of_harvest",
-						"aegis",
-						"echo",
-						"metal_jacket",
-						"journey_boots"
-					]
 				}
 			]
 		},
@@ -13349,9 +13333,9 @@
 					"items" : [
 						"aftershock",
 						"shatterglass",
+						"slumbering_husk",
 						"clockwork",
 						"broken_myth",
-						"aegis",
 						"journey_boots"
 					]
 				},
@@ -13648,8 +13632,8 @@
 					"items" : [
 						"spellsword",
 						"breaking_point",
+						"slumbering_husk",
 						"tyrants_monocle",
-						"aegis",
 						"tyrants_monocle",
 						"journey_boots"
 					]
@@ -13665,8 +13649,8 @@
 					"items" : [
 						"alternating_current",
 						"shatterglass",
+						"slumbering_husk",
 						"broken_myth",
-						"aegis",
 						"halcyon_chargers",
 						"dragons_eye"
 					]
@@ -14316,7 +14300,7 @@
 					],
 					"items" : [
 						"dragons_eye",
-						"eve_of_harvest",
+						"clockwork",
 						"aegis",
 						"broken_myth",
 						"metal_jacket",
@@ -14939,11 +14923,11 @@
 					],
 					"items" : [
 						"eve_of_harvest",
-						"frostburn",
-						"spellfire",
+						"clockwork",
+						"broken_myth",
 						"aegis",
-						"halcyon_chargers",
-						"metal_jacket"
+						"metal_jacket",
+						"halcyon_chargers"
 					]
 				},
 				{
@@ -14956,11 +14940,11 @@
 					],
 					"items" : [
 						"shatterglass",
-						"spellfire",
 						"clockwork",
 						"slumbering_husk",
-						"halcyon_chargers",
-						"broken_myth"
+						"broken_myth",
+						"dragons_eye",
+						"halcyon_chargers"
 					]
 				}
 			]
@@ -15577,7 +15561,7 @@
 					],
 					"items" : [
 						"tension_bow",
-						"spellsword",
+						"sorrowblade",
 						"aegis",
 						"breaking_point",
 						"metal_jacket",
@@ -15594,11 +15578,11 @@
 					],
 					"items" : [
 						"shatterglass",
-						"spellfire",
 						"clockwork",
-						"shatterglass",
+						"broken_myth",
 						"halcyon_chargers",
-						"broken_myth"
+						"spellfire",
+						"shatterglass"
 					]
 				}
 			]
@@ -15882,11 +15866,11 @@
 					],
 					"items" : [
 						"fountain_of_renewal",
+						"rooks_decree",
 						"crucible",
 						"war_treads",
 						"metal_jacket",
-						"shiversteel",
-						"slumbering_husk"
+						"spellsword"
 					]
 				}
 			]
