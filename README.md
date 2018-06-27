@@ -1,4 +1,4 @@
-# Vainglory Base Stats v3.4.1.1
+# Vainglory Base Stats v3.4.1.2
 A JSON object master file, hard-coded from the game itself, for use in web-based applications that can parse JSON data. Updated for VainGlory patch 3.3!
 
 ______________________
