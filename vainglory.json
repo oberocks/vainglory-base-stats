@@ -1,5 +1,5 @@
 {
-	"version" : "3.4.1.1",
+	"version" : "3.4.1.2",
 	"items" : {
 		"aegis" : {
 			"name" : "Aegis",
@@ -7525,7 +7525,7 @@
 						"Grace chains her normal basic attack into a ground slam, dealing bonus weapon damage and slowing enemies in a wide area. If any enemies are hit by the ground slam, her ability cooldowns are reduced by 1.2s.",
 						"All effects in Grace's heroic perk and abilities are capped at 200 crystal power excluding damage and healing.",
 						[
-							"Bonus damage: 10-142 (level 1-12) (+10% weapon power)",
+							"Bonus damage: 10-98 (level 1-12) (+5% weapon power)",
 							"Slow Strength: 75%",
 							"Slow duration: 0.6s (+0.3 crystal power)",
 							"Deals 50% less damage to minions."
