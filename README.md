@@ -251,7 +251,7 @@ The link below will provide you with a .zip file from a public dropbox directory
     * heroes
     * items
 
-<a href="https://www.dropbox.com/s/w2jp7nlehesjobe/vg-images-patch-3-4.zip?dl=0" target="_blank">Download Images Zip</a>
+<a href="https://www.dropbox.com/s/cdnycug24mx36al/images-vainglory-patch-3-5.zip?dl=0" target="_blank">Download Images Zip</a>
 
 ### Road Map
 Here are the tasks planned for the future of this project:
