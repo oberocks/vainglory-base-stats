@@ -1,4 +1,4 @@
-# Vainglory Base Stats v3.4.1.2
+# Vainglory Base Stats v3.6.1.0
 A JSON object master file, hard-coded from the game itself, for use in web-based applications that can parse JSON data. Updated for VainGlory patch 3.3!
 
 ______________________
@@ -251,7 +251,7 @@ The link below will provide you with a .zip file from a public dropbox directory
     * heroes
     * items
 
-<a href="https://www.dropbox.com/s/cdnycug24mx36al/images-vainglory-patch-3-5.zip?dl=0" target="_blank">Download Images Zip</a>
+<a href="https://www.dropbox.com/s/s2pqba48rghy0f5/images-vainglory-patch-3-6.zip?dl=0" target="_blank">Download Images Zip</a>
 
 ### Road Map
 Here are the tasks planned for the future of this project:
@@ -259,29 +259,33 @@ Here are the tasks planned for the future of this project:
 
 ### Recent Changes
 Here are the changes from the most recent release:
-  * updated all captain hero recommended builds (Adagio, Ardan, Catherine, Churnwalker, Flicker, Fortress, Grace, Lance, Lorelai, Lyra, Phinn)
-  * updated alpha's cp recommended build
-  * updated glaive's captain recommended build
-  * NOTE: grumpjaw's support build is missing the clockwork item in-game! :(
-  * updated joule's weapon recommended build
-  * updated ozo's crystal recommended build
-  * updated taka's weapon recommended build
-  * updated taka's glass cannon crystal recommended build
-  * updated tony's support recommended build
-  * removed reims's double ult (echo) recommended build
-  * updated baptiste's support recommended build
-  * updated baron's continuous damage recommended build
-  * updated baron's artillery crystal recommended build
-  * updated blackfeather's poke crystal recommended build
-  * updated celeste's continuous damage recommended build
-  * updated celeste's Glass Cannon recommended build
-  * updated kensei's Continuous Damage recommended build
-  * updated kestrel's Deadly Sniper recommended build
-  * updated kestrel's Splash Damage recommended build
-  * updated kestrel's Stealth Assassin recommended build
-  * updated reza's Assassin recommended build
-  * updated ringo's Continuous Damage recommended build
-  * updated ringo's Burst Damage recommended build
-  * updated samuel's Artillery recommended build
-  * updated skaarf's Continuous Damage recommended build
-  * updated skaarf's Burst Damage recommended build
+  * Added new hero SILVERNAIL and all his base stats and recommended builds!
+  * Added Anka's Health Regen stats from vainglory site
+  * Added Anka's Energy Regen stats from vainglory site
+  * Updated Adagio's AGENT OF WRATH Damage 20/40/60/80/120 → 30/50/70/90/130
+  * Updated Anka's MIRAGE Cooldown 60/45/30 → 60/50/40
+  * Updated Catherine's MERCILESS PURSUIT Cooldown 14/13/12/11/10 → 16/15/14/13/12
+  * Updated Celeste's HELIOGENESIS Supernova Damage 130/185/240/295/350 → 100/155/210/265/320
+  * Updated Fortress's LAW OF THE CLAW Damage 70/115/160/205/250 → 70/100/130/160/190
+  * Updated Grace's DIVINE INTERVENTION Cooldown 60/45/30 → 60/50/40
+  * Updated Grumpjaw's LIVING ARMOR Damage Reduction 6% → 7%
+  * Updated Gwen's SKEDADDLE Speed Boost Amount 1.2/1.4/1.6/1.8/2.2 → 2.5/2.8/3.1/3.4/4.0
+  * Updated Gwen's SKEDADDLE Speed Boost Duration 1.5s → 2.2
+  * Updated Kensei's KENSHO Cooldown 16/14.5/13/11.5/8.5 → 14/12/10/8/6
+  * Updated Lance's GYTHIAN WALL Passive Damage Reduction 8/10/12/14/18% → 15/17.5/20/22.5/25%
+  * Updated Lance's GYTHIAN WALL Crystal Ratio 20% → 12.5%
+  * Updated Lance's GYTHIAN WALL Active Damage Reduction 40/44/48/52/56% → 40/45/50/55/60%
+  * Updated Lance's GYTHIAN WALL Active Damage Reduction Crystal Ratio 20% → 15%
+  * Updated Phinn's POLITE COMPANY Fortified life generated 140/170/200/230/290 → 120/145/170/195/245
+  * Updated Reim's CHILL WINDS Root Duration 0.6/0.8/1.0/1.2/1.4 → 0.9/1.0/1.1/1.2/1.4
+  * Updated Rona's STATS Attack Speed 100-113% → 100-122%
+  * Updated Rona's BERSERKERS’ FURY Damage 80% → 85%
+  * Updated Rona's FOESPLITTER Weapon Ratio 80% → 85%
+  * Updated Rona's RED MIST Weapon Ratio 160% → 170%
+  * Updated Tony's JAWBREAKER Damage 10/40/70/100/130 → 10/20/30/40/50
+  * Updated Tony's JAWBREAKER Weapon Ratio 40% → 60%
+  * Updated Tony's JAWBREAKER Stun duration 0.6s → 0.4/0.4/0.4/0.4/0.6s
+  * Updated Tony's TRASH TALK Damage 30/45/60/75/90 → 50/90/130/170/210
+  * Updated Varya's CHAIN LIGHTNING Secondary Target Crystal Ratio 30% → 35%
+  * Updated Varya's ANVIL’S HAMMER Cooldown 120/105/90 → 90/75/60
+  * Updated Vox's PULSE Bonus Resonance Damage 5/30/55/80/130 → 10/30/50/70/110
