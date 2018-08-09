@@ -1,5 +1,5 @@
 {
-	"version" : "3.5.1.0",
+	"version" : "3.6.1.0",
 	"items" : {
 		"aegis" : {
 			"name" : "Aegis",
@@ -3805,9 +3805,9 @@
 						},
 						{
 							"name" : "Damage",
-							"values" : [20, 40, 60, 80, 120],
+							"values" : [30, 50, 70, 90, 130],
 							"ratios" : [40, 0],
-							"overdrive" : 120
+							"overdrive" : 130
 						},
 						{
 							"name" : "Arcane Fire Bonus",
@@ -4275,9 +4275,9 @@
 				"health_recharge" : {
 					"name" : "Health Recharge",
 					"units" : false,
-					"min" : 0,
-					"max" : 0,
-					"level_gain" : 0
+					"min" : 4.71,
+					"max" : 9.22,
+					"level_gain" : 0.41
 				},
 				"weapon_power" : {
 					"name" : "Weapon Power",
@@ -4326,9 +4326,9 @@
 				"energy_recharge" : {
 					"name" : "Energy Recharge",
 					"units" : false,
-					"min" : 0,
-					"max" : 0,
-					"level_gain" : 0
+					"min" : 2.6,
+					"max" : 4.8,
+					"level_gain" : 0.2
 				},
 				"cooldown" : {
 					"name" : "Cooldown Reduction",
@@ -4475,7 +4475,7 @@
 					"stats" : [
 						{
 							"name" : "Cooldown (s)",
-							"values" : [60, 45, 30],
+							"values" : [60, 50, 40],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						},
@@ -6011,7 +6011,7 @@
 					"stats" : [
 						{
 							"name" : "Cooldown (s)",
-							"values" : [14, 13, 12, 11, 10],
+							"values" : [16, 15, 14, 13, 12],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						},
@@ -6353,7 +6353,7 @@
 						},
 						{
 							"name" : "Nova Damage",
-							"values" : [130, 185, 240, 295, 350],
+							"values" : [100, 155, 210, 265, 320],
 							"ratios" : [170, 0],
 							"overdrive" : false
 						},
@@ -7280,7 +7280,7 @@
 						},
 						{
 							"name" : "Damage",
-							"values" : [70, 115, 160, 205, 250],
+							"values" : [70, 100, 130, 160, 190],
 							"ratios" : [70, 0],
 							"overdrive" : false
 						},
@@ -7916,7 +7916,7 @@
 					"stats" : [
 						{
 							"name" : "Cooldown (s)",
-							"values" : [50, 40, 30],
+							"values" : [60, 50, 40],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						},
@@ -8119,7 +8119,7 @@
 					"name" : "Living Armor",
 					"thumb" : "living-armor.png",
 					"description" : [
-						"Each stack of Living Armor reduces incoming damage by 6%.",
+						"Each stack of Living Armor reduces incoming damage by 7%.",
 						[
 							"Grumpjaw gains a stack every 3s and every time he basic attacks.",
 							"While under attack, he loses a stack every 1s.",
@@ -8519,13 +8519,13 @@
 						},
 						{
 							"name" : "Speed Boost",
-							"values" : [1.2, 1.4, 1.6, 1.8, 2.2],
+							"values" : [2.5, 2.8, 3.1, 3.4, 4],
 							"ratios" : [0, 0],
-							"overdrive" : 2.2
+							"overdrive" : 4
 						},
 						{
 							"name" : "Bonus Speed Duration",
-							"values" : [1.2, 1.5, 1.5, 1.5, 1.5],
+							"values" : [2.2, 2.2, 2.2, 2.2, 2.2],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						}
@@ -9410,9 +9410,9 @@
 					"stats" : [
 						{
 							"name" : "Cooldown (s)",
-							"values" : [16, 14.5, 13, 11.5, 8.5],
+							"values" : [14, 12, 10, 8, 6],
 							"ratios" : [0, 0],
-							"overdrive" : 8.5
+							"overdrive" : 6
 						},
 						{
 							"name" : "Energy Cost",
@@ -10987,14 +10987,14 @@
 						},
 						{
 							"name" : "Passive Damage Reduction (%)",
-							"values" : [8, 10, 12, 14, 18],
-							"ratios" : [20, 0],
-							"overdrive" : 18
+							"values" : [15, 17.5, 20, 22.5, 25],
+							"ratios" : [12.5, 0],
+							"overdrive" : false
 						},
 						{
 							"name" : "Active Damage Reduction (%)",
-							"values" : [40, 44, 48, 52, 56],
-							"ratios" : [20, 0],
+							"values" : [40, 45, 50, 55, 60],
+							"ratios" : [15, 0],
 							"overdrive" : false
 						}
 					]
@@ -12932,9 +12932,9 @@
 						},
 						{
 							"name" : "Fortified Health",
-							"values" : [140, 170, 200, 230, 290],
+							"values" : [120, 145, 170, 195, 245],
 							"ratios" : [0, 0],
-							"overdrive" : 290
+							"overdrive" : 245
 						}
 					]
 				},
@@ -13238,9 +13238,9 @@
 						},
 						{
 							"name" : "Root Duration (s)",
-							"values" : [0.6, 0.8, 1, 1.2, 1.4],
+							"values" : [0.9, 1, 1.1, 1.2, 1.4],
 							"ratios" : [0, 0],
-							"overdrive" : false
+							"overdrive" : 1.4
 						}
 					]
 				},
@@ -13994,8 +13994,8 @@
 					"name" : "Attack Speed",
 					"units" : "%",
 					"min" : 100,
-					"max" : 113.2,
-					"level_gain" : 1.2
+					"max" : 122,
+					"level_gain" : 2
 				},
 				"armor" : {
 					"name" : "Armor",
@@ -14076,7 +14076,7 @@
 					"name" : "Berserkers' Fury",
 					"thumb" : "berserkers-fury.png",
 					"description" : [
-						"Rona attacks faster than most heroes, but she deals 80% damage with each attack.",
+						"Rona attacks faster than most heroes, but she deals 85% damage with each attack.",
 						"Rona's abilities use Bloodrage instead of energy, a unique resource that is generated from basic attacks, abilities, and taking damage from enemies.",
 						[
 							"Critical strikes and basic attacks against targets afflicted by Mortal Wounds will generate additional Bloodrage.",
@@ -14170,7 +14170,7 @@
 						{
 							"name" : "First Attack Damage",
 							"values" : [10, 20, 30, 40, 70],
-							"ratios" : [100, 80],
+							"ratios" : [100, 85],
 							"overdrive" : 70
 						},
 						{
@@ -14182,7 +14182,7 @@
 						{
 							"name" : "Second Attack Damage",
 							"values" : [10, 20, 30, 40, 70],
-							"ratios" : [100, 80],
+							"ratios" : [100, 85],
 							"overdrive" : 70
 						},
 						{
@@ -14227,7 +14227,7 @@
 						{
 							"name" : "Damage / Sec",
 							"values" : [250, 350, 450],
-							"ratios" : [120, 160],
+							"ratios" : [120, 170],
 							"overdrive" : false
 						},
 						{
@@ -14920,6 +14920,321 @@
 						"slumbering_husk",
 						"journey_boots",
 						"shatterglass"
+					]
+				}
+			]
+		},
+		"silvernail" : {
+			"name" : "Silvernail",
+			"thumb" : "silvernail.png",
+			"difficulty" : "Hard",
+			"attack_type" : "Ranged",
+			"description" : "Grizzled hunter with a powerful crossbow and tripwires",
+			"primary_role" : "Laner",
+			"ratings" : {
+				"offense" : 7,
+				"defense" : 2,
+				"team_utility" : 8,
+				"mobility" : 1
+			},
+			"stats" : {
+				"health" : {
+					"name" : "Health",
+					"units" : false,
+					"min" : 745,
+					"max" : 2175,
+					"level_gain" : 130
+				},
+				"health_recharge" : {
+					"name" : "Health Recharge",
+					"units" : false,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : 0
+				},
+				"weapon_power" : {
+					"name" : "Weapon Power",
+					"units" : false,
+					"wp_scaling" : 0,
+					"min" : 74,
+					"max" : 145,
+					"level_gain" : 6.45
+				},
+				"crystal_power" : {
+					"name" : "Crystal Power",
+					"units" : false,
+					"cp_scaling" : 0,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : 0
+				},
+				"attack_speed" : {
+					"name" : "Attack Speed",
+					"units" : "%",
+					"min" : 100,
+					"max" : 136.3,
+					"level_gain" : 3.3
+				},
+				"armor" : {
+					"name" : "Armor",
+					"units" : false,
+					"min" : 20,
+					"max" : 50,
+					"level_gain" : 2.72
+				},
+				"shield" : {
+					"name" : "Shield",
+					"units" : false,
+					"min" : 20,
+					"max" : 50,
+					"level_gain" : 2.72
+				},
+				"energy" : {
+					"name" : "Energy",
+					"units" : false,
+					"min" : 203,
+					"max" : 610,
+					"level_gain" : 37
+				},
+				"energy_recharge" : {
+					"name" : "Energy Recharge",
+					"units" : false,
+					"min" : 0,
+					"max" : 0,
+					"level_gain" : 0
+				},
+				"cooldown" : {
+					"name" : "Cooldown Reduction",
+					"units" : "%",
+					"min" : 100
+				},
+				"range" : {
+					"name" : "Range",
+					"units" : "m",
+					"min" : 6.4
+				},
+				"move_speed" : {
+					"name" : "Move Speed",
+					"units" : "m/s",
+					"min" : 3.5
+				},
+				"crit_chance" : {
+					"name" : "Critical Hit Chance",
+					"units" : "%",
+					"min" : 0
+				},
+				"crit_damage" : {
+					"name" : "Critical Hit Damage",
+					"units" : "%",
+					"min" : 150
+				},
+				"armor_pierce" : {
+					"name" : "Armor Piercing",
+					"units" : "%",
+					"min" : 0
+				},
+				"shield_pierce" : {
+					"name" : "Shield Piercing",
+					"units" : "%",
+					"min" : 0
+				},
+				"weapon_lifesteal" : {
+					"name" : "Weapon Lifesteal",
+					"units" : "%",
+					"min" : 0
+				},
+				"crystal_lifesteal" : {
+					"name" : "Crystal Lifesteal",
+					"units" : "%",
+					"min" : 0
+				}
+			},
+			"abilities" : {
+				"heroic_perk" : {
+					"name" : "Double Shot",
+					"thumb" : "double-shot.png",
+					"description" : [
+						"Silvernail loads an extra bolt every 4s-3s (level 1-12) which can be expended to chain a follow-up basic attack, dealing 60% damage.",
+						[
+							"Attack speed reduces load time."
+						]
+					],
+					"stat_levels" : 0,
+					"stats" : false
+				},
+				"a_ability" : {
+					"name" : "Stake",
+					"thumb" : "stake.png",
+					"description" : [
+						"Silvernail plants an inactive Stake into the ground. Tripwires form between nearby inactive Stakes, activating the Stakes.",
+						"Tripwire: Enemies crossing through will be briefly slowed, silenced, and take damage.",
+						[
+							"Silvernail can maintain up to 3 inactive Stakes at a time.",
+							"This ability has 2 charges."
+						]
+					],
+					"stat_levels" : 5,
+					"stats" : [
+						{
+							"name" : "Charge Time",
+							"values" : [8, 8, 8, 8, 8],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [30, 35, 40, 45, 50],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Duration (Tripwire)",
+							"values" : [4.5, 5, 5.5, 6, 7.5],
+							"ratios" : [0, 0],
+							"overdrive" : 7.5
+						},
+						{
+							"name" : "Damage/Sec",
+							"values" : [80, 120, 160, 200, 240],
+							"ratios" : [120, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Slow Strength",
+							"values" : [30, 35, 40, 45, 50],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					] 
+				},
+				"b_ability" : {
+					"name" : "Caustic Blessing",
+					"thumb" : "caustic-blessing.png",
+					"description" : [
+						"Silvernail lobs a flask which damages, burns, and reveals enemies caught in the blast for 4s.",
+						[
+							"Refreshes Double Shot upon casting.",
+							"Deals 50% damage to minions."
+						]
+					],
+					"stat_levels" : 5,
+					"stats" : [
+						{
+							"name" : "Cooldown",
+							"values" : [8, 7.5, 7, 6.5, 5],
+							"ratios" : [0, 0],
+							"overdrive" : 5
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [40, 45, 50, 55, 60],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Range",
+							"values" : [9, 9, 9, 9, 11],
+							"ratios" : [0, 0],
+							"overdrive" : 11
+						},
+						{
+							"name" : "Damage",
+							"values" : [50, 95, 140, 185, 275],
+							"ratios" : [100, 100],
+							"overdrive" : 275
+						},
+						{
+							"name" : "Damage/Sec",
+							"values" : [10, 15, 20, 25, 35],
+							"ratios" : [20, 0],
+							"overdrive" : 35
+						}
+					]
+				},
+				"c_ability" : {
+					"name" : "Rebuke",
+					"thumb" : "rebuke.png",
+					"description" : [
+						"Passive: Double Shot damage increased.",
+						"Activate: Silvernail fires a piercing bolt, dealing damage to and dragging enemies along with it.",
+						[
+							"Enemies who collide with a Tripwire, wall, or structure are stunned and take bonus damage."
+						]
+					],
+					"stat_levels" : 3,
+					"stats" : [
+						{
+							"name" : "Cooldown (s)",
+							"values" : [60, 45, 30],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Energy Cost",
+							"values" : [60, 70, 80],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage",
+							"values" : [120, 180, 240],
+							"ratios" : [120, 100],
+							"overdrive" : false
+						},
+						{
+							"name" : "Bonus Damage",
+							"values" : [60, 90, 120],
+							"ratios" : [120, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Stun Duration",
+							"values" : [0.6, 0.8, 1],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Double Shot Damage Bonus (%)",
+							"values" : [20, 30, 40],
+							"ratios" : [0, 0],
+							"overdrive" : false
+						}
+					]
+				}
+			},
+			"builds" : [
+				{
+					"title" : "Continuous Damage",
+					"role" : "Carry",
+					"type" : "Weapon",
+					"description" : [
+						"High Damage",
+						"Low Defense"
+					],
+					"items" : [
+						"sorrowblade",
+						"breaking_point",
+						"slumbering_husk",
+						"poisoned_shiv",
+						"bonesaw",
+						"journey_boots"
+					]
+				},
+				{
+					"title" : "Glass Cannon",
+					"role" : "Carry",
+					"type" : "Crystal",
+					"description" : [
+						"Long Range",
+						"Moderate Damage"
+					],
+					"items" : [
+						"shatterglass",
+						"spellfire",
+						"clockwork",
+						"frostburn",
+						"broken_myth",
+						"halcyon_chargers"
 					]
 				}
 			]
@@ -16036,8 +16351,8 @@
 						},
 						{
 							"name" : "Weapon Damage",
-							"values" : [10, 40, 70, 100, 130],
-							"ratios" : [0, 40],
+							"values" : [10, 20, 30, 40, 50],
+							"ratios" : [0, 60],
 							"overdrive" : false
 						},
 						{
@@ -16048,9 +16363,9 @@
 						},
 						{
 							"name" : "Duration",
-							"values" : [0.6, 0.6, 0.6, 0.6, 0.6],
+							"values" : [0.4, 0.4, 0.4, 0.4, 0.6],
 							"ratios" : [0, 0],
-							"overdrive" : false
+							"overdrive" : 0.6
 						}
 					]
 				},
@@ -16083,6 +16398,12 @@
 							"name" : "Range",
 							"values" : [8, 8, 8, 8, 8],
 							"ratios" : [0, 0],
+							"overdrive" : false
+						},
+						{
+							"name" : "Damage",
+							"values" : [50, 90, 130, 170, 210],
+							"ratios" : [75, 0],
 							"overdrive" : false
 						},
 						{
@@ -16296,7 +16617,7 @@
 					"description" : [
 						"Varya's attacks deal 70-147 (level 1-12) (+40% Crystal Power) crystal damage. If Varya holds her ground after attacking, she will consume 170 energy to striker her target again and Chain Lightning up to 3 additional targets.",
 						[
-							"Chain Lightning: Deals 30-69 (level 1-12) (+30% Crystal Power) damage to each target."
+							"Chain Lightning: Deals 30-69 (level 1-12) (+35% Crystal Power) damage to each target."
 						]
 					],
 					"stat_levels" : 0,
@@ -16397,7 +16718,7 @@
 					"stats" : [
 						{
 							"name" : "Cooldown (s)",
-							"values" : [120, 105, 90],
+							"values" : [90, 75, 60],
 							"ratios" : [0, 0],
 							"overdrive" : false
 						},
@@ -16682,9 +17003,9 @@
 						},
 						{
 							"name" : "Bounce Damage Bonus",
-							"values" : [5, 30, 55, 80, 130],
+							"values" : [10, 30, 50, 70, 110],
 							"ratios" : [0, 0],
-							"overdrive" : 130
+							"overdrive" : 110
 						},
 						{
 							"name" : "Slow At Center (%)",
